@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CSU-1976-12-13.xml">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Digitale Edition der Protokolle der Fraktionen im Deutschen Bundestag 1949–2005</title>
+</titleStmt>
+<publicationStmt>
+<publisher>KGParl</publisher>
+<availability>
+<licence target="https://www.fraktionsprotokolle.de/nutzung">Alle Rechte vorbehalten!</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p/>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<tagsDecl>
+<rendition xml:id="center" scheme="css">text-align: center;</rendition>
+<rendition xml:id="i" scheme="css">text-style: italic;</rendition>
+<rendition xml:id="b" scheme="css">text-weight: bold;</rendition>
+<rendition xml:id="smcap" scheme="css">font-variant: small-caps</rendition>
+</tagsDecl>
+</encodingDesc>
+<revisionDesc>
+<change when-iso="2020-04-28" who="#SvJ">Erste XML-Version des Protokolls. (sample)</change>
+<change when-iso="2020-06-29" who="#textloop">Basic TEI Version für Konversion (sample) – Notes an der Stelle des Ankers</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<head rendition="'#b #center">13. Dezember 1976: Sitzung der Landesgruppe</head>
+<head rendition="#b">ACSP, LG 1976: 27. Überschrift: »Protokoll über die Sitzung der CSU-Landesgruppe vom 13. 12. 1976«. Beginn: 15.10–16.30 Uhr. Vorsitz: Zimmermann.</head>
+<div type="Anwesenheitsliste">
+<p><hi rendition="#b">Anwesend:</hi> Althammer, Becher, Biehle, Bötsch, Dollinger, Engelsberger, Fuchs, Geisenhofer, Gerlach, Gierenstein, Glos, Haberl, Hartmann, Höffkes, Höpfinger, Hösl, Graf Huyn, Jaeger, Jobst, Kiechle, Klein, Kraus, Kreile, Krone-Appuhn, Lemmrich, Lintner, Niegel, Probst, Rainer, Regenspurger, Riedl, Röhner, Schleicher, Schmidhuber, Schneider, Spilker, Spranger, Starke, Graf von Stauffenberg, Strauß, Stücklen, Voss, Waigel, Wittmann, Ziegler, Zimmermann.</p>
+</div>
+<div type="SVP">
+<head rendition="#b">Sitzungsverlauf:</head>
+<list rend="simple">
+<item xml:id="CSU-1976-12-13_SVP-A" corresp="#CSU-1976-12-13_div-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <hi rendition="#i">Zimmermann</hi>.</item>
+<item xml:id="CSU-1976-12-13_SVP-B">B. Bericht des Landesvorsitzenden <hi rendition="#i">Strauß</hi> über die Verhandlungen mit der CDU.</item>
+<item xml:id="CSU-1976-12-13_SVP-C">C. Allgemeine Aussprache.</item>
+</list>
+</div>
+</front>
+<body>
+<div type="section" xml:id="CSU-1976-12-13_div-A" corresp="#CSU-1976-12-13_SVP-A">
+<head>[A.]</head>
+<p>Der Vorsitzende Dr. <hi rendition="#b">Zimmermann</hi>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den Beschlüssen von Kreuth<note xml:id="CSU-1976-12-13_FN001" n="1">Zur Klausurtagung der CSU-Landesgruppe in Wildbad Kreuth am 18./19. November 1976 vgl. die Aufzeichnungen Theo <hi rendition="#i">Waigels</hi> und Wighard <hi rendition="#i">Härdtls</hi>, die Rede Richard <hi rendition="#i">Jaegers</hi> vom 19. November 1976 sowie das Schreiben an die Parteimitglieder vom 22. November 1976. Vgl. auch die Aufzeichnungen Theo <hi rendition="#i">Waigels</hi> im Anhang E.</note>. Der besondere Dank gilt auch Franz Josef <hi rendition="#i">Strauß</hi>.</p>
+<p>Dr. <hi rendition="#i">Zimmermann</hi> appelliert an alle Abgeordneten, weiterhin mit [Mut]<note xml:id="CSU-1976-12-13_FN002" n="2">In der Vorlage handschriftlich verbessert aus: »Macht«.</note>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
+<p>Dr. <hi rendition="#i">Zimmermann</hi> bittet sodann Dr. <hi rendition="#i">Strauß</hi>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
+</div>
+<div type="section" xml:id="CSU-1976-12-13_div-B" corresp="#CSU-1976-12-13_SVP-B">
+<head>[B.]</head>
+<p>Dr. <hi rendition="#b">Strauß</hi>, MdB, setzt den Beschluß als bekannt voraus<note xml:id="CSU-1976-12-13_FN003" n="3">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <hi rendition="#i">Kohl</hi> (CDU) und <hi rendition="#i">Strauß</hi> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <hi rendition="#smcap">Europa-Archiv</hi> 1976, S. <hi rendition="#smcap">Z</hi> 2.</note>. Er führt weiter aus, daß ihm seit Donnerstag<note xml:id="CSU-1976-12-13_FN004" n="4">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976. Vgl. dazu auch den Artikel »<hi rendition="#i">Strauß</hi> bietet Rückkehr zur Fraktionsgemeinschaft an«; Süddeutsche Zeitung vom 10. Dezember 1976, S. 1 f.</note> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen<pb/> kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
+<p>Zum Problem Präsident des Bundestages sagt Dr. <hi rendition="#i">Strauß</hi>, daß er gehört habe, daß die SPD die Fraktionsvereinbarung<note xml:id="CSU-1976-12-13_FN005" n="5">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. Anhang C. Vgl. auch <hi rendition="#smcap">Parteien-Jahrbuch</hi> 1976, S. 424—426.</note> anzweifeln will, um Frau <hi rendition="#i">Renger</hi> zu retten<note xml:id="CSU-1976-12-13_FN006"  n="6">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <hi rendition="#i">Karl Carstens</hi>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll 08/1, S. 3 f.</note>. Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
+<p>Durch die Fraktionsvereinbarung habe man erreicht, daß nunmehr der Fraktionsvorsitzende einen echten Stellvertreter hat. Diesen Stellvertreter wird die CSU stellen. Die Fraktionsvereinbarungen sind insgesamt gesehen ein Vertrag zwischen der Gruppe der CDU und der Gruppe der CSU. Durch diesen Vertrag stelle man jetzt nicht mehr einen der acht Stellvertreter, sondern den Stellvertreter. Dazu wird die CSU einen weiteren Stellvertreter bestellen.</p>
+<p>Zu den Arbeitskreisen sagt Dr. <hi rendition="#i">Strauß</hi>, daß man sich darauf geeinigt habe, daß Herr <hi rendition="#i">Häfele</hi> den Arbeitskreis III<note xml:id="CSU-1976-12-13_FN007" n="7">Haushalt, Steuern, Geld und Kredit.</note> bekommen wird. Dr. Dollinger soll den Arbeitskreis II Wirtschaft nehmen. Er selbst sei bereit, finanzpolitischer Sprecher zu sein.</p>
+<p>Über das Wahlprogramm ’76<note xml:id="CSU-1976-12-13_FN008" n="8">Zum Wahlprogramm der CDU und CSU von 1976 vgl. <hi rendition="#smcap">Parteien-Jahrbuch</hi> 1976, S. 330–390.</note> sei es noch zu sehr harten Auseinandersetzungen gekommen. Dabei äußert sich Dr. Strauß über Prof. <hi rendition="#i">Biedenkopf</hi> und seine Mannheimer Rede<note xml:id="CSU-1976-12-13_FN009" n="9">CDU-Generalsekretär <hi rendition="#i">Biedenkopf</hi> rückte in seiner Rede auf dem CDU-Parteitag in Mannheim am 24. Juni 1975 die Frage der sozialen Gerechtigkeit, die »Neue Soziale Frage«, in den Mittelpunkt. Zur Rede Biedenkopfs auf dem 23. Bundesparteitag der CDU in Mannheim vom 23. bis 25. Juni 1975 vgl. »Union in Deutschland«, Nr. 26/27 vom 27. Juni 1975, S. 57–69.</note>. Er habe ihn jedoch davon überzeugen können, daß man heute sehr schlecht dastehen würde, wenn man im Wahlprogramm noch Zusagen gemacht hätte, die nicht haltbar seien.</p>
+<p>....</p>
+</div>
+</body> 
+</text>
+</TEI>
