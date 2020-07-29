@@ -3,35 +3,47 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TEI-CSU-1976-12-13.xml">
+
+<!-- Bis hierhin alles vorgegeben :-) -->
+
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<!-- Haupttitel der Edition. Kann zB heißen "Editionsprogramm Fraktionen" usf. -->
-<title level="s">Digitale Edition der Protokolle der Fraktionen im Deutschen Bundestag 1949–2005</title>
+<!--  Haupttitel der Edition. Kann zB heißen "Editionsprogramm Fraktionen" usf. -->
+<title level="s">Digitale Edition der Protokolle der Fraktionen im Deutschen Bundestag
+1949–2005</title>
+
 <!-- Titel des vorliegenden *elektronischen* Dokuments, wie er im Web angezeigt werden soll (Datum für die Webanzeige in ISO-Form im Titel-Element):-->
 <title level="a" when-iso="1976-12-13" key="#CSU-LG" n="2" period="WP-7">2. Sitzung der CSU-Landesgruppe am 13. Dezember 1976</title>
-<!-- Irgendwie muss die Zuordnung zu Fraktion/Landesgruppe und Wahlperiode eindeutig sein, für die Webseit: Verschiedene Möglichkeiten, zB wie oben das title type="sub"-Element mit @key und @iso-when und @n="Wahlperiodennummer". Eine andere Möglichkeit wäre, das folgene author-Element und @role nutzen. @key identifiziert eindeutig (wichtig, wenn es zB mehrere "Autoren" im String gäbe: Landesgruppe & CSU-Vorstand, einem muss zugeordnet werden) das @n-Attribut würde dann die Wahlperiode benennen. Die Erkennung der Wahlperiode kann nicht immer über das Datum erfolgen, da manche Fraktionssitzungen zwar vor dem juristischen Beginn einer neuen Wahlperiode (= 1. Sitzung des Bundestags) stattfinden, aber sich ausschließlich mit der neuen WP befassen. -->
+
+<!-- Irgendwie muss die Zuordnung zu Fraktion/Landesgruppe und Wahlperiode eindeutig sein, für die Webseit: Verschiedene Möglichkeiten, zB wie oben das title type="sub"-Element mit @key und @iso-when und @n="Wahlperiodennummer".
+
+Eine andere Möglichkeit wäre, das folgene author-Element und @role nutzen. @key identifiziert eindeutig (wichtig, wenn es zB mehrere "Autoren" im String gäbe: Landesgruppe & CSU-Vorstand, einem muss zugeordnet werden) das @n-Attribut würde dann die Wahlperiode benennen. Die Erkennung der Wahlperiode kann nicht immer über das Datum erfolgen, da manche Fraktionssitzungen zwar vor dem juristischen Beginn einer neuen Wahlperiode (= 1. Sitzung des Bundestags) stattfinden, aber sich ausschließlich mit der neuen WP befassen. 
+-->            
 <author role="Fraktion" key="#CSU-LG" n="7">CSU-Landesgruppe</author>
-<!-- Verantwortlicher für die Edition: Haupteditor ist Volker. --> 
+
+<!-- Verantwortlicher für die Edition: Haupteditor ist Volker. -->                      
 <editor role="main" key="#VoS">
 <forename>Volker</forename> 
 <surname>Stalmann</surname>
 <email>stalmann@kgparl.de</email>
 </editor>
-<!-- Weitere Personen, die an diesem Dokument mitgearbeitet haben. Das kann relativ beliebig bis zu den Herausgebern oder dem Editionleiter, den technischen Verantwortlichen, Tippgebern etc. ausgeweitet werden. --> 
+<!-- Weitere Personen, die an diesem Dokument mitgearbeitet haben. Das kann relativ beliebig bis zu den Herausgebern oder dem Editionleiter, den technischen Verantwortlichen, Tippgebern etc. ausgeweitet werden. -->            
 <respStmt>
 <resp>Das OCR und die Texterfassung wurden unterstützt von</resp>
 <name key="#SyR">Sylvia Rochow</name>
 <name key="#WoH">Wolfgang Hölscher</name>
 </respStmt>
+
 </titleStmt>
-<!-- Der Name editionStmt ist irreführend, weil er *nur* die Auflage/Edition meint! In der Regel wird das Datum angegeben, an dem das Protokoll fertg ediert war!--> 
+<!-- Der Name editionStmt ist irreführend, weil er *nur* die Auflage/Edition meint! In der Regel wird das Datum angegeben, an dem das Protokoll fertg ediert war!-->         
 <editionStmt>
 <edition>
 <date when-iso="2020-04-25">25. April 2020</date>
 </edition>
 </editionStmt>
-<!-- Eigentliche Informationen zur Herausgeberschaft der Edition finden sich hier: --> 
+
+<!-- Eigentliche Informationen zur Herausgeberschaft der Edition finden sich hier: -->         
 <publicationStmt>
 <!-- Name und Adresse der herausgebenden Institution -->
 <publisher>
@@ -46,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </address>
 <email>info@fraktionsprotokolle.de</email>
 </publisher>
-<!-- Wir sollten uns eine ISBN etc. für unsere elektronische Editon besorgen! --> 
+<!-- Wir sollten uns eine ISBN etc. für unsere elektronische Editon besorgen! -->            
 <idno type="isbn">0-00-0000000</idno>
+
 <!-- Informationen zum Copyright und zur möglichen Lizenz; URI & Inhalt müsste noch spezifiziert werden -->
 <availability>
 <licence target="https://www.fraktionsprotokolle.de/nutzung">Alle Rechte
@@ -56,16 +69,19 @@ vorbehalten!</licence>
 <!-- Publication Date des elektronischen Dokuments -->
 <date when-iso="2021-02-18">18. Februar 2021 (Version 1)</date>
 </publicationStmt>
+
 <!-- seriesStmt entspricht dem Claim auf unserer alten Webseite -->
 <seriesStmt>
 <p xml:lang="de">Maschinenlesbare Transkriptionen von Protokollen und Audiomitschnitten der Fraktionen und Gruppen des Deutschen Bundestags von 1949 bis 2005</p>
 <p xml:lang="en">Machine-Readable Transcriptions of Protocols and Audio Recordings of the German Bundestags Parliamentary Groups from 1949 to 2005</p>
-</seriesStmt>
+</seriesStmt>      
+
 <!-- Kurze Bemerkung in jeder Datei, wo man Projektbeschreibung und Hilfe findet. -->
 <notesStmt>
 <note>Vergleich auch die <ref target="../meta/projektbeschreibung.xml"> Projektbeschreibung</ref> sowie die Dokumentation dieser Web-Application unter <ref target="../meta/ueberWebsite.xml">Über diese Webseite</ref>.</note>
-</notesStmt>
-<!-- Ab hier wird die *Quelle* (Art, Herkunft, Sigle usf.) der vorliegenden Datei beschrieben! --> 
+</notesStmt>      
+
+<!-- Ab hier wird die *Quelle* (Art, Herkunft, Sigle usf.) der vorliegenden Datei beschrieben! -->        
 <sourceDesc>
 <msDesc>
 <msIdentifier>
@@ -74,10 +90,10 @@ vorbehalten!</licence>
 <repository n="ACSSP">Archiv für Christilich Soziale Politik — Hanns-Seidel-Stiftung</repository>
 <!-- idno type="shelf" umfasst die Signatur! -->
 <idno type="shelf">ACSP, LG 1976: 27.</idno>
-<!-- Name aus dem Findbuch hier. Möglich, das Datum in ISO-Form zu schreiben, aber notwendig? -->
+<!-- Name aus dem Findbuch hier. Möglich, das Datum in ISO-Form zu schreiben, aber notwendig?  -->
 <msName>Protokoll über die Sitzung der CSU-Landesgruppe vom 13. 12. 1976</msName>
 </msIdentifier>
-<!-- Beschreibung der Quelle (Papier, Tonband etc.) --> 
+<!-- Beschreibung der Quelle (Papier, Tonband etc.) -->               
 <physDesc>
 <objectDesc form="Protokoll">
 <supportDesc>
@@ -86,7 +102,8 @@ vorbehalten!</licence>
 </supportDesc>
 </objectDesc>
 </physDesc>
-<!-- Hier kommen Entstehungsort und Entstehungsdatum des Protokolls rein! --> 
+
+<!-- Hier kommen Entstehungsort und Entstehungsdatum des Protokolls rein! -->               
 <history>
 <origin>
 <placeName ref="#Bonn">Bonn</placeName>
@@ -95,7 +112,9 @@ vorbehalten!</licence>
 <num type="Sitzungsabfolge" n="1">1. Sitzung</num>
 </origin>
 </history>
+
 <!-- Hier bin ich mir nicht sicher: Wenn das Dokument *nicht* kommentiert wurde, bietet es sich an, her eine Liste aller Sitzungen, auf die in der vorliegenden Sitzung Bezug genommen wurde, zu erstellen. Von den Erfassenden bei der ersten Durchsicht zu erstellen. Der Vorteil wäre: Auch ohne Kommentierung bekäme man für den Webauftritt zB in einer Seitenleiste eine Art Netzwerkbeschreibung der Sitzungen untereinander bzw. auch auf Sitzungen anderer Fraktionen. Das stelle ich mir als sehr hilfreich vor!-->
+
 <additional>
 <listBibl>
 <bibl>
@@ -107,7 +126,8 @@ vorbehalten!</licence>
 </msDesc>
 </sourceDesc>
 </fileDesc>
-<!-- Hier kommen generelle Informationen über die Art und Weise der Erfassung rein. Das wäre bei jeder Datei gleich. ZB neue deutsche Rechtschreibung, stillschweigende Korrektur, Normalisierung von ausländischen Namen. Kann ziemlich frei beschrieben werden. --> 
+
+<!-- Hier kommen generelle Informationen über die Art und Weise der Erfassung rein. Das wäre bei jeder Datei gleich. ZB neue deutsche Rechtschreibung, stillschweigende Korrektur, Normalisierung von ausländischen Namen. Kann ziemlich frei beschrieben werden. -->      
 <encodingDesc>
 <p>Wie wir erfasen XXXX</p>
 </encodingDesc>
@@ -120,24 +140,32 @@ vorbehalten!</licence>
 <language ident="de-DE">German</language>
 </langUsage>
 </profileDesc>
-<!-- Wieviele Revisionen des Dokuments gab es, wer hat die verbrochen. Fakultativ. Die Liste könnte einfach iterativ gemacht werden. Ihr seht, dass das change eine @who-Attribut hat, das eindeutig klärt, das Sven Jüngerkes diesen Change an diesem Datum machte. --> 
+
+<!-- Wieviele Revisionen des Dokuments gab es, wer hat die verbrochen. Fakultativ. Die Liste könnte einfach iterativ gemacht werden. Ihr seht, dass das change eine @who-Attribut hat, das eindeutig klärt, das Sven Jüngerkes diesen Change an diesem Datum machte. -->      
 <revisionDesc>
 <change when-iso="2020-04-28" who="#SvJ">Erste XML-Version des Protokolls.</change>
 </revisionDesc>
+
 </teiHeader>
-<!-- Ab hier folgt das eigentliche Protokoll! --> 
+
+<!-- Ab hier folgt das eigentliche Protokoll! -->   
+
 <text>
-<!-- Im Front-Element kommen Kopfdaten, Anwesenheitslisten und die Tagesordnugen/Sitzungsverläufe rein --> 
+
+<!-- Im Front-Element kommen Kopfdaten, Anwesenheitslisten und die Tagesordnugen/Sitzungsverläufe rein -->      
 <front>
-<!-- Nochmals Titel des Dokuments, diesmal so wie im Buch bei Volker. Das doppelt sich mit den Metadaten im Header und solte ev. angeglichen werden. Bin mir nicht sicher. -->
+
+<!-- Nochmals Titel des Dokuments, diesmal so wie im Buch bei Volker.  Das doppelt sich mit den Metadaten im Header und solte ev. angeglichen werden. Bin mir nicht sicher. -->
 <head type="front" style="bold">13. Dezember 1976: Sitzung der Landesgruppe</head>
+
 <!-- div sind größere Einheiten, zB TOP, die mehrere Absätze p enthalten können oder, wie hier, auch Listen -->
 <div type="Kopfdaten">
 <p>Zeit: 15.10 Uhr bis 16.30 Uhr</p>
 <!-- Der Vorsitz kann mit dem Attribut @role="Vorsitz" spezifiziert werden, so wäre er leicht in einer Suche auswertbar. Aber auch wenn man das weglässt, käme man dahin, halt über die Position des persName im div type="Kopfdaten" -->
 <p>Vorsitz: <persName role="Vorsitz" key="#ZimmermannF">Zimmermann</persName></p>
 </div>
-<!-- Die Anwesenheitslite ist als div-Element mit einer simplen Liste erfasst. @style ist Hinweis drauf, wie es später aussehen soll. (Das kann auch ignoriert werden, zB vom Setzer.) head sind Überschriften, die hier nicht weiter spezifiziert werden. --> 
+
+<!-- Die Anwesenheitslite ist als div-Element mit einer simplen Liste erfasst. @style ist Hinweis drauf, wie es später aussehen soll. (Das kann auch ignoriert werden, zB vom Setzer.) head sind Überschriften, die hier nicht weiter spezifiziert werden. -->      
 <div type="Anwesenheitsliste">
 <head style="bold">Anwesend:</head>
 <list rend="simple">
@@ -189,7 +217,9 @@ vorbehalten!</licence>
 <item><persName key="#XXX">Zimmermann</persName></item>
 </list>
 </div>
+
 <!-- Sitzungsverlauf als Liste. Bei Volker immer sehr einfach und knapp. Bei SPD wird das deutlich anders aussehen müsen. -->
+
 <div type="SVP">
 <head style="bold">Sitzungsverlauf:</head>
 <list rend="simple">
@@ -200,38 +230,56 @@ vorbehalten!</licence>
 </list>
 </div>
 </front>
-<!-- Eigentlicher Text des Protokolls --> 
+
+<!-- Eigentlicher Text des Protokolls -->      
 <body>
-<!-- Hier wird das obige SVP mit dem Textabschnitt verknüpft für spätere Links. --> 
+<!-- Hier wird das obige SVP mit dem Textabschnitt verknüpft für spätere Links. -->      
 <div type="SVP" corresp="#SVP-A">
+
 <!-- Hier wird nochmals der SVP wiederholt, hat nur optische Bedeutung-->
 <head style="bold">A.</head>
 <!-- persName legt die eindeutige Personenzuordnung fest. role ist im Grunde die alten Fettung für den Sprecher! -->
+
 <p>Der Vorsitzende Dr. <persName role="speaker" key="#ZimmermannF">Zimmermann</persName>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. 
+
 <!-- Die Anmerkungen in den note-Elementen sind etwas "trickreicher". Das seg-Element schließt den Textteil (String) ein, auf den sich die note dann bezieht! @type="note" ist eher für die Darstellung, kann ev. weg, wenn seg nirgends anders verwendet wird. Jedes note-Element hat zwei Attribute 1) @xml:id, die eindeutige ID, irgendein String, nur eindeutig, sinnvollerweise etwas, was man lesen kann, also FN001 usf. aber es wäre auch 0121323a möglich. @type spezifiziert ob critival = irgendwas mit Textfummeln oder comment = irgendein Kommentar, denke, das ist klar. --> 
+
 Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den <seg type="note">Beschlüssen von Kreuth<note xml:id="FN001" type="comment">Zur Klausurtagung der CSU-Landesgruppe in <placeName key="#Kreuth">Wildbad Kreuth</placeName> am 18./19. November 1976 <ref target="Weigel-1976-11-18.xml">vgl. die Aufzeichnungen <persName key="#WaiglT">Theo Waigels</persName> und <persName key="HärdtlW">Wighard Härdtls</persName></ref>, <ref target="#Jaeger-1976-11-19.xml">die Rede <persName key="#JaegerR">Richard Jaegers </persName>vom 19. November 1976</ref> sowie <ref type="intern" target="#Schreiben-1976-11-22.xml">das Schreiben an die Parteimitglieder vom 22. November 1976</ref>. <ref target="#Dateiname.xml">Vgl. auch die Aufzeichnungen <persName key="WaiglT">Theo Waigels</persName> im Anhang E.</ref></note></seg>. Der besondere Dank gilt auch <persName key="#StraußFJ">Franz Josef Strauß</persName>.</p>
-<!-- ref sind Verweise auf alles mögliche. Eigentlich selbsterklärend: Mal auf andere Dateien, mal auf SVP im Text, mal auf Anmerkungen im Text. Das ist auch der Grund warum ID immer eindeutig sein müssen! Man kann sich streiten, ob es das Attribut @type="intern" braucht, um zB zu sagen: Hier ist ein Verweis innerhalb der Edition Fraktionsprotokolle im Gegensatz zB zu einem Verweis auf die Kabinettsprotokolle des BArch. Das wäre ev. für den Darstellung interessant, wie wird der Link formatiert usf. Ach ja, ignoriert erstmal, ob da ein '#' in den key, target usf. ist. '#' weist in der TEI eigentlich auf eine URI-Auflösung. -->
+
+<!-- ref sind Verweise auf alles mögliche. Eigentlich selbsterklärend: Mal auf andere Dateien, mal auf SVP im Text, mal auf Anmerkungen im Text. Das ist auch der Grund warum ID immer eindeutig sein müssen! Man kann sich streiten, ob es das Attribut @type="intern" braucht, um zB zu sagen: Hier ist ein Verweis innerhalb der Edition Fraktionsprotokolle im Gegensatz zB zu einem Verweis auf die Kabinettsprotokolle des BArch. Das wäre ev. für den Darstellung interessant, wie wird der Link formatiert usf. Ach ja, ignoriert erstmal, ob da ein '#' in den key, target usf. ist. '#' weist in der TEI eigentlich auf eine URI-Auflösung.  -->
+
+
 <p>Dr. <persName key="#ZimmermannF">Zimmermann</persName> appelliert an alle Abgeordneten, weiterhin mit <seg type="note">Mut<note xml:id="FN002" type="critical">In der Vorlage handschriftlich verbessert aus: »Macht«.</note></seg>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
+
 <p>Dr. <persName key="#ZimmermannF">Zimmermann</persName> bittet sodann Dr. <persName key="#StraußFJ">Strauß</persName>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
 </div>
+
 <div type="SVP" corresp="#SVP-B">
 <head style="bold">B.</head>
+
 <!-- Spannend wird es, wie wir mit Literatur etc. umgehen in den Kommentaren. Mein Vorschlag: einfach ein title-Element mit Attributen, die darauf hinweisen, ob es Kurztitel "short" oder Periodika "j" sind. Und jedesmal ein @key-Attribut, das auf eine Bibliographie verweist, damit zB Kurztitel aufgelöst werden können. 
-Verweise auf Zeitungen: zeitung ist ein Eintrag in der Org-Liste, daher orgName und Attribut @type="news" für newspaper, damit es später entsprechend formatiert werden kann. Daher ist es *nicht* notwendig Zeitungen nochmals in franz. Anführungszeichen zu setzen. Wichtig ist das @key-Attribut, das auf den Eintrag in der o.g. OrgName-Liste verweist. Ich würde auch UiD usf. als "Zeitung" führen und nicht in die Bibliographie damit. Die harte Trennung der bisherigen Edition wird es hier auch nicht mehr geben können! --> 
-<p>Dr. <persName role="speaker" key="#StraußFJ">Strauß</persName>, MdB, <seg type="comment">setzt den Beschluß als bekannt voraus<note xml:id="FN0003">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <persName key="#KohlH">Kohl</persName> (CDU) und <persName key="#StraußFJ">Strauß</persName> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <title type="j" key="#EA">Europa-Archiv 1976</title>, S. Z 2.</note></seg>. Er führt weiter aus, daß ihm <seg type="comment">seit Donnerstag<note xml:id="FN004"><ref target="#csulg-1976-12-09.xml">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976.</ref> Vgl. dazu auch den Artikel »Strauß bietet Rückkehr zur Fraktionsgemeinschaft an«; <orgName type="news" key="#SZ">Süddeutsche Zeitung</orgName> vom 10. Dezember 1976, S. 1 f.</note></seg> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
-<p>Zum Problem Präsident des Bundestages sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß er gehört habe, daß die SPD die <seg type="note">Fraktionsvereinbarung<note xml:id="FN005" type="comment">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. <title type="shelf" key="#ACDP">ACDP, 08-008-164/1</title>. Vgl. auch <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 424—426.</note></seg> anzweifeln will, <seg type="note">um Frau <persName key="#RengerAM">Renger</persName> zu retten<note xml:id="FN0006" type="comment">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <persName key="#CarstensK">Karl Carstens</persName>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll <ref target="#BT-Plenar">08/1</ref>, S. 3 f.</note></seg>. Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
+Verweise auf Zeitungen: zeitung ist ein Eintrag in der Org-Liste, daher orgName und Attribut @type="news" für newspaper, damit es später entsprechend formatiert werden kann. Daher ist es *nicht* notwendig Zeitungen nochmals in franz. Anführungszeichen zu setzen. Wichtig ist das @key-Attribut, das auf den Eintrag in der o.g. OrgName-Liste verweist. Ich würde auch UiD usf. als "Zeitung" führen und nicht in die Bibliographie damit. Die harte Trennung der bisherigen Edition wird es hier auch nicht mehr geben können! -->           
+
+<p>Dr. <persName role="speaker" key="#StraußFJ">Strauß</persName>, MdB, <seg type="comment">setzt den Beschluß als bekannt voraus<note xml:id="FN0003">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <persName key="#KohlH">Kohl</persName> (CDU) und <persName key="#StraußFJ">Strauß</persName> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <title type="j" key="#EA">Europa-Archiv 1976</title>, S. Z 2.</note></seg>.  Er führt weiter aus, daß ihm <seg type="comment">seit Donnerstag<note xml:id="FN004"><ref target="#csulg-1976-12-09.xml">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976.</ref> Vgl. dazu auch den Artikel »Strauß bietet Rückkehr zur Fraktionsgemeinschaft an«; <orgName type="news" key="#SZ">Süddeutsche Zeitung</orgName> vom 10. Dezember 1976, S. 1 f.</note></seg> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
+
+<p>Zum Problem Präsident des Bundestages sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß er gehört habe, daß die SPD die <seg type="note">Fraktionsvereinbarung<note xml:id="FN005" type="comment">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. <title type="shelf" key="#ACDP">ACDP, 08-008-164/1</title>. Vgl. auch <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 424—426.</note></seg> anzweifeln will, <seg type="note">um Frau <persName key="#RengerAM">Renger</persName> zu retten<note xml:id="FN0006" type="comment">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <persName key="#CarstensK">Karl Carstens</persName>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll <ref target="#BT-Plenar">08/1</ref>, S. 3 f.</note></seg>.  Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
+
 <p>Durch die Fraktionsvereinbarung habe man erreicht, daß nunmehr der Fraktionsvorsitzende einen echten Stellvertreter hat. Diesen Stellvertreter wird die CSU stellen. Die Fraktionsvereinbarungen sind insgesamt gesehen ein Vertrag zwischen der Gruppe der CDU und der Gruppe der CSU. Durch diesen Vertrag stelle man jetzt nicht mehr einen der acht Stellvertreter, sondern den Stellvertreter. Dazu wird die CSU einen weiteren Stellvertreter bestellen.</p>
-<p>Zu den Arbeitskreisen sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß man sich darauf geeinigt habe, daß Herr <persName key="#HäfeleHJ">Häfele</persName> den <seg type="note">Arbeitskreis III<note xml:id="FN007" type="comment">Haushalt, Steuern, Geld und Kredit.</note></seg> bekommen wird. Dr. Dollinger soll den Arbeitskreis II Wirtschaft nehmen. Er selbst sei bereit, finanzpolitischer Sprecher zu sein.</p>
-<p>Über das <seg type="note">Wahlprogramm ’76<note xml:id="FN008">Zum Wahlprogramm der CDU und CSU von 1976 vgl. <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 330–390.</note></seg> sei es noch zu sehr harten Auseinandersetzungen gekommen. Dabei äußert sich Dr. Strauß über <seg type="note">Prof. <persName key="#BiedenkopfK">Biedenkopf</persName> und seine Mannheimer Rede<note xml:id="FN009">CDU-Generalsekretär <persName key="#BiedenkopfK">Biedenkopf</persName> rückte in seiner Rede auf dem CDU-Parteitag in Mannheim am 24. Juni 1975 die Frage der sozialen Gerechtigkeit, die »Neue Soziale Frage«, in den Mittelpunkt. Zur Rede Biedenkopfs auf dem 23. Bundesparteitag der CDU in Mannheim vom 23. bis 25. Juni 1975 vgl. <orgName type="news" key="#UiD">Union in Deutschland</orgName>, Nr. 26/27 vom 27. Juni 1975, S. 57–69.</note></seg>. Er habe ihn jedoch davon überzeugen können, daß man heute sehr schlecht dastehen würde, wenn man im Wahlprogramm noch Zusagen gemacht hätte, die nicht haltbar seien.</p>
-<!-- Ende der kommentierten Abschnitte! --> 
-<p>Auch zum Punkt 2 hätte es längere Diskussionen gegeben. Dabei wären auch die Äußerungen von Herrn Albrecht, die er in Polen gegeben hat, zur Sprache gekommen. Dr. Strauß vertrat die Ansicht, daß man unter den derzeitigen Umständen nicht nach Polen als Staatsbesucher fahren dürfe. Man müsse jetzt diesen Konflikt mit Albrecht austragen, um das Gesicht nicht zu verlieren. Aus diesem Grunde müsse man auch in Zukunft aufs schärfste darauf achten, daß es von seiten der CDU nicht nur bei Erklärungen bleibt, wenn es um strittige Fragen geht. Dr. Strauß führt zu Niedersachsen weiter aus, daß dort schon bald wieder eine SPD-Regierung sei, wenn Albrecht weiter dort seine Politik auf diese Weise vertreten würde. Man müsse sich doch im klaren sein, daß die FDP nur um der SPD/FDP-Koalition auch im Bundesrat eine Mehrheit zu bringen, eine Koalition mit CDU eingeht.</p>
-<p>In seinen weiteren Ausführungen ging Dr. Strauß auch auf die Wahl von Brandt zum Präsidenten der Sozialistischen Internationale ein. Er erklärt, daß die Kommunisten die natürlichen Partner der Sozialisten seien. Die Scheinabsage an die Euro-Kommunisten sei doch nur ein taktisches Manöver von Brandt. Man müsse alles tun, um einen Bruch in die Wählerschaft dieser Parteien zu erreichen.</p>
+
+<p>Zu den Arbeitskreisen sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß man sich darauf geeinigt habe, daß Herr <persName key="#HäfeleHJ">Häfele</persName> den <seg type="note">Arbeitskreis III<note xml:id="FN007" type="comment">Haushalt, Steuern, Geld und Kredit.</note></seg>  bekommen wird. Dr. Dollinger soll den Arbeitskreis II Wirtschaft nehmen. Er selbst sei bereit, finanzpolitischer Sprecher zu sein.</p>
+
+<p>Über das <seg type="note">Wahlprogramm ’76<note xml:id="FN008">Zum Wahlprogramm der CDU und CSU von 1976 vgl. <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 330–390.</note></seg>  sei es noch zu sehr harten Auseinandersetzungen gekommen. Dabei äußert sich Dr. Strauß über <seg type="note">Prof. <persName key="#BiedenkopfK">Biedenkopf</persName> und seine Mannheimer Rede<note xml:id="FN009">CDU-Generalsekretär <persName key="#BiedenkopfK">Biedenkopf</persName> rückte in seiner Rede auf dem CDU-Parteitag in Mannheim am 24. Juni 1975 die Frage der sozialen Gerechtigkeit, die »Neue Soziale Frage«, in den Mittelpunkt. Zur Rede Biedenkopfs auf dem 23. Bundesparteitag der CDU in Mannheim vom 23. bis 25. Juni 1975 vgl. <orgName type="news" key="#UiD">Union in Deutschland</orgName>, Nr. 26/27 vom 27. Juni 1975, S. 57–69.</note></seg>.  Er habe ihn jedoch davon überzeugen können, daß man heute sehr schlecht dastehen würde, wenn man im Wahlprogramm noch Zusagen gemacht hätte, die nicht haltbar seien.</p>
+
+<!-- Ende der kommentierten Abschnitte! -->   
+<p>Auch zum Punkt 2 hätte es längere Diskussionen gegeben. Dabei wären auch die Äußerungen von Herrn Albrecht, die er in Polen gegeben hat, zur Sprache gekommen.  Dr. Strauß vertrat die Ansicht, daß man unter den derzeitigen Umständen nicht nach Polen als Staatsbesucher fahren dürfe. Man müsse jetzt diesen Konflikt mit Albrecht austragen, um das Gesicht nicht zu verlieren. Aus diesem Grunde müsse man auch in Zukunft aufs schärfste darauf achten, daß es von seiten der CDU nicht nur bei Erklärungen bleibt, wenn es um strittige Fragen geht. Dr. Strauß führt zu Niedersachsen weiter aus, daß dort schon bald wieder eine SPD-Regierung sei, wenn Albrecht weiter dort seine Politik auf diese Weise vertreten würde.  Man müsse sich doch im klaren sein, daß die FDP nur um der SPD/FDP-Koalition auch im Bundesrat eine Mehrheit zu bringen, eine Koalition mit CDU eingeht.</p>
+<p>In seinen weiteren Ausführungen ging Dr. Strauß auch auf die Wahl von Brandt zum Präsidenten der Sozialistischen Internationale ein.  Er erklärt, daß die Kommunisten die natürlichen Partner der Sozialisten seien. Die Scheinabsage an die Euro-Kommunisten sei doch nur ein taktisches Manöver von Brandt. Man müsse alles tun, um einen Bruch in die Wählerschaft dieser Parteien zu erreichen.</p>
 <p>Zur Jungen Union Rheinland, von denen sich Teile für eine Kooperation mit den Jusos ausgesprochen haben, erklärt Dr. Strauß, daß dies nicht zuletzt die Ursache für die nahe Wahlniederlage sei. Würde man sich von diesen Elementen trennen, würde evtl. die FDP unter die 5 %-Klausel rutschen.</p>
 <p>Über den Weg der zukünftigen Politik führt Dr. Strauß weiter aus, müßte man wieder eine eingehende Unterhaltung möglich machen, evtl. so wie in Kreuth, da man mindestens einen ganzen Tag dazu benötigt.</p>
 <p>Gerade jetzt, wo die Regierung in einem so schrecklichen Zustand sei, müsse jedem bewußt werden, wo der eigentliche Kampfplatz der Politik liegt, nämlich nicht zwischen CDU und CSU, sondern zur SPD. Dazu müßte jedoch die CDU ein besserer Partner werden.</p>
 <p>In seinen weiteren Ausführungen geht Dr. Strauß nochmals auf die Indiskretionen bei Sitzungen ein. Insbesondere erinnert er an die Tonbandveröffentlichungen aus seiner Rede bei der Jungen Union. </p>
 <p>Anschließend bedankt sich Dr. Strauß nochmals bei der Landesgruppe für ihr Vertrauen und bittet dabei Herrn Dr. Jaeger, in Zukunft, wenn er anderer Meinung sei, dies nicht in der Öffentlichkeit breitzutreten, denn er habe dadurch viele Freunde verloren. Sein Auftritt in der Öffentlichkeit habe ihn tief getroffen.</p>
 </div>
+
 <div type="SVP" corresp="#SVP-C">
 <head style="bold">C.</head>
 <p>... nicht ediert ...</p>
