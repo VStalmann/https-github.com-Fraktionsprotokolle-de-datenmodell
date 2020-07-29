@@ -60,7 +60,11 @@ created here.</p>
 <moduleRef key="core"/>
 <moduleRef key="tei"/>
 <moduleRef key="textstructure"/>
+<!--Ungeprüft übergreifend für teiHeader eingeführt-->
 <moduleRef key="namesdates"/>
+<moduleRef key="msdescription"/>
+<!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
+<moduleRef key="linking"/>
 <elementSpec ident="teiCorpus" mode="delete" module="core"/>
 </schemaSpec>
 </body>
