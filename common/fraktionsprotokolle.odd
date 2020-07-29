@@ -60,6 +60,7 @@ created here.</p>
 <moduleRef key="core"/>
 <moduleRef key="tei"/>
 <moduleRef key="textstructure"/>
+<moduleRef key="namesdates"/>
 <elementSpec ident="teiCorpus" mode="delete" module="core"/>
 </schemaSpec>
 </body>
