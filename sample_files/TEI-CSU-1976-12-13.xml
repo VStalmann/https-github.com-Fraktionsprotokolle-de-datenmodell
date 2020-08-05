@@ -9,8 +9,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <!-- Haupttitel der Edition. Kann zB heißen "Editionsprogramm Fraktionen" usf. -->
 <title level="s">Digitale Edition der Protokolle der Fraktionen im Deutschen Bundestag 1949–2005</title>
 <!-- Titel des vorliegenden *elektronischen* Dokuments, wie er im Web angezeigt werden soll (Datum für die Webanzeige in ISO-Form im Titel-Element):-->
+<!--Wieso 2. Sitzung?-->
 <title level="a" when-iso="1976-12-13" key="#CSU-LG" n="2" period="WP-7">2. Sitzung der CSU-Landesgruppe am 13. Dezember 1976</title>
 <!-- Irgendwie muss die Zuordnung zu Fraktion/Landesgruppe und Wahlperiode eindeutig sein, für die Webseit: Verschiedene Möglichkeiten, zB wie oben das title type="sub"-Element mit @key und @iso-when und @n="Wahlperiodennummer". Eine andere Möglichkeit wäre, das folgene author-Element und @role nutzen. @key identifiziert eindeutig (wichtig, wenn es zB mehrere "Autoren" im String gäbe: Landesgruppe & CSU-Vorstand, einem muss zugeordnet werden) das @n-Attribut würde dann die Wahlperiode benennen. Die Erkennung der Wahlperiode kann nicht immer über das Datum erfolgen, da manche Fraktionssitzungen zwar vor dem juristischen Beginn einer neuen Wahlperiode (= 1. Sitzung des Bundestags) stattfinden, aber sich ausschließlich mit der neuen WP befassen. -->
+<!--MG Author hier geeignet?-->
 <author role="Fraktion" key="#CSU-LG" n="7">CSU-Landesgruppe</author>
 <!-- Verantwortlicher für die Edition: Haupteditor ist Volker. --> 
 <editor role="main" key="#VoS">
@@ -112,6 +114,7 @@ vorbehalten!</licence>
 <p>Wie wir erfasen XXXX</p>
 </encodingDesc>
 <profileDesc>
+<!--MG: Frage an mich selbst: Meint <creation> nicht eher die Entstehung des XML-Dokumentes?-->
 <creation>
 <date type="Sitzungsdatum" when-iso="1973-12-13" n="2" ref="CSU-LG">13. Dezember 1973 (1. Sitzung)</date>
 <num n="7">7. Wahlperiode</num>
@@ -130,8 +133,11 @@ vorbehalten!</licence>
 <!-- Im Front-Element kommen Kopfdaten, Anwesenheitslisten und die Tagesordnugen/Sitzungsverläufe rein --> 
 <front>
 <!-- Nochmals Titel des Dokuments, diesmal so wie im Buch bei Volker. Das doppelt sich mit den Metadaten im Header und solte ev. angeglichen werden. Bin mir nicht sicher. -->
+<!--MG: Eine Doppelung hier finde ich nicht schlimm-->
+<!--MG: @style und @type für head sind hier implizit schon da und könnten entfallen-->
 <head type="front" style="bold">13. Dezember 1976: Sitzung der Landesgruppe</head>
 <!-- div sind größere Einheiten, zB TOP, die mehrere Absätze p enthalten können oder, wie hier, auch Listen -->
+<!--MG: Zu überlegen wäre hier, welche Informationen aus den "Kopfdaten" noch in den header aufgenommen werden sollten. Ggf könnte man den Absatz identisch aus dem Word-File übernehmen und die Feinauswertung in den teiHeader ziehen-->
 <div type="Kopfdaten">
 <p>Zeit: 15.10 Uhr bis 16.30 Uhr</p>
 <!-- Der Vorsitz kann mit dem Attribut @role="Vorsitz" spezifiziert werden, so wäre er leicht in einer Suche auswertbar. Aber auch wenn man das weglässt, käme man dahin, halt über die Position des persName im div type="Kopfdaten" -->
@@ -145,7 +151,7 @@ vorbehalten!</licence>
 <item><persName key="#XXX">Becher</persName></item>
 <item><persName key="#XXX">Biehle</persName></item>
 <item><persName key="#XXX">Bötsch</persName></item>
-<item><persName key="#XXX">Dollinger</persName></item>
+<item><persName key="#XXX">Dollinger</persName></item>    
 <item><persName key="#XXX">Engelsberger</persName></item>
 <item><persName key="#XXX">Fuchs</persName></item>
 <item><persName key="#XXX">Geisenhofer</persName></item>
