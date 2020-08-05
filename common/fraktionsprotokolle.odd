@@ -66,6 +66,29 @@ created here.</p>
 <!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
 <moduleRef key="linking"/>
 <elementSpec ident="teiCorpus" mode="delete" module="core"/>
+<!--Modul textstructure-->
+	<elementSpec ident="div" module="textstructure" mode="change">
+		<attList>
+			<attDef ident="type" mode="change" usage="req">
+				<valList type="closed" mode="replace">
+					<!--front-->
+					<valItem ident="SVListe">
+						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+					</valItem>
+					<valItem ident="Anwesenheitsliste">
+						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+					</valItem>
+					<valItem ident="Kopfdaten">
+						<desc>Kopfdaten Protokoll (front)</desc>
+					</valItem>
+					<!--body-->
+					<valItem ident="SVP">
+						<desc>Punkt in Sitzungsverlauf</desc>
+					</valItem>
+				</valList>
+			</attDef>
+		</attList>
+	</elementSpec>
 </schemaSpec>
 </body>
 </text>
