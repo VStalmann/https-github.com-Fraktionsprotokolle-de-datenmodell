@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="csu-08_1976-12-13-t1510_EP">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>TestDatei-Notes
+</title>
+</titleStmt>
+<publicationStmt>
+<p>
+<!-- Information about distribution of the resource -->
+</p>
+</publicationStmt>
+<sourceDesc>
+<p>
+<!-- Information about source from which the resource derives -->
+</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<!-- Ab hier folgt das eigentliche Protokoll! --> 
+<text>
+<body>
+<div type="SVP" xml:id="div-Aa">
+<head>A.</head>
+<p>Der Vorsitzende Dr. <name type="Person" role="Sprecher" ref="#ZimmermannF">Zimmermann</name>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den <seg type="note">Beschlüssen von Kreuth<note xml:id="FN001a" type="comment">Zur Klausurtagung der CSU-Landesgruppe in <name type="Ort" ref="#Kreuth">Wildbad Kreuth</name> am 18./19. November 1976 <ref target="Weigel-1976-11-18.xml">vgl. die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> und <name type="Person" role="Erwaehnung" ref="#HaerdtlW">Wighard Härdtls</name></ref>, <ref target="#Jaeger-1976-11-19.xml">die Rede <name type="Person" role="Erwaehnung" ref="#JaegerR">Richard Jaegers </name>vom 19. November 1976</ref> sowie <ref type="intern" target="#Schreiben-1976-11-22.xml">das Schreiben an die Parteimitglieder vom 22. November 1976</ref>. <ref target="#Dateiname.xml">Vgl. auch die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> im Anhang E.</ref></note></seg>. Der besondere Dank gilt auch <name type="Person" role="Erwaehnung" ref="#StraußFJ">Franz Josef Strauß</name>.</p>
+<p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> appelliert an alle Abgeordneten, weiterhin mit <seg type="note">Mut<note xml:id="FN002a" type="critical">In der Vorlage handschriftlich verbessert aus: »Macht«.</note></seg>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
+<p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> bittet sodann Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
+</div>
+</body>
+</text>
+</TEI>
