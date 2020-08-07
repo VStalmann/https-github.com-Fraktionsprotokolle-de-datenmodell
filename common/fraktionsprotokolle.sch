@@ -4,7 +4,25 @@
 <!--Textstruktur übergreifend-->
 	<pattern id="div_orte">
 		<rule context="tei:div">
-			<report test=".[@type='Kopfdaten' or @type='SVListe' or @type='Anwesenheitsliste'][ancestor::tei:body]" role="ERROR">Typisches Front-Div (Kopfdaten, Anwesenheitsliste u.a.) steht unerwartet in Body</report>
+			<report test=".[@type='Kopfdaten' or @type='SVListe' or @type='Anwesenheitsliste'][ancestor::tei:body]" role="ERROR">Typisches Front-Div (Kopfdaten, Anwesenheitsliste u.a.) steht unerwartet im Body</report>
+			<report test=".[@type='SVP'][ancestor::tei:front]" role="ERROR">Typisches Body-Div (SVP u.a.) steht unerwartet im Front</report>
+		</rule>
+	</pattern>
+	<pattern id="Personennamen-im-Body">
+		<rule context="tei:name[ancestor::tei:body][@type='Person']">
+			<assert test=".[@role='Vorsitz' or @role='Sprecher' or @role='Erwaehnung']" role="ERROR">Namen im Body sollen über @role weiter spezifiziert werden</assert>
+		</rule>
+	</pattern>
+	<!--Dateinamen-Referenzierungen-->
+	<pattern id="ref">
+		<rule context="tei:persName[ancestor::tei:body]">
+			<assert test="starts-with(@ref, '#')" role="ERROR">Wert in @ref soll mit # beginnen</assert>
+		</rule>
+	</pattern>
+	<!--Inhaltliche Warnungen -Vorschläge-->
+	<pattern id="standardangaben-div-im-body">
+		<rule context="tei:div[@type='SVP']">
+			<assert test="descendant::tei:name[@role='Sprecher']" role="ERROR">Pro div soll mind. ein Sprecher ausgewiesen sein</assert>
 		</rule>
 	</pattern>
 </schema>

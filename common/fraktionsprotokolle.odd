@@ -65,14 +65,44 @@ created here.</p>
 <moduleRef key="msdescription"/>
 <!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
 <moduleRef key="linking"/>
-<elementSpec ident="teiCorpus" mode="delete" module="core"/>
+	<!--Modul core-->
+	<elementSpec ident="name" module="core" mode="change">
+		<attList>
+			<attDef ident="type" mode="change" usage="req">
+				<valList type="closed" mode="replace">
+					<valItem ident="Person">
+						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+					</valItem>
+					<valItem ident="Ort">
+						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+					</valItem>
+					<valItem ident="Institution">
+						<desc>Kopfdaten Protokoll (front)</desc>
+					</valItem>
+				</valList>
+			</attDef>
+			<attDef ident="role" mode="change" usage="opt">
+				<valList type="closed" mode="replace">
+					<valItem ident="Vorsitz">
+						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+					</valItem>
+					<valItem ident="Sprecher">
+						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+					</valItem>
+					<valItem ident="Erwaehnung">
+						<desc>Kopfdaten Protokoll (front)</desc>
+					</valItem>
+				</valList>
+			</attDef>
+		</attList>
+	</elementSpec>
 <!--Modul textstructure-->
 	<elementSpec ident="div" module="textstructure" mode="change">
 		<attList>
 			<attDef ident="type" mode="change" usage="req">
 				<valList type="closed" mode="replace">
 					<!--front-->
-					<valItem ident="SVListe">
+					<valItem ident="SVPListe">
 						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
 					</valItem>
 					<valItem ident="Anwesenheitsliste">
@@ -89,6 +119,7 @@ created here.</p>
 			</attDef>
 		</attList>
 	</elementSpec>
+	<elementSpec ident="teiCorpus" mode="delete" module="core"/>
 </schemaSpec>
 </body>
 </text>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TEI-CSU-1976-12-13.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="csu-08_1976-12-13-t1510_EP">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,8 +22,8 @@
 <!-- Weitere Personen, die an diesem Dokument mitgearbeitet haben. Das kann relativ beliebig bis zu den Herausgebern oder dem Editionleiter, den technischen Verantwortlichen, Tippgebern etc. ausgeweitet werden. --> 
 <respStmt>
 <resp>Das OCR und die Texterfassung wurden unterstützt von</resp>
-<name key="#SyR">Sylvia Rochow</name>
-<name key="#WoH">Wolfgang Hölscher</name>
+<name type="Person" role="Erwaehnung" ref="#SyR">Sylvia Rochow</name>
+<name type="Person" role="Erwaehnung" ref="#WoH">Wolfgang Hölscher</name>
 </respStmt>
 </titleStmt>
 <!-- Der Name editionStmt ist irreführend, weil er *nur* die Auflage/Edition meint! In der Regel wird das Datum angegeben, an dem das Protokoll fertg ediert war!--> 
@@ -36,14 +36,14 @@
 <publicationStmt>
 <!-- Name und Adresse der herausgebenden Institution -->
 <publisher>
-<name type="institution" key="#KGParl">Kommission für Geschichte des Parlamentarismus und der politischen Parteien e. V. (KGParl)</name>
+<name type="Institution" ref="#KGParl">Kommission für Geschichte des Parlamentarismus und der politischen Parteien e. V. (KGParl)</name>
 <address>
 <street>Schiffbauerdamm 40</street>
 <postCode>10117</postCode>
-<placeName>
+<name type="Ort">
 <country>Deutschland</country>
 <settlement type="town">Berlin</settlement>
-</placeName>
+</name>
 </address>
 <email>info@fraktionsprotokolle.de</email>
 </publisher>
@@ -90,7 +90,7 @@ vorbehalten!</licence>
 <!-- Hier kommen Entstehungsort und Entstehungsdatum des Protokolls rein! --> 
 <history>
 <origin>
-<placeName ref="#Bonn">Bonn</placeName>
+<name type="Ort" ref="#Bonn">Bonn</name>
 <date when-iso="1976-12-3">13. Dezember 1976</date>
 <!-- Das etwas missbrauchte Element num spezifiziert an dieser Stelle, ob es 1., 2. oder x. Sitzung an einem Tag ist. In diesem Beispiel fiktiv, da es keine weitere Sitzung der CSU-LG gab. Wenn es bessere Vorschlgäe gibt: bitte her damit :-) -->
 <num type="Sitzungsabfolge" n="1">1. Sitzung</num>
@@ -140,92 +140,84 @@ vorbehalten!</licence>
 <div type="Kopfdaten">
 <p>Zeit: 15.10 Uhr bis 16.30 Uhr</p>
 <!-- Der Vorsitz kann mit dem Attribut @role="Vorsitz" spezifiziert werden, so wäre er leicht in einer Suche auswertbar. Aber auch wenn man das weglässt, käme man dahin, halt über die Position des persName im div type="Kopfdaten" -->
-<p>Vorsitz: <persName role="Vorsitz" key="#ZimmermannF">Zimmermann</persName></p>
+<p>Vorsitz: <name type="Person" role="Vorsitz" ref="#ZimmermannF">Zimmermann</name></p>
 </div>
 <!-- Die Anwesenheitslite ist als div-Element mit einer simplen Liste erfasst. @style ist Hinweis drauf, wie es später aussehen soll. (Das kann auch ignoriert werden, zB vom Setzer.) head sind Überschriften, die hier nicht weiter spezifiziert werden. --> 
 <div type="Anwesenheitsliste">
-<head style="bold">Anwesend:</head>
+<head>Anwesend:</head>
 <list rend="simple">
-<item><persName ref="#XXX">Althammer</persName></item>
-	<item><persName ref="#XXX">Becher</persName></item>
-	<item><persName ref="#XXX">Biehle</persName></item>
-	<item><persName ref="#XXX">Bötsch</persName></item>
-	<item><persName ref="#XXX">Dollinger</persName></item>    
-	<item><persName ref="#XXX">Engelsberger</persName></item>
-	<item><persName ref="#XXX">Fuchs</persName></item>
-	<item><persName ref="#XXX">Geisenhofer</persName></item>
-	<item><persName ref="#XXX">Gerlach</persName></item>
-	<item><persName ref="#XXX">Gierenstein</persName></item>
-	<item><persName ref="#XXX">Glos</persName></item>
-	<item><persName ref="#XXX">Haberl</persName></item>
-	<item><persName ref="#XXX">Hartmann</persName></item>
-	<item><persName ref="#XXX">Höffkes</persName></item>
-	<item><persName ref="#XXX">Höpfinger</persName></item>
-	<item><persName ref="#XXX">Hösl</persName></item>
-	<item><persName ref="#XXX">Graf Huyn</persName></item>
-	<item><persName ref="#XXX">Jaeger</persName></item>
-	<item><persName ref="#XXX">Jobst</persName></item>
-	<item><persName ref="#XXX">Kiechle</persName></item>
-	<item><persName ref="#XXX">Klein</persName></item>
-	<item><persName ref="#XXX">Kraus</persName></item>
-	<item><persName ref="#XXX">Kreile</persName></item>
-	<item><persName ref="#XXX">Krone-Appuhn</persName></item>
-	<item><persName ref="#XXX">Lemmrich</persName></item>
-	<item><persName ref="#XXX">Lintner</persName></item>
-	<item><persName ref="#XXX">Niegel</persName></item>
-	<item><persName ref="#XXX">Probst</persName></item>
-	<item><persName ref="#XXX">Rainer</persName></item>
-	<item><persName ref="#XXX">Regenspurger</persName></item>
-	<item><persName ref="#XXX">Riedl</persName></item>
-	<item><persName ref="#XXX">Röhner</persName></item>
-	<item><persName ref="#XXX">Schleicher</persName></item>
-	<item><persName ref="#XXX">Schmidhuber</persName></item>
-	<item><persName ref="#XXX">Schneider</persName></item>
-	<item><persName ref="#XXX">Spilker</persName></item>
-	<item><persName ref="#XXX">Spranger</persName></item>
-	<item><persName ref="#XXX">Starke</persName></item>
-	<item><persName ref="#XXX">Graf von Stauffenberg</persName></item>
-	<item><persName ref="#XXX">Strauß</persName></item>
-	<item><persName ref="#XXX">Stücklen</persName></item>
-	<item><persName ref="#XXX">Voss</persName></item>
-	<item><persName ref="#XXX">Waigel</persName></item>
-	<item><persName ref="#XXX">Wittmann</persName></item>
-	<item><persName ref="#XXX">Ziegler</persName></item>
-	<item><persName ref="#XXX">Zimmermann</persName></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Althammer</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Becher</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Biehle</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Bötsch</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Dollinger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Engelsberger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Fuchs</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Geisenhofer</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Gerlach</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Gierenstein</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Glos</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Haberl</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Hartmann</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Höffkes</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Höpfinger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Hösl</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Graf Huyn</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Jaeger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Jobst</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Kiechle</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Klein</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Kraus</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Kreile</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Krone-Appuhn</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Lemmrich</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Lintner</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Niegel</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Probst</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Rainer</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Regenspurger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Riedl</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Röhner</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Schleicher</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Schmidhuber</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Schneider</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Spilker</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Spranger</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Starke</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Graf von Stauffenberg</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Strauß</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Stücklen</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Voss</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Waigel</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Wittmann</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Ziegler</name></item>
+<item><name type="Person" role="Erwaehnung" ref="#XXX">Zimmermann</name></item>
 </list>
 </div>
 <!-- Sitzungsverlauf als Liste. Bei Volker immer sehr einfach und knapp. Bei SPD wird das deutlich anders aussehen müsen. -->
-<div type="SVListe">
-<head style="bold">Sitzungsverlauf:</head>
+<div type="SVPListe">
+<head>Sitzungsverlauf:</head>
 <list rend="simple">
-<!-- Jedes item bekommt eine eindeutige ID, auf die später im Text und in anderen Protokollen verwiesen wird. D.h. ein daraus erzeugter Link landet nicht direkt beim Textabschnitt dieses SVP sondern bei der SVP-Liste! Es gibt andere Möglichkeiten, SVP direkt im Text zu organisieren. Die haben Vorteile, aber auch den Nachteil, dass a) es dann nur automatisch erzeugte SVP/TOP-Listen in der späteren AUsgabe gibt, nicht in der vorliegenden Datei und b) sie sind weniger übersichtlich & der Setzer hat später größere Probleme. Aber ich bin offen & thematisiere das in der Dokumentation. -->
-<item xml:id="SVL-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <persName key="#ZimmermannF">Zimmermann</persName>.</item>
-<item xml:id="SVL-B">B. Bericht des Landesvorsitzenden <persName key="#StraußFJ">Strauß</persName> über die Verhandlungen mit der CDU.</item>
-<item xml:id="SVL-C">C. Allgemeine Aussprache.</item>
+<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-A" corresp="#div-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name>.</item>
+<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-B" corresp="#div-B">B. Bericht des Landesvorsitzenden <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> über die Verhandlungen mit der CDU.</item>
+<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-C" corresp="#div-C">C. Allgemeine Aussprache.</item>
 </list>
 </div>
 </front>
 <body>
-<!-- Hier wird das obige SVP mit dem Textabschnitt verknüpft für spätere Links. --> 
-<div type="SVP" xml:id="SVP-A" corresp="#SVP-L">
-<head style="bold">A.</head>
-<!-- persName legt die eindeutige Personenzuordnung fest. role ist im Grunde die alten Fettung für den Sprecher! -->
-<p>Der Vorsitzende Dr. <persName role="speaker" key="#ZimmermannF">Zimmermann</persName>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. 
-<!-- Die Anmerkungen in den note-Elementen sind etwas "trickreicher". Das seg-Element schließt den Textteil (String) ein, auf den sich die note dann bezieht! @type="note" ist eher für die Darstellung, kann ev. weg, wenn seg nirgends anders verwendet wird. Jedes note-Element hat zwei Attribute 1) @xml:id, die eindeutige ID, irgendein String, nur eindeutig, sinnvollerweise etwas, was man lesen kann, also FN001 usf. aber es wäre auch 0121323a möglich. @type spezifiziert ob critival = irgendwas mit Textfummeln oder comment = irgendein Kommentar, denke, das ist klar. --> 
-Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den <seg type="note">Beschlüssen von Kreuth<note xml:id="FN001" type="comment">Zur Klausurtagung der CSU-Landesgruppe in <placeName key="#Kreuth">Wildbad Kreuth</placeName> am 18./19. November 1976 <ref target="Weigel-1976-11-18.xml">vgl. die Aufzeichnungen <persName key="#WaiglT">Theo Waigels</persName> und <persName key="HärdtlW">Wighard Härdtls</persName></ref>, <ref target="#Jaeger-1976-11-19.xml">die Rede <persName key="#JaegerR">Richard Jaegers </persName>vom 19. November 1976</ref> sowie <ref type="intern" target="#Schreiben-1976-11-22.xml">das Schreiben an die Parteimitglieder vom 22. November 1976</ref>. <ref target="#Dateiname.xml">Vgl. auch die Aufzeichnungen <persName key="WaiglT">Theo Waigels</persName> im Anhang E.</ref></note></seg>. Der besondere Dank gilt auch <persName key="#StraußFJ">Franz Josef Strauß</persName>.</p>
-<!-- ref sind Verweise auf alles mögliche. Eigentlich selbsterklärend: Mal auf andere Dateien, mal auf SVP im Text, mal auf Anmerkungen im Text. Das ist auch der Grund warum ID immer eindeutig sein müssen! Man kann sich streiten, ob es das Attribut @type="intern" braucht, um zB zu sagen: Hier ist ein Verweis innerhalb der Edition Fraktionsprotokolle im Gegensatz zB zu einem Verweis auf die Kabinettsprotokolle des BArch. Das wäre ev. für den Darstellung interessant, wie wird der Link formatiert usf. Ach ja, ignoriert erstmal, ob da ein '#' in den key, target usf. ist. '#' weist in der TEI eigentlich auf eine URI-Auflösung. -->
-<p>Dr. <persName key="#ZimmermannF">Zimmermann</persName> appelliert an alle Abgeordneten, weiterhin mit <seg type="note">Mut<note xml:id="FN002" type="critical">In der Vorlage handschriftlich verbessert aus: »Macht«.</note></seg>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
-<p>Dr. <persName key="#ZimmermannF">Zimmermann</persName> bittet sodann Dr. <persName key="#StraußFJ">Strauß</persName>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
+<div type="SVP" xml:id="div-A">
+<head>A.</head>
+<p>Der Vorsitzende Dr. <name type="Person" role="Sprecher" ref="#ZimmermannF">Zimmermann</name>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den <seg type="note">Beschlüssen von Kreuth<note xml:id="FN001" type="comment">Zur Klausurtagung der CSU-Landesgruppe in <name type="Ort" ref="#Kreuth">Wildbad Kreuth</name> am 18./19. November 1976 <ref target="Weigel-1976-11-18.xml">vgl. die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> und <name type="Person" role="Erwaehnung" ref="#HaerdtlW">Wighard Härdtls</name></ref>, <ref target="#Jaeger-1976-11-19.xml">die Rede <name type="Person" role="Erwaehnung" ref="#JaegerR">Richard Jaegers </name>vom 19. November 1976</ref> sowie <ref type="intern" target="#Schreiben-1976-11-22.xml">das Schreiben an die Parteimitglieder vom 22. November 1976</ref>. <ref target="#Dateiname.xml">Vgl. auch die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> im Anhang E.</ref></note></seg>. Der besondere Dank gilt auch <name type="Person" role="Erwaehnung" ref="#StraußFJ">Franz Josef Strauß</name>.</p>
+<p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> appelliert an alle Abgeordneten, weiterhin mit <seg type="note">Mut<note xml:id="FN002" type="critical">In der Vorlage handschriftlich verbessert aus: »Macht«.</note></seg>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
+<p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> bittet sodann Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
 </div>
-<div type="SVP" corresp="#SVP-B">
-<head style="bold">B.</head>
-<!-- Spannend wird es, wie wir mit Literatur etc. umgehen in den Kommentaren. Mein Vorschlag: einfach ein title-Element mit Attributen, die darauf hinweisen, ob es Kurztitel "short" oder Periodika "j" sind. Und jedesmal ein @key-Attribut, das auf eine Bibliographie verweist, damit zB Kurztitel aufgelöst werden können. 
-Verweise auf Zeitungen: zeitung ist ein Eintrag in der Org-Liste, daher orgName und Attribut @type="news" für newspaper, damit es später entsprechend formatiert werden kann. Daher ist es *nicht* notwendig Zeitungen nochmals in franz. Anführungszeichen zu setzen. Wichtig ist das @key-Attribut, das auf den Eintrag in der o.g. OrgName-Liste verweist. Ich würde auch UiD usf. als "Zeitung" führen und nicht in die Bibliographie damit. Die harte Trennung der bisherigen Edition wird es hier auch nicht mehr geben können! --> 
-<p>Dr. <persName role="speaker" key="#StraußFJ">Strauß</persName>, MdB, <seg type="comment">setzt den Beschluß als bekannt voraus<note xml:id="FN0003">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <persName key="#KohlH">Kohl</persName> (CDU) und <persName key="#StraußFJ">Strauß</persName> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <title type="j" key="#EA">Europa-Archiv 1976</title>, S. Z 2.</note></seg>. Er führt weiter aus, daß ihm <seg type="comment">seit Donnerstag<note xml:id="FN004"><ref target="#csulg-1976-12-09.xml">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976.</ref> Vgl. dazu auch den Artikel »Strauß bietet Rückkehr zur Fraktionsgemeinschaft an«; <orgName type="news" key="#SZ">Süddeutsche Zeitung</orgName> vom 10. Dezember 1976, S. 1 f.</note></seg> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
-<p>Zum Problem Präsident des Bundestages sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß er gehört habe, daß die SPD die <seg type="note">Fraktionsvereinbarung<note xml:id="FN005" type="comment">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. <title type="shelf" key="#ACDP">ACDP, 08-008-164/1</title>. Vgl. auch <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 424—426.</note></seg> anzweifeln will, <seg type="note">um Frau <persName key="#RengerAM">Renger</persName> zu retten<note xml:id="FN0006" type="comment">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <persName key="#CarstensK">Karl Carstens</persName>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll <ref target="#BT-Plenar">08/1</ref>, S. 3 f.</note></seg>. Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
+<div type="SVP" xml:id="div-B">
+<head>B.</head>
+<p>Dr. <name type="Person" role="Sprecher" ref="#StraußFJ">Strauß</name>, MdB, <seg type="comment">setzt den Beschluß als bekannt voraus<note xml:id="FN0003">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <name type="Person" role="Erwaehnung" ref="#KohlH">Kohl</name> (CDU) und <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <title type="j" ref="#EA">Europa-Archiv 1976</title>, S. Z 2.</note></seg>. Er führt weiter aus, daß ihm <seg type="comment">seit Donnerstag<note xml:id="FN004"><ref target="#csulg-1976-12-09.xml">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976.</ref> Vgl. dazu auch den Artikel »Strauß bietet Rückkehr zur Fraktionsgemeinschaft an«; <orgName type="news" ref="#SZ">Süddeutsche Zeitung</orgName> vom 10. Dezember 1976, S. 1 f.</note></seg> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
+<p>Zum Problem Präsident des Bundestages sagt Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, daß er gehört habe, daß die SPD die <seg type="note">Fraktionsvereinbarung<note xml:id="FN005" type="comment">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. <title type="shelf" ref="#ACDP">ACDP, 08-008-164/1</title>. Vgl. auch <title type="j" ref="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 424—426.</note></seg> anzweifeln will, <seg type="note">um Frau <name type="Person" role="Erwaehnung" ref="#RengerAM">Renger</name> zu retten<note xml:id="FN0006" type="comment">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <name type="Person" role="Erwaehnung" ref="#CarstensK">Karl Carstens</name>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll <ref target="#BT-Plenar">08/1</ref>, S. 3 f.</note></seg>. Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
 <p>Durch die Fraktionsvereinbarung habe man erreicht, daß nunmehr der Fraktionsvorsitzende einen echten Stellvertreter hat. Diesen Stellvertreter wird die CSU stellen. Die Fraktionsvereinbarungen sind insgesamt gesehen ein Vertrag zwischen der Gruppe der CDU und der Gruppe der CSU. Durch diesen Vertrag stelle man jetzt nicht mehr einen der acht Stellvertreter, sondern den Stellvertreter. Dazu wird die CSU einen weiteren Stellvertreter bestellen.</p>
-<p>Zu den Arbeitskreisen sagt Dr. <persName key="#StraußFJ">Strauß</persName>, daß man sich darauf geeinigt habe, daß Herr <persName key="#HäfeleHJ">Häfele</persName> den <seg type="note">Arbeitskreis III<note xml:id="FN007" type="comment">Haushalt, Steuern, Geld und Kredit.</note></seg> bekommen wird. Dr. Dollinger soll den Arbeitskreis II Wirtschaft nehmen. Er selbst sei bereit, finanzpolitischer Sprecher zu sein.</p>
-<p>Über das <seg type="note">Wahlprogramm ’76<note xml:id="FN008">Zum Wahlprogramm der CDU und CSU von 1976 vgl. <title type="j" key="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 330–390.</note></seg> sei es noch zu sehr harten Auseinandersetzungen gekommen. Dabei äußert sich Dr. Strauß über <seg type="note">Prof. <persName key="#BiedenkopfK">Biedenkopf</persName> und seine Mannheimer Rede<note xml:id="FN009">CDU-Generalsekretär <persName key="#BiedenkopfK">Biedenkopf</persName> rückte in seiner Rede auf dem CDU-Parteitag in Mannheim am 24. Juni 1975 die Frage der sozialen Gerechtigkeit, die »Neue Soziale Frage«, in den Mittelpunkt. Zur Rede Biedenkopfs auf dem 23. Bundesparteitag der CDU in Mannheim vom 23. bis 25. Juni 1975 vgl. <orgName type="news" key="#UiD">Union in Deutschland</orgName>, Nr. 26/27 vom 27. Juni 1975, S. 57–69.</note></seg>. Er habe ihn jedoch davon überzeugen können, daß man heute sehr schlecht dastehen würde, wenn man im Wahlprogramm noch Zusagen gemacht hätte, die nicht haltbar seien.</p>
+<p>Zu den Arbeitskreisen sagt Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, daß man sich darauf geeinigt habe, daß Herr <name type="Person" role="Erwaehnung" ref="#HäfeleHJ">Häfele</name> den <seg type="note">Arbeitskreis III<note xml:id="FN007" type="comment">Haushalt, Steuern, Geld und Kredit.</note></seg> bekommen wird. Dr. Dollinger soll den Arbeitskreis II Wirtschaft nehmen. Er selbst sei bereit, finanzpolitischer Sprecher zu sein.</p>
+<p>Über das <seg type="note">Wahlprogramm ’76<note xml:id="FN008">Zum Wahlprogramm der CDU und CSU von 1976 vgl. <title type="j" ref="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 330–390.</note></seg> sei es noch zu sehr harten Auseinandersetzungen gekommen. Dabei äußert sich Dr. Strauß über <seg type="note">Prof. <name type="Person" role="Erwaehnung" ref="#BiedenkopfK">Biedenkopf</name> und seine Mannheimer Rede<note xml:id="FN009">CDU-Generalsekretär <name type="Person" role="Erwaehnung" ref="#BiedenkopfK">Biedenkopf</name> rückte in seiner Rede auf dem CDU-Parteitag in Mannheim am 24. Juni 1975 die Frage der sozialen Gerechtigkeit, die »Neue Soziale Frage«, in den Mittelpunkt. Zur Rede Biedenkopfs auf dem 23. Bundesparteitag der CDU in Mannheim vom 23. bis 25. Juni 1975 vgl. <orgName type="news" ref="#UiD">Union in Deutschland</orgName>, Nr. 26/27 vom 27. Juni 1975, S. 57–69.</note></seg>. Er habe ihn jedoch davon überzeugen können, daß man heute sehr schlecht dastehen würde, wenn man im Wahlprogramm noch Zusagen gemacht hätte, die nicht haltbar seien.</p>
 <!-- Ende der kommentierten Abschnitte! --> 
 <p>Auch zum Punkt 2 hätte es längere Diskussionen gegeben. Dabei wären auch die Äußerungen von Herrn Albrecht, die er in Polen gegeben hat, zur Sprache gekommen. Dr. Strauß vertrat die Ansicht, daß man unter den derzeitigen Umständen nicht nach Polen als Staatsbesucher fahren dürfe. Man müsse jetzt diesen Konflikt mit Albrecht austragen, um das Gesicht nicht zu verlieren. Aus diesem Grunde müsse man auch in Zukunft aufs schärfste darauf achten, daß es von seiten der CDU nicht nur bei Erklärungen bleibt, wenn es um strittige Fragen geht. Dr. Strauß führt zu Niedersachsen weiter aus, daß dort schon bald wieder eine SPD-Regierung sei, wenn Albrecht weiter dort seine Politik auf diese Weise vertreten würde. Man müsse sich doch im klaren sein, daß die FDP nur um der SPD/FDP-Koalition auch im Bundesrat eine Mehrheit zu bringen, eine Koalition mit CDU eingeht.</p>
 <p>In seinen weiteren Ausführungen ging Dr. Strauß auch auf die Wahl von Brandt zum Präsidenten der Sozialistischen Internationale ein. Er erklärt, daß die Kommunisten die natürlichen Partner der Sozialisten seien. Die Scheinabsage an die Euro-Kommunisten sei doch nur ein taktisches Manöver von Brandt. Man müsse alles tun, um einen Bruch in die Wählerschaft dieser Parteien zu erreichen.</p>
@@ -235,8 +227,8 @@ Verweise auf Zeitungen: zeitung ist ein Eintrag in der Org-Liste, daher orgName 
 <p>In seinen weiteren Ausführungen geht Dr. Strauß nochmals auf die Indiskretionen bei Sitzungen ein. Insbesondere erinnert er an die Tonbandveröffentlichungen aus seiner Rede bei der Jungen Union. </p>
 <p>Anschließend bedankt sich Dr. Strauß nochmals bei der Landesgruppe für ihr Vertrauen und bittet dabei Herrn Dr. Jaeger, in Zukunft, wenn er anderer Meinung sei, dies nicht in der Öffentlichkeit breitzutreten, denn er habe dadurch viele Freunde verloren. Sein Auftritt in der Öffentlichkeit habe ihn tief getroffen.</p>
 </div>
-<div type="SVP" corresp="#SVP-C">
-<head style="bold">C.</head>
+<div type="SVP" xml:id="div-C">
+<head>C.</head>
 <p>... nicht ediert ...</p>
 </div>
 </body>
