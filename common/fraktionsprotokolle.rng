@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-08-07T09:05:29Z. .
+Schema generated from ODD source 2020-08-13T13:57:37Z. .
 TEI Edition: Version 3.6.0. Last updated on
 	16th July 2019, revision daa3cc0b9
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
@@ -2550,29 +2550,41 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="tei_model.stageLike">
       <choice>
          <ref name="tei_stage"/>
+         <ref name="tei_sound"/>
       </choice>
    </define>
    <define name="tei_model.stageLike_alternation">
       <choice>
          <ref name="tei_stage"/>
+         <ref name="tei_sound"/>
       </choice>
    </define>
    <define name="tei_model.stageLike_sequence">
       <ref name="tei_stage"/>
+      <ref name="tei_sound"/>
    </define>
    <define name="tei_model.stageLike_sequenceOptional">
       <optional>
          <ref name="tei_stage"/>
+      </optional>
+      <optional>
+         <ref name="tei_sound"/>
       </optional>
    </define>
    <define name="tei_model.stageLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_stage"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_sound"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.stageLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_stage"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_sound"/>
       </oneOrMore>
    </define>
    <define name="tei_model.entryPart">
@@ -12043,6 +12055,37 @@ You must supply at least two values for @target on <name/>
                   <a:documentation>(exclusive) indicates that the alternation is exclusive, i.e. that at most one of the alternatives occurs.</a:documentation>
                   <value>incl</value>
                   <a:documentation>(inclusive) indicates that the alternation is not exclusive, i.e. that one or more of the alternatives occur.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_sound">
+      <element name="sound">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a sound effect or musical sequence specified within a screen play or radio script. [7.3.1. Technical Information 7.3. Other Types of Performance Text]</a:documentation>
+         <ref name="tei_macro.paraContent"/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the sound in some respect, e.g. as music, special effect, etc.</a:documentation>
+            <choice>
+               <value>Applaus</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>Zwischenruf</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <optional>
+            <attribute name="discrete">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the sound overlaps the surrounding speeches or interrupts them.</a:documentation>
+               <choice>
+                  <data type="boolean"/>
+                  <choice>
+                     <value>unknown</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                     <value>inapplicable</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  </choice>
                </choice>
             </attribute>
          </optional>

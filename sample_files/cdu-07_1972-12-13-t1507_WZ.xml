@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cdu-07_1972-12-13-t1507_WZ">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>TestDatei-Notes
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TestDatei-Notes
 </title>
-</titleStmt>
-<publicationStmt>
-<p>
-<!-- Information about distribution of the resource -->
-</p>
-</publicationStmt>
-<sourceDesc>
-<p>
-<!-- Information about source from which the resource derives -->
-</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<text>
-<body>
-<div type="SVP" xml:id="div-Aa">
-<head></head>
-<p></p>
-</div>
-</body>
-</text>
+			</titleStmt>
+			<publicationStmt>
+				<p>
+					<!-- Information about distribution of the resource -->
+				</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>
+					<!-- Information about source from which the resource derives -->
+				</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="SVPListe">
+				<head>Sitzungsverlauf:</head>
+				<list rend="simple">
+					<!--Namentagging schon in SVPListe?-->
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-A" corresp="#div-A" n="A">Bericht des Vorsitzenden <name type="Person" role="Erwaehnung" ref="#">Barzel</name> (Dank an ehemaligen Bundestags-präsidenten von <name type="Person" role="Erwaehnung" ref="#">Hassel</name>; Konflikte in der sozial-liberalen Koalition; Viertes Rentenversicherungs-Änderungsgesetz; Verfahren bei der Wahl zum Fraktionsvorstand – Aussprache zu dem Bericht).</item>
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-B" corresp="#div-B" n="B">Fortsetzung der Aussprache aus der Sitzung vom 12. Dezember 1972 zum Grundvertrag (Selbstbestimmungsrecht; Verfassungsmäßigkeit des Vertrages; Fürsorgepflicht der Bundesrepublik für alle Deutschen; keine positiven Veränderungen seit der Unterzeichnung; ungeregeltes Verhältnis von Berlin (West); Akzeptanz der Teilung; Haltung der westlichen Verbündeten; Informationspolitik der Bundesregierung; Möglichkeiten einer für die Bundesrepublik akzeptablen Auslegung; Bedeutung von Rechtspositionen für die sowjetische Außenpolitik; Überweisung an die Sonderkommission Grundvertrag zur Erarbeitung der Begründung der Ablehnung des Vertrags durch die Fraktion mit den Vertretern der CDU/CSU-regierten Länder).</item>
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-C" corresp="#div-C" n="C">Verschiedenes (Stimmabgabe bei der Wahl des Bundeskanzlers; Wahl des Bundestagspräsidiums).</item>
+				</list>
+			</div>
+		</front>
+		<body>
+			<div type="SVP" xml:id="div-A">
+				<head>[A.]</head>
+				<!--Fettung wird zu Auszeichnung als Sprecher-->
+				<!--sound sollte nicht den Absatz teilen, kann aber trotzdem in der Webanzeige wie im Word dargestellt werden-->
+				<p><name type="Person" role="Sprecher" ref="#">Barzel</name>: Meine Damen und Herren! Ich eröffne diese Sitzung der Fraktion. Ich bitte Sie, Platz zu nehmen, meine Damen und Herren. Meine Damen und Herren, ich möchte zunächst unsere Kollegen von Hassel und Jaeger zur Wahl in das Prä-sidium des Bundestages beglückwünschen<sound type="Applaus">(Starker Beifall.)</sound> und möchte bei dieser Gelegenheit, lieber Herr von Hassel, nochmals unser aller Dank [aussprechen] für die vielen Jah-re, in denen Sie hier im Stuhl saßen als erster Kollege, für die Würde, die Souveränität, die Klugheit und die Um-sicht, mit der Sie dieses Amt so geleitet haben , daß dies ein Vorbild für alle kommenden Präsidenten ist. Ihnen dafür zu danken, ist mir ein Bedürfnis und dieser Fraktion ganz sicher auch. Vielen Dank, Herr von Hassel!<sound type="Applaus">(Starker Beifall.)</sound></p>
+				<p>Punkt 2, meine Freunde, es ist erlaubt, einen Blick auf die Koalition zu wenden und nicht nur unsere eigenen Probleme zu sehen. Es hat den Eindruck, daß auf die Inflation der Preise nun die Inflation der Posten folgt. Es ist, glaube ich, ziemlich undurchsichtig, wer hier für was zuständig sein wird. Ich bitte Sie einmal – oder das können wir ei-gentlich auch machen, Herr Rösing –, die Rede von Ollenhau-er zur Hand zu nehmen, als wir das untaugliche und später zugegeben untaugliche Experiment der Sonderminister mal begonnen haben, eine köstliche Rede. Ob sie zum Verwenden geeignet ist, weiß ich nicht, aber zum Schmunzeln ganz si-cher auf dem Weg nach Hause und vielleicht für Versammlun-gen draußen.</p>
+				<p>Ich habe soeben vorgelegt bekommen den »Vorwärts« von morgen. Neue Regierung vor hartem Wetter – Minister auf Bewährung. Das wird also den Herren schon gleich mit auf den Weg gegeben, daß man nach 2 Jahren wahrscheinlich das neu machen würde. Und dann heißt es wie folgt – ich muß Ihnen ein paar Sätze vorlesen: »Daß diesmal auf halber Strecke eine Blutauffrischung fällig werden könnte, hängt auch mit jenen Reformvorhaben zusammen, [auf] die man sich nur im Grundsätzlichen geeinigt hat, die aber in ihren umstrittenen Details erst noch abgestimmt und dann vielleicht von unverbrauchten Kräften angepackt werden müssen: etwa Mitbestim-mung, Steuerreform plus Vermögensbildung, Medienpolitik.« Meine Damen und Herren, ich laß dann ein paar Sätze weg. Dann geht es weiter: »Vielmehr droht das Unheil von dem übertriebenen Profilierungsehrgeiz, dem einige Freie Demokraten gern erliegen, und von verfehlten, auf jeden Fall unreflektierten Alleinregierungsambitionen, die manche Sozialdemokraten nicht unterdrücken können.« Na usw. »Unter Sozialdemokraten jedenfalls stößt es nicht überall auf Verständnis, wenn der Bundeskanzler von der historischen Notwendigkeit des Bündnisses spricht. Besonders jüngere SPD-Mitglieder wollen diese Konflikte mit der [FDP]  nicht ausschließen.«</p>
+				<p>...</p>
+				<p>Ich möchte diesen Bericht zur Debatte stellen. Wird dazu das Wort gewünscht? Herr Kollege Kliesing.</p>
+				<p><name type="Person" role="Sprecher" ref="#">Kliesing</name>: Herr Vorsitzender, ich möchte mir eine bemerkende Bitte erlauben im Zusammenhang mit dem, was Sie zu der Ren-tenpolitik der Regierung gesagt haben. Falls es dazu kommen sollte – und das ist ja wohl mit Sicherheit anzunehmen – und wir dann die Ergebnisse dieser Regierungspolitik gegen-über den Rentnern politisch auswerten wollen, so würde ich darum bitten, daß wir bei solchen, insbesondere schriftli-chen Auswertungen uns in der Sprache, die wir sprechen, der Alltagssprache, die in Rentnerkreisen üblich ist, soweit wie möglich anpassen.<sound type="Applaus">(Starker Beifall.)</sound> Und ich möchte das Problem Renten in diesem Zusammenhang stellvertretend nehmen für alle künftigen, schriftlich zu formulierenden und ins Volk hineinzutragenden Aussagen der Partei.</p>
+				<p><name type="Person" role="Sprecher" ref="#">Barzel</name>: Wird sonst das Wort gewünscht? Das ist nicht der Fall, dann wird entsprechend verfahren. Dann bitte ich jetzt Herrn Kollegen Ritz – der soll das mal üben. Komm’ her, Junge. Ich bitte um Verständnis, ich muß noch ein paar Gespräche führen. Ich werde genausogut unterrichtet durch ein Protokoll, was Herr Marx macht, über die verschiedenen Auffassungen. Herr Kollege Ritz, ich hoffe, daß ich in ei-ner guten Stunde dann wieder hier sein kann.</p>
+			</div>
+			<div type="SVP" xml:id="div-B">
+				<head>[B.]</head>
+				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Meine Damen und Herren, ich hoffe, daß Sie mir das Üben erleichtern. Vielen Dank!<sound type="Applaus">(Beifall.)</sound></p>
+				<p>...</p>
+				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Vielen Dank, Herr Kliesing! Herr Birrenbach?</p>
+				<p><sound type="Zwischenruf">{(Nicht verständlich, da ohne Mikrophon.)}</sound></p>
+				<p>Alles klar, vielen herzlichen Dank, Herr Birrenbach. Darf ich zu einer kurzen Zwischenbemerkung Herrn Dr. Marx das Wort geben?</p>
+			</div>
+		</body>
+	</text>
 </TEI>

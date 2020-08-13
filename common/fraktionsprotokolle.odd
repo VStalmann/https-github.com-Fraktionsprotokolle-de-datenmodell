@@ -61,10 +61,12 @@ created here.</p>
 <moduleRef key="tei"/>
 <moduleRef key="textstructure"/>
 <!--Ungeprüft übergreifend für teiHeader eingeführt-->
-<moduleRef key="namesdates"/>
-<moduleRef key="msdescription"/>
+	<moduleRef key="namesdates" except=""/>
+	<moduleRef key="msdescription" except=""/>	
 <!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
-<moduleRef key="linking"/>
+	<moduleRef key="linking" except=""/>
+	<!--Ermöglicht <sound> (alle anderen Elemente aus drama gelöscht)-->
+	<moduleRef key="drama" except="actor camera caption castGroup castItem castList epilogue move performance prologue role roleDesc set spGrp tech view"/>
 	<!--Modul core-->
 	<elementSpec ident="name" module="core" mode="change">
 		<attList>
@@ -114,6 +116,22 @@ created here.</p>
 					<!--body-->
 					<valItem ident="SVP">
 						<desc>Punkt in Sitzungsverlauf</desc>
+					</valItem>
+				</valList>
+			</attDef>
+		</attList>
+	</elementSpec>
+	<!--Modul drama-->
+	<elementSpec ident="sound" module="drama" mode="change">
+		<attList>
+			<attDef ident="type" mode="change" usage="req">
+				<valList type="closed" mode="replace">
+					<!--front-->
+					<valItem ident="Applaus">
+						<desc></desc>
+					</valItem>
+					<valItem ident="Zwischenruf">
+						<desc></desc>
 					</valItem>
 				</valList>
 			</attDef>
