@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="testfile">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Testfile</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>
+					<!-- Information about distribution of the resource -->
+				</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>
+					<!-- Information about source from which the resource derives -->
+				</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="SVP" xml:id="div-X">
+				<!--https://fraktionsprotokolle.de/handle/431 S. 23ff.-->
+				<p>... aber ich habe der »Bild-Zeitung« eine Antwort geschrieben und bin gespannt, aber ich glaube, sie wird morgen früh dort stehen.51 Die Antwort lautet folgendermaßen:</p>
+				<floatingText>
+					<body>
+						<div type="Textsegment-zitiert">
+							<p>»Sehr geehrte Frau Hannebauer,<lb/>
+den  Brief,  der  unter  Ihrem  Namen  am  Montag  in  der  ›Bild-Zeitung‹  abgedruckt  wurde,  habe  ich  nicht  nur  mit  Bedauern  gelesen,  ich  habe  mich  auch  gefragt,  wer  wohl  die  Ver-antwortung  dafür  trägt,  dass  Sie  einer  solchen  Verwirrung  der  Begriffe  unterliegen  und  wer die Verketzerung auf dem Gewissen hat, die aus Ihren Zeilen spricht.</p>
+							<list>
+								<item>1. Wieso erliegen Sie dem Selbstbetrug, jetzt solle ein Viertel Deutschlands so mir nichts, dir nichts verschenkt werden? Das ist doch einfach nicht wahr.  </item>
+								<item>2.  Wer  hat  Ihnen  eingeredet,  wir  wollten  20  Millionen  Menschen  das  Recht  auf  Heimat  oder gar das Recht auf Selbstbestimmung absprechen? Das ist doch eine böswillige Unter-stellung. </item>
+								<item>3. Wer gibt Ihnen das Recht, uns gegenüber für die anständigen Deutschen zu sprechen? Das ist doch eine schlimme Anmaßung.  </item>
+								<item>4. Wie kommen Sie dazu, das Bemühen um Aussöhnung und Frieden ein großes Verbre-chen zu nennen und dies auch noch mit den Untaten des Hitler-Regimes in einem Atem-zug zu nennen? So lässt sich nicht diskutieren. </item>
+							</list>
+							<p>Wenn ich trotzdem geantwortet habe, so um zu sagen, dass ich mich mit den Heimatver-triebenen verbunden fühle, nicht allerdings mit denen, die mit den Gefühlen der Heimat-vertriebenen Schindluder treiben.<sound> (Beifall.)</sound></p>
+							<p>Meine  Regierung  und  die  sie  tragenden  Parteien  können  nicht  wegzaubern,  was  uns  der  von Hitler  begonnene  und  verlorene  Krieg  hinterlassen  hat.  Das  kann  auch  Herr  Barzelnicht, nicht Herr Strauß, nicht die ›Bild-Zeitung‹. Wenn ich gemeinsam mit Herrn Scheelden Vertrag in Warschau unterschreibe, so wird durch uns kein Unrecht legitimiert. Und der  schweren  Opfer,  die  viele  unserer  Landsleute  haben  bringen  müssen,  sind  wir  uns  wohl  bewusst,  aber  wir  werden  guten  Gewissens  einen  Schlussstrich  unter  die  Vergan-genheit  ziehen,  um  der  friedlichen  Zukunft  unseres  Volkes  und  unserer  Kinder  willen.  Nur in einem Europa der friedlichen Zusammenarbeit werden wir Deutschen uns bewäh-ren und dann auch unserer nationalen Einheit näherkommen können.« </p>
+						</div>
+					</body>
+				</floatingText>
+				<p>Ich wollte das, weil es konzentriert ist, sagen und darf noch ein paar Worte hinzufügen. Die  Gesamtbewertung  des  Vorgangs  mag  uns  in  der  Fraktion  leichtfallen,  denn  die  Gesamtbewertung ist darum leicht, weil sie sich stützen kann auf Parteitagsbeschlüsse, weil  sie  abzuleiten  ist  aus  der  Regierungserklärung,  aus  dem,  was  wir  seitdem  gesagt  haben,  auch  der  Parteivorstand  hat  sich  dazu  kürzlich  geäußert,  die  Genossen  kennen  das.  Die  Einzelbewertung,  die  kann,  das  muss  ich  einräumen  grade  auch  Kritikern  ge-genüber, die Einzelbewertung kann heute noch keiner vornehmen. Warum nicht? Zum Beispiel  deshalb  nicht,  weil  zur  Einzelbewertung  noch  mitgehören  wird,  was  in  Mos-kau,  in  Moskau  sag’  ich  jetzt,  in  Warschau  noch  zu  besprechen  ist  im  Zusammenhang  mit der Unterzeichnung. Aber auch schon nach dem jetzigen Stand ist es so, liebe Ge-nossen, wenn ihr zum Beispiel die Drucksachen anschaut, auf die Herbert Wehner ver-wiesen hat, die betreffende Nummer des Bulletins ist ja hier noch nach dem vervielfäl-tigten  Zeug,  aber  das  ist  ja  voll  übernommen  worden  im  Bulletin,  da  bezieht  sich  der  letzte Teil auf eine Information der Regierung der Volksrepublik Polen über Maßnah-men zur Lösung humanitärer Probleme.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
