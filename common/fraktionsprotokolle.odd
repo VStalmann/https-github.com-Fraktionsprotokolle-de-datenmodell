@@ -73,18 +73,23 @@ created here.</p>
 			<attDef ident="type" mode="change" usage="req">
 				<valList type="closed" mode="replace">
 					<valItem ident="Person">
-						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+						<desc></desc>
 					</valItem>
 					<valItem ident="Ort">
-						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+						<desc></desc>
 					</valItem>
+					<valItem ident="Organisation">
+						<desc></desc>
+					</valItem>
+					<!--eventuell vereinheitlichen zu type="Organisation" role="xy"-->
 					<valItem ident="Institution">
-						<desc>Kopfdaten Protokoll (front)</desc>
+						<desc></desc>
 					</valItem>
 				</valList>
 			</attDef>
 			<attDef ident="role" mode="change" usage="opt">
 				<valList type="closed" mode="replace">
+					<!--Personen-->
 					<valItem ident="Vorsitz">
 						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
 					</valItem>
@@ -92,7 +97,20 @@ created here.</p>
 						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
 					</valItem>
 					<valItem ident="Erwaehnung">
-						<desc>Kopfdaten Protokoll (front)</desc>
+						<desc></desc>
+					</valItem>
+					<!--Organisationen-->
+					<valItem ident="news">
+						<desc></desc>
+					</valItem>
+					<valItem ident="pol">
+						<desc></desc>
+					</valItem>
+					<valItem ident="com">
+						<desc></desc>
+					</valItem>
+					<valItem ident="soc">
+						<desc></desc>
 					</valItem>
 				</valList>
 			</attDef>
