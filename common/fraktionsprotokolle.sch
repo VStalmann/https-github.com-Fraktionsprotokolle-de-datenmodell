@@ -33,7 +33,7 @@
 	<!--Inhaltliche Warnungen -Vorschläge-->
 	<pattern id="standardangaben-div-im-body">
 		<rule context="tei:div[@type='SVP']">
-			<assert test="descendant::tei:name[@role='Sprecher']" role="ERROR">Pro div soll mind. ein Sprecher ausgewiesen sein</assert>
+			<!--<assert test="descendant::tei:name[@role='Sprecher']" role="ERROR">Pro div soll mind. ein Sprecher ausgewiesen sein</assert>-->
 		</rule>
 	</pattern>
 </schema>
