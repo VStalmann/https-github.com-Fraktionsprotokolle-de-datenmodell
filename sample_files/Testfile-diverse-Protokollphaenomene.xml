@@ -43,6 +43,44 @@ den  Brief,  der  unter  Ihrem  Namen  am  Montag  in  der  ›Bild-Zeitung‹  
 				</floatingText>
 				<p>Ich wollte das, weil es konzentriert ist, sagen und darf noch ein paar Worte hinzufügen. Die  Gesamtbewertung  des  Vorgangs  mag  uns  in  der  Fraktion  leichtfallen,  denn  die  Gesamtbewertung ist darum leicht, weil sie sich stützen kann auf Parteitagsbeschlüsse, weil  sie  abzuleiten  ist  aus  der  Regierungserklärung,  aus  dem,  was  wir  seitdem  gesagt  haben,  auch  der  Parteivorstand  hat  sich  dazu  kürzlich  geäußert,  die  Genossen  kennen  das.  Die  Einzelbewertung,  die  kann,  das  muss  ich  einräumen  grade  auch  Kritikern  ge-genüber, die Einzelbewertung kann heute noch keiner vornehmen. Warum nicht? Zum Beispiel  deshalb  nicht,  weil  zur  Einzelbewertung  noch  mitgehören  wird,  was  in  Mos-kau,  in  Moskau  sag’  ich  jetzt,  in  Warschau  noch  zu  besprechen  ist  im  Zusammenhang  mit der Unterzeichnung. Aber auch schon nach dem jetzigen Stand ist es so, liebe Ge-nossen, wenn ihr zum Beispiel die Drucksachen anschaut, auf die Herbert Wehner ver-wiesen hat, die betreffende Nummer des Bulletins ist ja hier noch nach dem vervielfäl-tigten  Zeug,  aber  das  ist  ja  voll  übernommen  worden  im  Bulletin,  da  bezieht  sich  der  letzte Teil auf eine Information der Regierung der Volksrepublik Polen über Maßnah-men zur Lösung humanitärer Probleme.</p>
 			</div>
+			<div><q>
+				<p>...</p>
+				<list>
+					<item>...</item>
+					<item>...</item>
+				</list></q>
+			</div>
+<div>
+<!--Zwischenrufe, Applaus-->
+<!--cdu-->
+<!--Beispiele aus https://github.com/Fraktionsprotokolle-de/datenmodell/issues/13-->
+<!--(Zwischenruf.)-->
+<p><incident><desc resp="Bearbeiter_zeitgen">(Zwischenruf.)</desc></incident></p>
+<!--(Zwischenruf: Was soll der Quatsch?)-->
+<p><incident><desc resp="Bearbeiter_zeitgen">(Zwischenruf: Was soll der Quatsch?)</desc></incident></p>
+<!--(Zwischenruf Müller.)-->
+<p><incident><desc resp="Bearbeiter_zeitgen">(Zwischenruf Müller.)</desc></incident></p>
+<!--{(Nicht verständlich, da ohne Mikrophon.)}*
+*Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.-->
+<p><incident><desc resp="Bearbeiter_zeitgen">(Nicht verständlich, da ohne Mikrophon.)</desc></incident><note>Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.</note></p>
+<!--spd - Transkription durch KGParl-Team-->
+<!--("Zwischenruf")-->
+<p><incident><desc resp="Bearbeiter_KGParl">(Zwischenruf)</desc></incident></p>
+<!--(Vereinzelter Beifall)-->
+<p><incident><desc resp="Bearbeiter_KGParl">(Vereinzelter Beifall)</desc></incident></p>
+<!--Nicht transkribierte Sequenzen-->
+<!--cdu-->
+<!--{(Das Band ist aus Versehen bis zur Äußerung Dr. Warnke auf Seite 6 leider gelöscht. Dann geht es weiter.)}*
+*Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.-->
+<p><gap><desc resp="Bearbeiter_zeitgen">(Das Band ist aus Versehen bis zur Äußerung Dr. Warnke auf Seite 6 leider gelöscht. Dann geht es weiter.)</desc></gap><note>Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband</note></p>
+<!--{...}-->
+<p><gap><desc resp="Bearbeiter_zeitgen"/></gap></p>
+<!--Unkommentierte Auslassungen sind schn etwas schwerer zu greifen. So wäre es möglich, aber besser wäre eine Anmerkung, in etwa wie folgt-->
+<p><gap><desc resp="Bearbeiter_zeitgen"/></gap><note>Auslassung durch den zeitgenössischen Bearbeiter in der Vorlage</note></p>
+<!--spd - Transkription durch KGParl-Team-->
+<!--{...}-->
+<p><gap><desc resp="Bearbeiter_KGParl"/></gap><note>Unverständlich durch Störgeräusche</note></p>
+			</div>
 		</body>
 	</text>
 </TEI>
