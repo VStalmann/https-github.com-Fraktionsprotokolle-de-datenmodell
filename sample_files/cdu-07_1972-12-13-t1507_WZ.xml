@@ -25,14 +25,14 @@
 				<head>Sitzungsverlauf:</head>
 				<list rend="simple">
 					<!--Namentagging schon in SVPListe?-->
-					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-A" corresp="#div-A" n="A">Bericht des Vorsitzenden <name type="Person" role="Erwaehnung" ref="#">Barzel</name> (Dank an ehemaligen Bundestags-präsidenten von <name type="Person" role="Erwaehnung" ref="#">Hassel</name>; Konflikte in der sozial-liberalen Koalition; Viertes Rentenversicherungs-Änderungsgesetz; Verfahren bei der Wahl zum Fraktionsvorstand – Aussprache zu dem Bericht).</item>
-					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-B" corresp="#div-B" n="B">Fortsetzung der Aussprache aus der Sitzung vom 12. Dezember 1972 zum Grundvertrag (Selbstbestimmungsrecht; Verfassungsmäßigkeit des Vertrages; Fürsorgepflicht der Bundesrepublik für alle Deutschen; keine positiven Veränderungen seit der Unterzeichnung; ungeregeltes Verhältnis von Berlin (West); Akzeptanz der Teilung; Haltung der westlichen Verbündeten; Informationspolitik der Bundesregierung; Möglichkeiten einer für die Bundesrepublik akzeptablen Auslegung; Bedeutung von Rechtspositionen für die sowjetische Außenpolitik; Überweisung an die Sonderkommission Grundvertrag zur Erarbeitung der Begründung der Ablehnung des Vertrags durch die Fraktion mit den Vertretern der CDU/CSU-regierten Länder).</item>
-					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-C" corresp="#div-C" n="C">Verschiedenes (Stimmabgabe bei der Wahl des Bundeskanzlers; Wahl des Bundestagspräsidiums).</item>
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-A" corresp="#SVP-A" n="A">Bericht des Vorsitzenden <name type="Person" role="Erwaehnung" ref="#">Barzel</name> (Dank an ehemaligen Bundestags-präsidenten von <name type="Person" role="Erwaehnung" ref="#">Hassel</name>; Konflikte in der sozial-liberalen Koalition; Viertes Rentenversicherungs-Änderungsgesetz; Verfahren bei der Wahl zum Fraktionsvorstand – Aussprache zu dem Bericht).</item>
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-B" corresp="#SVP-B" n="B">Fortsetzung der Aussprache aus der Sitzung vom 12. Dezember 1972 zum Grundvertrag (Selbstbestimmungsrecht; Verfassungsmäßigkeit des Vertrages; Fürsorgepflicht der Bundesrepublik für alle Deutschen; keine positiven Veränderungen seit der Unterzeichnung; ungeregeltes Verhältnis von Berlin (West); Akzeptanz der Teilung; Haltung der westlichen Verbündeten; Informationspolitik der Bundesregierung; Möglichkeiten einer für die Bundesrepublik akzeptablen Auslegung; Bedeutung von Rechtspositionen für die sowjetische Außenpolitik; Überweisung an die Sonderkommission Grundvertrag zur Erarbeitung der Begründung der Ablehnung des Vertrags durch die Fraktion mit den Vertretern der CDU/CSU-regierten Länder).</item>
+					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-C" corresp="#SVP-C" n="C">Verschiedenes (Stimmabgabe bei der Wahl des Bundeskanzlers; Wahl des Bundestagspräsidiums).</item>
 				</list>
 			</div>
 		</front>
 		<body>
-			<div type="SVP" xml:id="div-A">
+			<div type="SVP" xml:id="SVP-A">
 				<head>[A.]</head>
 				<p><name type="Person" role="Sprecher" ref="#">Barzel</name>: Meine Damen und Herren! Ich eröffne diese Sitzung der Fraktion. Ich bitte Sie, Platz zu nehmen, meine Damen und Herren. Meine Damen und Herren, ich möchte zunächst unsere Kollegen von Hassel und Jaeger zur Wahl in das Prä-sidium des Bundestages beglückwünschen<incident><desc resp="#Vorlage">(Starker Beifall.)</desc></incident> und möchte bei dieser Gelegenheit, lieber Herr von Hassel, nochmals unser aller Dank [aussprechen] für die vielen Jah-re, in denen Sie hier im Stuhl saßen als erster Kollege, für die Würde, die Souveränität, die Klugheit und die Um-sicht, mit der Sie dieses Amt so geleitet haben , daß dies ein Vorbild für alle kommenden Präsidenten ist. Ihnen dafür zu danken, ist mir ein Bedürfnis und dieser Fraktion ganz sicher auch. Vielen Dank, Herr von Hassel!<incident><desc resp="#Vorlage">(Starker Beifall.)</desc></incident></p>
 				<p>Punkt 2, meine Freunde, es ist erlaubt, einen Blick auf die Koalition zu wenden und nicht nur unsere eigenen Probleme zu sehen. Es hat den Eindruck, daß auf die Inflation der Preise nun die Inflation der Posten folgt. Es ist, glaube ich, ziemlich undurchsichtig, wer hier für was zuständig sein wird. Ich bitte Sie einmal – oder das können wir ei-gentlich auch machen, Herr Rösing –, die Rede von Ollenhau-er zur Hand zu nehmen, als wir das untaugliche und später zugegeben untaugliche Experiment der Sonderminister mal begonnen haben, eine köstliche Rede. Ob sie zum Verwenden geeignet ist, weiß ich nicht, aber zum Schmunzeln ganz si-cher auf dem Weg nach Hause und vielleicht für Versammlun-gen draußen.</p>
@@ -45,12 +45,12 @@
 				<p>...</p>
 				<p>Und hier stellt sich natürlich auch ganz massiv die Frage der Verfassungsmäßigkeit, denn hier sind in der Tat die Obhutspflicht und die Fürsorgepflicht der deutschen Bundes-regierung für das Selbstbestimmungsrecht und auch für die Menschenrechte aller Deutschen angesprochen. Ich erinnere [...] an die Rede, die unser verstorbener Kollege [Freiherr von und zu] Guttenberg im Bundestag im Mai 1970 gehalten hat, in der er gerade auf diesen Zusammenhang eindringlich hingewiesen hat, daß ein Abgeordneter dieses Bundestages Verantwortung für sein ganzes Volk und für die Freiheit und Menschenrechte aller Deutschen, auch derer drüben hinter der Demarkationslinie trägt.</p>
 			</div>
-			<div type="SVP" xml:id="div-B">
+			<div type="SVP" xml:id="SVP-B">
 				<head>[B.]</head>
 				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Meine Damen und Herren, ich hoffe, daß Sie mir das Üben erleichtern. Vielen Dank!<incident><desc resp="#Vorlage">(Beifall.)</desc></incident></p>
 				<p>...</p>
 				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Vielen Dank, Herr Kliesing! Herr Birrenbach?</p>
-				<p><incident><desc resp="#Vorlage">(Nicht verständlich, da ohne Mikrophon.)</desc></incident><note>Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.</note></p>
+				<incident><desc resp="#Vorlage">(Nicht verständlich, da ohne Mikrophon.)</desc></incident><note>Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.</note>
 				<p>Alles klar, vielen herzlichen Dank, Herr Birrenbach. Darf ich zu einer kurzen Zwischenbemerkung Herrn Dr. Marx das Wort geben?</p>
 			</div>
 		</body>

@@ -198,20 +198,20 @@ vorbehalten!</licence>
 <div type="SVPListe">
 <head>Sitzungsverlauf:</head>
 <list rend="simple">
-<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-A" corresp="#div-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name>.</item>
-<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-B" corresp="#div-B">B. Bericht des Landesvorsitzenden <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> über die Verhandlungen mit der CDU.</item>
-<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-C" corresp="#div-C">C. Allgemeine Aussprache.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-A" corresp="#SVP-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name>.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-B" corresp="#SVP-B">B. Bericht des Landesvorsitzenden <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> über die Verhandlungen mit der CDU.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-C" corresp="#SVP-C">C. Allgemeine Aussprache.</item>
 </list>
 </div>
 </front>
 <body>
-<div type="SVP" xml:id="div-A">
+	<div type="SVP" xml:id="SVP-A">
 <head>A.</head>
 <p>Der Vorsitzende Dr. <name type="Person" role="Sprecher" ref="#ZimmermannF">Zimmermann</name>, MdB, eröffnet die Sitzung mit einem Dank an die Landesgruppe für das Vertrauen, das sie den Delegationen entgegengebracht hat. Einen weiteren Dank spricht er allen Abgeordneten aus für ihren persönlichen Einsatz innerhalb des Wahlkreises seit den <seg type="note">Beschlüssen von Kreuth<note xml:id="FN001" type="comment">Zur Klausurtagung der CSU-Landesgruppe in <name type="Ort" ref="#Kreuth">Wildbad Kreuth</name> am 18./19. November 1976 <ref target="Weigel-1976-11-18.xml">vgl. die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> und <name type="Person" role="Erwaehnung" ref="#HaerdtlW">Wighard Härdtls</name></ref>, <ref target="#Jaeger-1976-11-19.xml">die Rede <name type="Person" role="Erwaehnung" ref="#JaegerR">Richard Jaegers </name>vom 19. November 1976</ref> sowie <ref type="intern" target="#Schreiben-1976-11-22.xml">das Schreiben an die Parteimitglieder vom 22. November 1976</ref>. <ref target="#Dateiname.xml">Vgl. auch die Aufzeichnungen <name type="Person" role="Erwaehnung" ref="#WaiglT">Theo Waigels</name> im Anhang E.</ref></note></seg>. Der besondere Dank gilt auch <name type="Person" role="Erwaehnung" ref="#StraußFJ">Franz Josef Strauß</name>.</p>
 <p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> appelliert an alle Abgeordneten, weiterhin mit <seg type="note">Mut<note xml:id="FN002" type="critical">In der Vorlage handschriftlich verbessert aus: »Macht«.</note></seg>, Zuversicht, Umsicht, Energie, Fleiß, Intelligenz und gegenseitigem Vertrauen die weitere Arbeit zu leisten.</p>
 <p>Dr. <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name> bittet sodann Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, einen Bericht über den Gang der Verhandlungen zu geben.</p>
 </div>
-<div type="SVP" xml:id="div-B">
+	<div type="SVP" xml:id="SVP-B">
 <head>B.</head>
 	<p>Dr. <name type="Person" role="Sprecher" ref="#StraußFJ">Strauß</name>, MdB, <seg type="comment">setzt den Beschluß als bekannt voraus<note xml:id="FN0003">Am 12. Dezember 1976 einigten sich die Parteivorsitzenden <name type="Person" role="Erwaehnung" ref="#KohlH">Kohl</name> (CDU) und <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> (CSU) auf die Wiederherstellung der Fraktionsgemeinschaft im Deutschen Bundestag. Vgl. <title type="j" ref="#EA">Europa-Archiv 1976</title>, S. Z 2.</note></seg>. Er führt weiter aus, daß ihm <seg type="comment">seit Donnerstag<note xml:id="FN004"><ref target="#csulg-1976-12-09.xml">Vgl. die gemeinsame Sitzung des Landesvorstandes und der Landesgruppe am 9. Dezember 1976.</ref> Vgl. dazu auch den Artikel »Strauß bietet Rückkehr zur Fraktionsgemeinschaft an«; <name type="Organisation" role="news" ref="#SZ">Süddeutsche Zeitung</name> vom 10. Dezember 1976, S. 1 f.</note></seg> klargeworden ist, wer in der CDU die Spaltung will. Dies seien die Linken. Links solle jedoch nicht mit sozial verwechselt werden. Die Linken haben sich von einer Spaltung mehr Operationsfreiheit erhofft. Durch die Verhandlungen habe man erreicht, daß die CSU-Landesgruppe ihre eigenen Initiativen besser entfalten kann und ihre eigenen Anträge einbringen, selbst vertreten und auch selbst darüber abstimmen kann. Sie wird dadurch in der Fraktion eine stärkere Stellung erhalten. Insgesamt sei das CSU-Papier vom Donnerstag in der Substanz angenommen worden, man habe es nur teilweise anders formuliert.</p>
 <p>Zum Problem Präsident des Bundestages sagt Dr. <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name>, daß er gehört habe, daß die SPD die <seg type="note">Fraktionsvereinbarung<note xml:id="FN005" type="comment">Zur Vereinbarung über die Fortführung der Fraktionsgemeinschaft zwischen CDU und CSU für die 8. Legislaturperiode des Deutschen Bundestages und zur Vereinbarung von CDU und CSU über die Grundlagen der politischen Zusammenarbeit während der Legislaturperiode im 8. Deutschen Bundestag vom 13. Dezember 1976 vgl. <title type="shelf" ref="#ACDP">ACDP, 08-008-164/1</title>. Vgl. auch <title type="j" ref="#ParteienJ">Parteien-Jahrbuch 1976</title>, S. 424—426.</note></seg> anzweifeln will, <seg type="note">um Frau <name type="Person" role="Erwaehnung" ref="#RengerAM">Renger</name> zu retten<note xml:id="FN0006" type="comment">Am 14. Dezember 1976 wurde der bisherige Vorsitzende der CDU/CSU-Fraktion, <name type="Person" role="Erwaehnung" ref="#CarstensK">Karl Carstens</name>, zum Bundestagspräsidenten gewählt. Vgl. BT Plenarprotokoll <ref target="#BT-Plenar">08/1</ref>, S. 3 f.</note></seg>. Die FDP habe jedoch bereits zu verstehen gegeben, daß sie die Vereinbarung anerkennt. Somit dürfte gesichert sein, daß die CDU/CSU-Fraktion den Präsidenten stellen wird.</p>
@@ -227,7 +227,7 @@ vorbehalten!</licence>
 <p>In seinen weiteren Ausführungen geht Dr. Strauß nochmals auf die Indiskretionen bei Sitzungen ein. Insbesondere erinnert er an die Tonbandveröffentlichungen aus seiner Rede bei der Jungen Union. </p>
 <p>Anschließend bedankt sich Dr. Strauß nochmals bei der Landesgruppe für ihr Vertrauen und bittet dabei Herrn Dr. Jaeger, in Zukunft, wenn er anderer Meinung sei, dies nicht in der Öffentlichkeit breitzutreten, denn er habe dadurch viele Freunde verloren. Sein Auftritt in der Öffentlichkeit habe ihn tief getroffen.</p>
 </div>
-<div type="SVP" xml:id="div-C">
+	<div type="SVP" xml:id="SVP-C">
 <head>C.</head>
 <p>... nicht ediert ...</p>
 </div>
