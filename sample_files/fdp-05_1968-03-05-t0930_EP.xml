@@ -2,30 +2,79 @@
 <?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fdp-05_1968-03-05-t0930_EP">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>TestDatei-Notes
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TestDatei-Notes
 </title>
-</titleStmt>
-<publicationStmt>
-<p>
-<!-- Information about distribution of the resource -->
-</p>
-</publicationStmt>
-<sourceDesc>
-<p>
-<!-- Information about source from which the resource derives -->
-</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<text>
-<body>
-<div type="SVP" xml:id="div-Aa">
-<head></head>
-<p></p>
-</div>
-</body>
-</text>
+			</titleStmt>
+			<publicationStmt>
+				<p>
+					<!-- Information about distribution of the resource -->
+				</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>
+					<!-- Information about source from which the resource derives -->
+				</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="SVPListe">
+				<head>Sitzungsverlauf:</head>
+				<list rend="simple">
+					<!--Namentagging schon in SVPListe?-->
+					<item xml:id="fdp-05_1968-03-05-t0930_SVP-A" corresp="#SVP-A"><label>A.</label> Besetzung der Bundestagsausschüsse und der Wahlkreiskommission.</item>
+					<item xml:id="fdp-05_1968-03-05-t0930_SVP-B" corresp="#SVP-B"><label>B.</label> Verschiedenes (Veranstaltungshinweise, Initiativgesetzentwurf zur Einrichtung eines Se¬nats für Parlamentsfragen, Aufwandsentschädigungen für die Mitglieder des Vorstands, HS-30).</item>
+					<item xml:id="fdp-05_1968-03-05-t0930_SVP-C" corresp="#SVP-C"><label>C.</label> Agrarpolitische Fragen.</item>
+					<item xml:id="fdp-05_1968-03-05-t0930_SVP-D" corresp="#SVP-D"><label>D.</label> Bericht zur Lage der Nation.</item>
+				</list>
+			</div>
+		</front>
+		<body>
+			<div type="SVP" xml:id="SVP-A">
+				<head>[A.]</head>
+				<p>
+					<list>
+						<head>Ausschußbesetzung.</head>
+						<item><label>a)</label> Frau Dr. Heuser wird den ordentlichen Sitz im Ausschuß für Gesundheitswesen des Deutschen Bundestages und den stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik erhalten.</item>
+						<item><label>b)</label> Herr Dorn nimmt einen stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik wahr.</item>
+					</list>
+				</p>
+				<p>
+					<list>
+						<head>Vertreter der FDP in der Wahlkreiskommission.</head>
+						<item><label>a)</label> Die FDP-Bundestagsfraktion wird den ihr angebotenen Sitz in der Kommission (Besetzung 3 : 3 : 1) zur künftigen Wahlkreiseinteilung wahrnehmen.</item>
+						<item><label>b)</label> Vorgesehen ist Herr Dr. Friderichs.</item>
+						<item><label>c)</label> Die Benennung gegenüber dem Bundesinnenministerium erfolgt erst dann, wenn die Koalitionsfraktionen ihre personellen Entscheidungen getroffen und mitgeteilt haben.</item>
+					</list>
+				</p>
+			</div>
+			<div type="SVP" xml:id="SVP-B">
+				<head>[B.]</head>
+				<p>
+					<list>
+						<head>Deutschlandpolitik.</head>
+						<item><label>a)</label> Am 26. 3. 1968 findet um 20.00 Uhr die bereits beschlossene Fraktionssitzung statt. </item>
+						<item><label>b)</label> Der Vorsitzende des Kuratoriums »Unteilbares Deutschland«, Herr Dr. Dr. Schütz, wird eingangs in einem Referat seine Vorstellungen darlegen.
+</item>
+					</list>
+				</p>
+				<p>
+					<list>
+						<head>Notstandshearing.</head>
+						<item><label>a)</label> Am Montag, dem 11.3.1968, findet um 11.00 Uhr in Zimmer 12 F (SPD-Fraktionssitzungssaal) eine Anhörung der studentischen Organisationen VDS, LSD, SHB, SDS und RCDS  zu Fragen des Notstandsrechts unter Beisein von Presse, Rundfunk und Fernsehen statt. </item>
+						<item><label>b)</label> Alle Fraktionsmitglieder, denen es möglich ist, werden um eine Teilnahme gebeten, da¬mit deutlich wird, daß die FDP bereit ist, sich alle Anliegen – auch der sogenannten außerparlamentarischen Opposition – sachlich vortragen zu lassen und darüber zu diskutieren.</item>
+						<item><label>c)</label> Alle Fraktionsmitglieder sind über diesen Beschluß zu unterrichten (ist für die in Berlin anwesenden Fraktionsmitglieder durch ein Rundschreiben des Fraktionsvorsitzenden bereits geschehen).</item>
+					</list>
+				</p>
+				<p>DGB-Kundgebung – Mitbestimmung.</p>
+				<p>An der Kundgebung des DGB am Dienstag, den 12. 3. 1968 in Köln, 16.00 Uhr, wird die FDP durch Frau Funcke, u. a. auch als Mitglied des Parteivorstandes und Herrn Schmidt vertreten werden.</p>
+				<p>Tagung nordrhein-westfälischer Industrieller.</p>
+				<p>Auf der Tagung des Landesverbandes nordrhein-westfälischer Industrieller am 12. 3. 1968 in Düsseldorf, 11.00 Uhr, wird die Fraktion durch die Abgeordneten Zoglmann und Frau Funcke vertreten sein.</p>
+			</div>
+		</body>
+	</text>
 </TEI>

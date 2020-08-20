@@ -198,9 +198,9 @@ vorbehalten!</licence>
 <div type="SVPListe">
 <head>Sitzungsverlauf:</head>
 <list rend="simple">
-	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-A" corresp="#SVP-A">A. Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name>.</item>
-	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-B" corresp="#SVP-B">B. Bericht des Landesvorsitzenden <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> über die Verhandlungen mit der CDU.</item>
-	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-C" corresp="#SVP-C">C. Allgemeine Aussprache.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-A" corresp="#SVP-A"><label>A.</label> Geschäftliche Mitteilungen des Landesgruppenvorsitzenden <name type="Person" role="Erwaehnung" ref="#ZimmermannF">Zimmermann</name>.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-B" corresp="#SVP-B"><label>B.</label> Bericht des Landesvorsitzenden <name type="Person" role="Erwaehnung" ref="#StraußFJ">Strauß</name> über die Verhandlungen mit der CDU.</item>
+	<item xml:id="csu-08_1976-12-13-t1510_EP_SVP-C" corresp="#SVP-C"><label>C.</label> Allgemeine Aussprache.</item>
 </list>
 </div>
 </front>
