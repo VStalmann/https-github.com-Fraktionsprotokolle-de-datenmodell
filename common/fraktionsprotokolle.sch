@@ -24,6 +24,12 @@
 			<assert test="starts-with(@ref, '#')" role="ERROR">Wert in @ref soll mit # beginnen</assert>
 		</rule>
 	</pattern>
+	<!--Incidents-->
+	<pattern id="incident">
+		<rule context="tei:incident">
+			<assert test="tei:desc[@resp='#Vorlage' or @resp='#sjuengerkes']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste,  angegeben werden</assert>
+		</rule>
+	</pattern>
 	<!--Inhaltliche Warnungen -Vorschläge-->
 	<pattern id="standardangaben-div-im-body">
 		<rule context="tei:div[@type='SVP']">
