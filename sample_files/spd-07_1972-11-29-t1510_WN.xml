@@ -37,9 +37,9 @@
 <div type="SVP" xml:id="SVP-A">
 <head>[A.]</head>
 	<p><name type="Person" role="Sprecher" ref="#Wehner">Wehner</name>: Die Sitzung ist eröffnet.</p>
-		<incident><desc resp="#sjuengerkes">(Pause. Hintergrundgeräusche. Die Abgeordneten setzen sich.)</desc></incident>
+		<pause/><incident><desc resp="#sjuengerkes">(Hintergrundgeräusche. Die Abgeordneten setzen sich.)</desc></incident>
 		<p>Zu Beginn dieser Sitzung gedenke ich eines Genossen, der zwar vielen nicht mehr als Kollege des Bundestages in Erinnerung ist, der aber in der Geschichte der Sozi-aldemokratischen Bundestagsfraktion als Angehöriger des Deutschen Bundestages von 1949 bis 1957 nicht nur eine bedeutende, sondern eine uns unvergessliche Rolle gespielt hat: Unseres Freundes Willi Richter , der am Montag dieser Woche verstor-ben ist. Vielen wird er als langjähriger Vorsitzender des Deutschen Gewerkschafts-bundes und als ein Mensch, der unermüdlich – bis in die letzte Zeit seines Lebens hinein – für das, was man unter Sozialpolitik bezeichnet im weitesten Sinn, für das, was inzwischen an besonders Menschlichem im Zusammenwirken mit den Län-dern, die man Entwicklungsländer nennt, immer wieder begegnet, und er hat sich immer wieder engagiert. Diese Fraktion, die im 7. Deutschen Bundestag als Sozial-demokratische Fraktion die stärkste des Bundestages sein wird , gedenkt dieses Vorkämpfers. Ich danke. </p>
-	<incident><desc resp="#sjuengerkes">(Pause.)</desc></incident>
+	<pause/>
 	<p>Die Tagesordnung liegt vor. Wird das Wort zur Tagesordnung gewünscht? Wird nicht gewünscht. </p>
 </div>
 </body>

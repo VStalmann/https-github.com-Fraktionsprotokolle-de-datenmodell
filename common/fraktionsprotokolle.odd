@@ -65,8 +65,8 @@ created here.</p>
 	<moduleRef key="msdescription" except=""/>	
 <!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
 	<moduleRef key="linking" except=""/>
-	<!--Ermöglicht <incident> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
-	<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic pause recording recordingStmt scriptStmt shift u vocal writing"/>
+	<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
+	<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic recording recordingStmt scriptStmt shift u vocal writing"/>
 	<!--Modul core-->
 	<elementSpec ident="name" module="core" mode="change">
 		<attList>
