@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gruene-10_1985-12-10-t1400_xx">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>gruene-10_1985-12-10-t1400_xx</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>
+					<!-- Information about distribution of the resource -->
+				</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>
+					<!-- Information about source from which the resource derives -->
+				</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text type="Protokoll">
+				<front>
+					<div type="Kopfdaten">
+						<p>AGG, B.II.1, 5802. Überschrift: »Protokoll der Fraktionssitzung vom 10.12.1985, 14.00–21.30 Uhr«.</p>
+						<p>Vorsitz: <name type="Person" role="Vorsitz" ref="#ZimmermannF">Zimmermann</name></p>
+					</div>
+					<div type="Anwesenheitsliste">
+						<head>Anwesend:</head>
+						<list rend="simple">
+							<item><label>Abgeordnete:</label>
+								<list>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Auhagen</name></item>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Borgmann</name></item>
+									<item>...</item>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Werner</name>.</item>
+								</list>
+							</item>
+							<item><label>Nachrückerinnen und Nachrücker:</label>
+								<list>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Fritsch</name>.</item>
+								</list>
+							</item>
+							<item>...</item>
+							<item>...</item>
+							<item><label>Gäste:</label> [<list>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Hennicke</name> (Öko-Institut)</item>
+									<item><name type="Person" role="Erwaehnung" ref="#XXX">Jochimsen</name> (Gesellschaft Energie Dezentra)</item>
+								</list>].
+						</item>
+						</list>
+					</div>
+				</front>
+				<body>
+					<div type="SVP" xml:id="SVP-I">
+						<head>I.</head>
+						<div type="SVPsub">
+							<head>1. Fahrt nach Wackerdorf</head>
+							<p>der auf der letzten ...Beschlu?:<list>
+									<item><label>a.</label> Die Fraktion empfiehlt ...</item>
+									<item><label>b.</label> Falls der BHA hierzu nicht bereit ist, ...</item>
+								</list>
+							</p>
+						</div>
+						<div type="SVPsub">
+							<p>2. Joschka Fischer wurde verabschiedet. Als Abschiedsgeschenk erhielt er das Buch »Wie wird man US-Präsident«. Joschka [Fischer] bedankte sich hierfür herzlich und sagte, er verlasse Bonn»mit einem lachenden und einem weinenden Auge«</p>
+						</div>
+						<div type="SVPsub">
+							<gap>
+								<desc resp="#BearbeiterX"/>
+							</gap>
+						</div>
+					</div>
+					<div type="SVP" xml:id="SVP-II">
+						<head>II. Schwerpunktthema: Energiewirtschaftsgesetz</head>
+						<p>Peter <name type="Person" role="Sprecher" ref="#">Hennicke</name> (Öko-Institut) stellt ...</p>
+						<p>...</p>
+						<gap>
+							<desc resp="#BearbeiterX"/>
+						</gap>
+					</div>
+					<div type="SVP" xml:id="SVP-III">
+						<head>III. Haushalt der Fraktion</head>
+						<p>Der von der Fraktion ...</p>
+					</div>
+				</body>
+			</text>
+			<text type="Anlage">
+				<front>
+					<head type="main">Anlage A</head>
+					<div type="Kopfdaten">
+						<p>10. Dezember 1985: Fraktionsgeschäftsführung: Haushalt der Fraktion für das Jahr 1986. AGG,B.II.1, 2116.</p>
+					</div>
+				</front>
+				<body>
+					<div type="Anlage">
+						<table>
+							<row role="label">
+								<cell/>
+								<cell/>
+								<cell>Ansatz 1986</cell>
+								<cell>(Ansatz 1985)</cell>
+							</row>
+							<row role="label">
+								<cell>A.</cell>
+								<cell>Laufende Einnahmen</cell>
+								<cell/>
+								<cell/>
+							</row>
+							<row>
+								<cell>1.</cell>
+								<cell>Fraktionszuschuß (Grundbetrag und Zuschlag nach Fraktionsstärke)</cell>
+								<cell>7 025 040</cell>
+								<cell>(6 780 984)</cell>
+							</row>
+							<row>
+								<cell>2.</cell>
+								<cell>Sondermittel für allgemeine internationale Zusammenarbeit</cell>
+								<cell>469 987</cell>
+								<cell>(453 656)</cell>
+							</row>
+						</table>
+						<div>
+							<head>Erläuterungen zu den Ausgabetiteln</head>
+							<div>
+								<head>1. Personalausgaben</head>
+								<list>
+									<item><label>a)</label> Nach dem Weggang</item>
+									<item><label>b)</label> Der Stellenplan der Fraktion wurde wie folgt bestätigt:
+						<table>
+											<row role="label">
+												<cell/>
+											</row>
+										</table>
+						Hinzu kommt </item>
+								</list>
+							</div>
+						</div>
+					</div>
+				</body>
+			</text>
+			<text type="Anlage">
+				<front>
+					<head type="main">Anlage B</head>
+					<div type="Kopfdaten">
+						<p>o.D.: Entwurf des Berichts des Betriebsrates derGRÜNENBundestagsfraktion zur Bundesdele-giertenkonferenz in Offenburg, 13./14. und 15. Dezember 1985. AGG, B.II.1, 48</p>
+					</div>
+				</front>
+				<body>
+					<div>
+						<p>Zur Abstimmung auf unserer Betriebsversammlung am Mittwoch, den 11. Dezember 1985 um11.00 Uhr</p>
+						<p>...</p>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>
