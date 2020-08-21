@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-08-21T08:31:28Z. .
+Schema generated from ODD source 2020-08-21T09:22:09Z. .
 TEI Edition: Version 3.6.0. Last updated on
 	16th July 2019, revision daa3cc0b9
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
@@ -12148,9 +12148,15 @@ You must supply at least two values for @target on <name/>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks a pause either between or within utterances. [8.3.2. Pausing]</a:documentation>
          <empty/>
          <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.timed.attributes"/>
+         <ref name="tei_att.timed.attribute.start"/>
+         <ref name="tei_att.timed.attribute.end"/>
+         <ref name="tei_att.duration.iso.attribute.dur-iso"/>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.ascribed.directed.attributes"/>
+         <attribute name="dur">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(duration) indicates the length of this element in time.</a:documentation>
+            <data type="duration"/>
+         </attribute>
          <empty/>
       </element>
    </define>

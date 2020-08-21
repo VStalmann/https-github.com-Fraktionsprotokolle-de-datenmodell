@@ -1,28 +1,28 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Fraktionsprotokolle - TEI with minimal setup</title>
-<author>Sebastian Rahtz</author>
-</titleStmt>
-<publicationStmt>
-<publisher>TEI Consortium</publisher>
-<availability status="free">
-<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Fraktionsprotokolle - TEI with minimal setup</title>
+				<author>Sebastian Rahtz</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TEI Consortium</publisher>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
 Commons Attribution-ShareAlike 3.0 Unported License </licence>
-<licence target="http://www.opensource.org/licenses/BSD-2-Clause">
-<p>Copyright 2013 TEI Consortium.</p>
-<p>All rights reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without modification, are
+					<licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+						<p>Copyright 2013 TEI Consortium.</p>
+						<p>All rights reserved.</p>
+						<p>Redistribution and use in source and binary forms, with or without modification, are
 permitted provided that the following conditions are met:</p>
-<list>
-<item>Redistributions of source code must retain the above copyright notice, this list of
+						<list>
+							<item>Redistributions of source code must retain the above copyright notice, this list of
 conditions and the following disclaimer.</item>
-<item>Redistributions in binary form must reproduce the above copyright notice, this list of
+							<item>Redistributions in binary form must reproduce the above copyright notice, this list of
 conditions and the following disclaimer in the documentation and/or other materials provided
 with the distribution.</item>
-</list>
-<p>This software is provided by the copyright holders and contributors "as is" and any express
+						</list>
+						<p>This software is provided by the copyright holders and contributors "as is" and any express
 or implied warranties, including, but not limited to, the implied warranties of
 merchantability and fitness for a particular purpose are disclaimed. In no event shall the
 copyright holder or contributors be liable for any direct, indirect, incidental, special,
@@ -31,23 +31,23 @@ goods or services; loss of use, data, or profits; or business interruption) howe
 and on any theory of liability, whether in contract, strict liability, or tort (including
 negligence or otherwise) arising in any way out of the use of this software, even if advised
 of the possibility of such damage.</p>
-</licence>
-<p>TEI material can be licensed differently depending on the use you intend to make of it.
+					</licence>
+					<p>TEI material can be licensed differently depending on the use you intend to make of it.
 Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
 generally appropriate for usages which treat TEI content as data or documentation. The BSD-2
 licence is generally appropriate for usage of TEI content in a software environment. For
 further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<p>Written from scratch.</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<text>
-<body>
-<head>A Minimal TEI Customization</head>
-<p>This is as minimal a TEI customization as is possible. That is, this
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Written from scratch.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>A Minimal TEI Customization</head>
+			<p>This is as minimal a TEI customization as is possible. That is, this
 ODD file is just about as simple as can be. It does not create a minimal
 TEI schema, of course. Adding various <gi>elementSpec</gi>,
 <gi>classSpec</gi>, and <gi>macroSpec</gi> elements to this
@@ -55,92 +55,104 @@ customization file could make the resulting schema more minimal, but
 would make this customization more complicated. E.g., the customization
 <name>tei_bare</name> produces a much more minimal schema than the one
 created here.</p>
-<schemaSpec ident="tei_minimal" start="TEI" prefix="tei_" targetLang="en" docLang="de">
-<moduleRef key="header"/>
-<moduleRef key="core"/>
-<moduleRef key="tei"/>
-<moduleRef key="textstructure"/>
-<!--Ungeprüft übergreifend für teiHeader eingeführt-->
-	<moduleRef key="namesdates" except=""/>
-	<moduleRef key="msdescription" except=""/>	
-<!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
-	<moduleRef key="linking" except=""/>
-	<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
-	<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic recording recordingStmt scriptStmt shift u vocal writing"/>
-	<!--Modul core-->
-	<elementSpec ident="name" module="core" mode="change">
-		<attList>
-			<attDef ident="type" mode="change" usage="req">
-				<valList type="closed" mode="replace">
-					<valItem ident="Person">
-						<desc></desc>
-					</valItem>
-					<valItem ident="Ort">
-						<desc></desc>
-					</valItem>
-					<valItem ident="Organisation">
-						<desc></desc>
-					</valItem>
-					<!--eventuell vereinheitlichen zu type="Organisation" role="xy"-->
-					<valItem ident="Institution">
-						<desc></desc>
-					</valItem>
-				</valList>
-			</attDef>
-			<attDef ident="role" mode="change" usage="opt">
-				<valList type="closed" mode="replace">
-					<!--Personen-->
-					<valItem ident="Vorsitz">
-						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
-					</valItem>
-					<valItem ident="Sprecher">
-						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
-					</valItem>
-					<valItem ident="Erwaehnung">
-						<desc></desc>
-					</valItem>
-					<!--Organisationen-->
-					<valItem ident="news">
-						<desc></desc>
-					</valItem>
-					<valItem ident="pol">
-						<desc></desc>
-					</valItem>
-					<valItem ident="com">
-						<desc></desc>
-					</valItem>
-					<valItem ident="soc">
-						<desc></desc>
-					</valItem>
-				</valList>
-			</attDef>
-		</attList>
-	</elementSpec>
-<!--Modul textstructure-->
-	<elementSpec ident="div" module="textstructure" mode="change">
-		<attList>
-			<attDef ident="type" mode="change" usage="req">
-				<valList type="closed" mode="replace">
-					<!--front-->
-					<valItem ident="SVPListe">
-						<desc>Überblicksliste Sitzungsverlauf (front)</desc>
-					</valItem>
-					<valItem ident="Anwesenheitsliste">
-						<desc>Anwesenheitsliste Sitzungsverlauf</desc>
-					</valItem>
-					<valItem ident="Kopfdaten">
-						<desc>Kopfdaten Protokoll (front)</desc>
-					</valItem>
-					<!--body-->
-					<valItem ident="SVP">
-						<desc>Punkt in Sitzungsverlauf</desc>
-					</valItem>
-				</valList>
-			</attDef>
-		</attList>
-	</elementSpec>
-	<elementSpec ident="teiCorpus" mode="delete" module="core"/>
-</schemaSpec>
-</body>
-</text>
+			<schemaSpec ident="tei_minimal" start="TEI" prefix="tei_" targetLang="en" docLang="de">
+				<!--modules-->
+				<!---->
+				<!---->
+				<moduleRef key="header"/>
+				<moduleRef key="core"/>
+				<moduleRef key="tei"/>
+				<moduleRef key="textstructure"/>
+				<!--Ungeprüft übergreifend für teiHeader eingeführt-->
+				<moduleRef key="namesdates" except=""/>
+				<moduleRef key="msdescription" except=""/>
+				<!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
+				<moduleRef key="linking" except=""/>
+				<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
+				<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic recording recordingStmt scriptStmt shift u vocal writing"/>
+				<!--element specifications-->
+				<!---->
+				<!---->
+				<!--core-->
+				<elementSpec ident="name" module="core" mode="change">
+					<attList>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="Person">
+									<desc/>
+								</valItem>
+								<valItem ident="Ort">
+									<desc/>
+								</valItem>
+								<valItem ident="Organisation">
+									<desc/>
+								</valItem>
+								<!--eventuell vereinheitlichen zu type="Organisation" role="xy"-->
+								<valItem ident="Institution">
+									<desc/>
+								</valItem>
+							</valList>
+						</attDef>
+						<attDef ident="role" mode="change" usage="opt">
+							<valList type="closed" mode="replace">
+								<!--Personen-->
+								<valItem ident="Vorsitz">
+									<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+								</valItem>
+								<valItem ident="Sprecher">
+									<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+								</valItem>
+								<valItem ident="Erwaehnung">
+									<desc/>
+								</valItem>
+								<!--Organisationen-->
+								<valItem ident="news">
+									<desc/>
+								</valItem>
+								<valItem ident="pol">
+									<desc/>
+								</valItem>
+								<valItem ident="com">
+									<desc/>
+								</valItem>
+								<valItem ident="soc">
+									<desc/>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
+				<!--textstructure-->
+				<elementSpec ident="div" module="textstructure" mode="change">
+					<attList>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<!--front-->
+								<valItem ident="SVPListe">
+									<desc>Überblicksliste Sitzungsverlauf (front)</desc>
+								</valItem>
+								<valItem ident="Anwesenheitsliste">
+									<desc>Anwesenheitsliste Sitzungsverlauf</desc>
+								</valItem>
+								<valItem ident="Kopfdaten">
+									<desc>Kopfdaten Protokoll (front)</desc>
+								</valItem>
+								<!--body-->
+								<valItem ident="SVP">
+									<desc>Punkt in Sitzungsverlauf</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
+				<!--spoken-->
+				<elementSpec ident="pause" module="spoken" mode="change">
+					<attList>
+						<attDef ident="dur" mode="change" usage="req"/>
+					</attList>
+				</elementSpec>
+				<elementSpec ident="teiCorpus" mode="delete" module="core"/>
+			</schemaSpec>
+		</body>
+	</text>
 </TEI>
