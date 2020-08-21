@@ -139,7 +139,10 @@ created here.</p>
 								</valItem>
 								<!--body-->
 								<valItem ident="SVP">
-									<desc>Punkt in Sitzungsverlauf</desc>
+									<desc>Punkt in Sitzungsverlauf (SVP)</desc>
+								</valItem>
+								<valItem ident="SVPsub">
+									<desc>Unterabschnitt zu Punkt in Sitzungsverlauf (SVP)</desc>
 								</valItem>
 							</valList>
 						</attDef>

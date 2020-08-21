@@ -36,45 +36,49 @@
 		<body>
 			<div type="SVP" xml:id="SVP-A">
 				<head>[A.]</head>
-				<p>
+				<div type="SVPsub">
+					<head>Ausschußbesetzung.</head>
 					<list>
-						<head>Ausschußbesetzung.</head>
 						<item><label>a)</label> Frau Dr. Heuser wird den ordentlichen Sitz im Ausschuß für Gesundheitswesen des Deutschen Bundestages und den stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik erhalten.</item>
 						<item><label>b)</label> Herr Dorn nimmt einen stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik wahr.</item>
 					</list>
-				</p>
-				<p>
+				</div>
+				<div type="SVPsub">
+					<head>Vertreter der FDP in der Wahlkreiskommission.</head>
 					<list>
-						<head>Vertreter der FDP in der Wahlkreiskommission.</head>
 						<item><label>a)</label> Die FDP-Bundestagsfraktion wird den ihr angebotenen Sitz in der Kommission (Besetzung 3 : 3 : 1) zur künftigen Wahlkreiseinteilung wahrnehmen.</item>
 						<item><label>b)</label> Vorgesehen ist Herr Dr. Friderichs.</item>
 						<item><label>c)</label> Die Benennung gegenüber dem Bundesinnenministerium erfolgt erst dann, wenn die Koalitionsfraktionen ihre personellen Entscheidungen getroffen und mitgeteilt haben.</item>
 					</list>
-				</p>
+				</div>
 			</div>
 			<div type="SVP" xml:id="SVP-B">
 				<head>[B.]</head>
-				<p>
+				<div type="SVPsub">
+					<head>Deutschlandpolitik.</head>
 					<list>
-						<head>Deutschlandpolitik.</head>
 						<item><label>a)</label> Am 26. 3. 1968 findet um 20.00 Uhr die bereits beschlossene Fraktionssitzung statt. </item>
-						<item><label>b)</label> Der Vorsitzende des Kuratoriums »Unteilbares Deutschland«, Herr Dr. Dr. Schütz, wird eingangs in einem Referat seine Vorstellungen darlegen.
-</item>
+						<item><label>b)</label> Der Vorsitzende des Kuratoriums »Unteilbares Deutschland«, Herr Dr. Dr. Schütz, wird eingangs in einem Referat seine Vorstellungen darlegen.</item>
 					</list>
-				</p>
-				<p>
+				</div>
+				<div type="SVPsub">
+					<head>Notstandshearing.</head>
 					<list>
-						<head>Notstandshearing.</head>
 						<item><label>a)</label> Am Montag, dem 11.3.1968, findet um 11.00 Uhr in Zimmer 12 F (SPD-Fraktionssitzungssaal) eine Anhörung der studentischen Organisationen VDS, LSD, SHB, SDS und RCDS  zu Fragen des Notstandsrechts unter Beisein von Presse, Rundfunk und Fernsehen statt. </item>
 						<item><label>b)</label> Alle Fraktionsmitglieder, denen es möglich ist, werden um eine Teilnahme gebeten, da¬mit deutlich wird, daß die FDP bereit ist, sich alle Anliegen – auch der sogenannten außerparlamentarischen Opposition – sachlich vortragen zu lassen und darüber zu diskutieren.</item>
 						<item><label>c)</label> Alle Fraktionsmitglieder sind über diesen Beschluß zu unterrichten (ist für die in Berlin anwesenden Fraktionsmitglieder durch ein Rundschreiben des Fraktionsvorsitzenden bereits geschehen).</item>
 					</list>
-				</p>
-				<p>DGB-Kundgebung – Mitbestimmung.</p>
-				<p>An der Kundgebung des DGB am Dienstag, den 12. 3. 1968 in Köln, 16.00 Uhr, wird die FDP durch Frau Funcke, u. a. auch als Mitglied des Parteivorstandes und Herrn Schmidt vertreten werden.</p>
-				<p>Tagung nordrhein-westfälischer Industrieller.</p>
-				<p>Auf der Tagung des Landesverbandes nordrhein-westfälischer Industrieller am 12. 3. 1968 in Düsseldorf, 11.00 Uhr, wird die Fraktion durch die Abgeordneten Zoglmann und Frau Funcke vertreten sein.</p>
+				</div>
+				<div type="SVPsub">
+					<head>DGB-Kundgebung – Mitbestimmung.</head>
+					<p>An der Kundgebung des DGB am Dienstag, den 12. 3. 1968 in Köln, 16.00 Uhr, wird die FDP durch Frau Funcke, u. a. auch als Mitglied des Parteivorstandes und Herrn Schmidt vertreten werden.</p>
+				</div>
+				<div type="SVPsub">
+					<head>Tagung nordrhein-westfälischer Industrieller.</head>
+					<p>Auf der Tagung des Landesverbandes nordrhein-westfälischer Industrieller am 12. 3. 1968 in Düsseldorf, 11.00 Uhr, wird die Fraktion durch die Abgeordneten Zoglmann und Frau Funcke vertreten sein.</p>
+				</div>
 			</div>
+			
 		</body>
 	</text>
 </TEI>
