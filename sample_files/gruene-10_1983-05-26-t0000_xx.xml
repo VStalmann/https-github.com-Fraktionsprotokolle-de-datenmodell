@@ -23,79 +23,54 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		</fileDesc>
 	</teiHeader>
 	<text>
-		<group>
-			<text type="Protokoll">
-				<front>
-					<div type="Kopfdaten">
-						<p>AGG, B.II.1, 5318. Überschrift: »Protokoll der Fraktionssitzung vom 26.5.83«.</p>
-					</div>
-					<div type="Anwesenheitsliste">
-						<head>Anwesend:</head>
-						<list rend="simple">
-							<item><label>Abgeordnete:</label>
-								<list>
-									<item><name type="Person" role="Erwaehnung" ref="#XXX"></name></item>
-									<item><name type="Person" role="Erwaehnung" ref="#XXX"></name></item>
-									<item>...</item>
-									<item><name type="Person" role="Erwaehnung" ref="#XXX"></name>.</item>
-								</list>
-							</item>
-							<item><label>Nachrückerinnen und Nachrücker:</label>
-								<list>
-									<item><name type="Person" role="Erwaehnung" ref="#XXX"></name>.</item>
-								</list>
-							</item>
+		<front>
+			<div type="Kopfdaten">
+				<p>AGG, B.II.1, 5318. Überschrift: »Protokoll der Fraktionssitzung vom 26.5.83«.</p>
+			</div>
+			<div type="Anwesenheitsliste">
+				<head>Anwesend:</head>
+				<list rend="simple">
+					<item><label>Abgeordnete:</label>
+						<list>
+							<item><name type="Person" role="Erwaehnung" ref="#XXX"/></item>
+							<item><name type="Person" role="Erwaehnung" ref="#XXX"/></item>
 							<item>...</item>
-							<item>...</item>
-							<item><label>Protokoll:</label> [<list>
-									<item><name type="Person" role="Erwaehnung" ref="#XXX"></name> </item>
-								</list>].
-						</item>
+							<item><name type="Person" role="Erwaehnung" ref="#XXX"/>.</item>
 						</list>
-					</div>
-				</front>
-				<body>
-					<div type="SVP" xml:id="SVP-TOP-1">
-						<head>TOP 1: Sitzungswochen-TO</head>
-						<p>Die grobe Aufteilung der Redebeiträge wurde an den AK Wirtschaft verwiesen; unklar war, inwie-weit im Plenum eine Aussprache erfolgt (keine/r der parl. Geschäftsführung anwesend).</p>
-					</div>
-					<div type="SVP" xml:id="SVP-TOP-2">
-						<head>TOP 2: Wochenarbeitsplan der Fraktion</head>
-						<p>...</p>
-					</div>
-					<div type="SVP" xml:id="SVP-TOP-6">
-						<head>TOP 6: Finanzen und Personal</head>
-						<p>...</p>
-					</div>
-				</body>
-			</text>
-			<text type="Anlage">
-				<front>
-					<head type="main">Anlage A</head>
-					<div type="Kopfdaten">
-						<p>10. Dezember 1985: Fraktionsgeschäftsführung: Haushalt der Fraktion für das Jahr 1986. AGG,B.II.1, 2116.</p>
-					</div>
-				</front>
-				<body>
-					<div>
-						<p/>
-					</div>
-				</body>
-			</text>
-			<text type="Anlage">
-				<front>
-					<head type="main">Anlage B</head>
-					<div type="Kopfdaten">
-						<p></p>
-					</div>
-				</front>
-				<body>
-					<div>
-						<p></p>
-						<p>...</p>
-					</div>
-				</body>
-			</text>
-		</group>
+					</item>
+					<item><label>Nachrückerinnen und Nachrücker:</label>
+						<list>
+							<item><name type="Person" role="Erwaehnung" ref="#XXX"/>.</item>
+						</list>
+					</item>
+					<item>...</item>
+					<item>...</item>
+					<item><label>Protokoll:</label> [<list>
+							<item><name type="Person" role="Erwaehnung" ref="#XXX"/>
+							</item>
+						</list>].
+</item>
+				</list>
+			</div>
+		</front>
+		<body>
+			<div type="SVP" xml:id="SVP-TOP-1">
+				<head>TOP 1: Sitzungswochen-TO</head>
+				<p>Die grobe Aufteilung der Redebeiträge wurde an den AK Wirtschaft verwiesen; unklar war, inwie-weit im Plenum eine Aussprache erfolgt (keine/r der parl. Geschäftsführung anwesend).</p>
+			</div>
+			<div type="SVP" xml:id="SVP-TOP-2">
+				<head>TOP 2: Wochenarbeitsplan der Fraktion</head>
+				<p>...</p>
+			</div>
+			<div type="SVP" xml:id="SVP-TOP-6">
+				<head>TOP 6: Finanzen und Personal</head>
+				<p>...</p>
+			</div>
+			<div type="Anlage">
+				<head type="main">Anlage A</head>
+				<head>10. Dezember 1985: Fraktionsgeschäftsführung: Haushalt der Fraktion für das Jahr 1986. AGG,B.II.1, 2116.</head>
+				<p/>
+			</div>
+		</body>
 	</text>
 </TEI>
