@@ -144,6 +144,9 @@ created here.</p>
 								<valItem ident="SVPsub">
 									<desc>Unterabschnitt zu Punkt in Sitzungsverlauf (SVP)</desc>
 								</valItem>
+								<valItem ident="Anhang">
+									<desc>Anhang zu SVP /Gesamtprotokoll</desc>
+								</valItem>
 							</valList>
 						</attDef>
 					</attList>
