@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fdp-05_1968-03-05-t0930_EP">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fdp-05_1968-03-05-t1331_EP">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,10 +26,10 @@
 				<head>Sitzungsverlauf:</head>
 				<list rend="simple">
 					<!--Namentagging schon in SVPListe?-->
-					<item xml:id="fdp-05_1968-03-05-t0930_SVP-A" corresp="#SVP-A"><label>A.</label> Besetzung der Bundestagsausschüsse und der Wahlkreiskommission.</item>
-					<item xml:id="fdp-05_1968-03-05-t0930_SVP-B" corresp="#SVP-B"><label>B.</label> Verschiedenes (Veranstaltungshinweise, Initiativgesetzentwurf zur Einrichtung eines Se¬nats für Parlamentsfragen, Aufwandsentschädigungen für die Mitglieder des Vorstands, HS-30).</item>
-					<item xml:id="fdp-05_1968-03-05-t0930_SVP-C" corresp="#SVP-C"><label>C.</label> Agrarpolitische Fragen.</item>
-					<item xml:id="fdp-05_1968-03-05-t0930_SVP-D" corresp="#SVP-D"><label>D.</label> Bericht zur Lage der Nation.</item>
+					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-A" corresp="#SVP-A"><label>A.</label> Besetzung der Bundestagsausschüsse und der Wahlkreiskommission.</item>
+					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-B" corresp="#SVP-B"><label>B.</label> Verschiedenes (Veranstaltungshinweise, Initiativgesetzentwurf zur Einrichtung eines Se¬nats für Parlamentsfragen, Aufwandsentschädigungen für die Mitglieder des Vorstands, HS-30).</item>
+					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-C" corresp="#SVP-C"><label>C.</label> Agrarpolitische Fragen.</item>
+					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-D" corresp="#SVP-D"><label>D.</label> Bericht zur Lage der Nation.</item>
 				</list>
 			</div>
 		</front>
