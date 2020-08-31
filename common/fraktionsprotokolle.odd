@@ -107,16 +107,16 @@ created here.</p>
 								</valItem>
 								<!--Organisationen-->
 								<valItem ident="news">
-									<desc/>
+									<desc>Zeitungen, Zeitschriften etc.</desc>
 								</valItem>
 								<valItem ident="pol">
-									<desc/>
+									<desc>Politische, gewerkschaftliche Einrichtungen, Organisationen</desc>
 								</valItem>
 								<valItem ident="com">
-									<desc/>
+									<desc>Unternehmen, Firmen, wirtschaftlichen Organisationen</desc>
 								</valItem>
 								<valItem ident="soc">
-									<desc/>
+									<desc>Kirchen, zivilgesellschaftliche Einrichtungen</desc>
 								</valItem>
 							</valList>
 						</attDef>
