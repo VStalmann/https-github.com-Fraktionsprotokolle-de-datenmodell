@@ -24,6 +24,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		<body>
 			<div type="SVP" xml:id="div-X">
 				<!--https://fraktionsprotokolle.de/handle/431 S. 23ff.-->
+				<p>... ähnliches Thema in <ref target="cdu-07_1972-12-13-t1507_WZ.xml#cdu-07_1972-12-13-t1507_WZ_SVP-B">Protokoll CDU 13.12.72</ref></p>
 				<p>... aber ich habe der »Bild-Zeitung« eine Antwort geschrieben und bin gespannt, aber ich glaube, sie wird morgen früh dort stehen.51 Die Antwort lautet folgendermaßen:</p>
 				<floatingText>
 					<body>
