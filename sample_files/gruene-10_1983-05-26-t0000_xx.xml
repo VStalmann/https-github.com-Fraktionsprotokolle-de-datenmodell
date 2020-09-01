@@ -4,7 +4,7 @@
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="../common/fraktionsprotokolle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../common/fraktionsprotokolle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gruene-10_1983-05-26-t0000_xx">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gruene-10_1983-05-26-t0000_xx" rendition="fraktionsprotokolle">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
