@@ -8,6 +8,11 @@
 			<report test=".[@type='SVP'][ancestor::tei:front]" role="ERROR">Typisches Body-Div (SVP u.a.) steht unerwartet im Front</report>
 		</rule>
 	</pattern>
+	<pattern id="note">
+		<rule context="tei:note[ancestor::tei:body]">
+			<assert test=".[@xml:id]" role="ERROR">Notes im Protokoll selbst sollen xml:id tragen</assert>
+		</rule>
+	</pattern>
 	<pattern id="Personennamen-im-Body">
 		<rule context="tei:name[ancestor::tei:body][@type='Person']">
 			<assert test=".[@role='Vorsitz' or @role='Sprecher' or @role='Erwaehnung']" role="ERROR">Name Person sollen über @role weiter spezifiziert werden</assert>

@@ -3,3 +3,5 @@
 *.bak
 common/out/fraktionsprotokolle.rng
 *.docx#
+sample_files/Ablage/gruene-10_1983-05-26-t0000_anlagen_einfach_xx.xml
+sample_files/Ablage/gruene-10_1983-05-26-t0000_anlagen_xx.xml

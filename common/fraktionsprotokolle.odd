@@ -122,6 +122,20 @@ created here.</p>
 						</attDef>
 					</attList>
 				</elementSpec>
+				<elementSpec ident="note" module="core" mode="change">
+					<attList>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="critical">
+									<desc>textkritische Anmerkung</desc>
+								</valItem>
+								<valItem ident="comment">
+									<desc>inhaltliche Anmerkung</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
 				<!--textstructure-->
 				<elementSpec ident="div" module="textstructure" mode="change">
 					<attList>

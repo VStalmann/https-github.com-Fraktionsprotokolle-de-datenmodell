@@ -50,7 +50,7 @@
 				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Meine Damen und Herren, ich hoffe, daß Sie mir das Üben erleichtern. Vielen Dank!<incident><desc resp="#Vorlage">(Beifall.)</desc></incident></p>
 				<p>...</p>
 				<p><name type="Person" role="Sprecher" ref="#">Ritz</name>: Vielen Dank, Herr Kliesing! Herr Birrenbach?</p>
-				<incident><desc resp="#Vorlage">(Nicht verständlich, da ohne Mikrophon.)</desc></incident><note>Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.</note>
+				<incident><desc resp="#Vorlage">(Nicht verständlich, da ohne Mikrophon.)</desc></incident><note xml:id="FN007" type="critical">Technischer Hinweis in der Vorlage betr. die Aufnahme der Sitzung auf Tonband.</note>
 				<p>Alles klar, vielen herzlichen Dank, Herr Birrenbach. Darf ich zu einer kurzen Zwischenbemerkung Herrn Dr. Marx das Wort geben?</p>
 			</div>
 		</body>
