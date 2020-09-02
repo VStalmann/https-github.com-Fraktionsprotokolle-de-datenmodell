@@ -24,7 +24,7 @@
 		<front>
 			<div type="SVPListe">
 				<head>Sitzungsverlauf:</head>
-				<list rend="simple">
+				<list type="SVP">
 					<!--Namentagging schon in SVPListe?-->
 					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-A" corresp="#SVP-A"><label>A.</label> Besetzung der Bundestagsausschüsse und der Wahlkreiskommission.</item>
 					<item xml:id="fdp-05_1968-03-05-t1331_EP_SVP-B" corresp="#SVP-B"><label>B.</label> Verschiedenes (Veranstaltungshinweise, Initiativgesetzentwurf zur Einrichtung eines Se¬nats für Parlamentsfragen, Aufwandsentschädigungen für die Mitglieder des Vorstands, HS-30).</item>
@@ -38,14 +38,14 @@
 				<head>[A.]</head>
 				<div type="SVPsub">
 					<head>Ausschußbesetzung.</head>
-					<list>
+					<list type="undefined">
 						<item><label>a)</label> <p> Frau Dr. Heuser wird den ordentlichen Sitz im Ausschuß für Gesundheitswesen des Deutschen Bundestages und den stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik erhalten.</p></item>
 						<item><label>b)</label> <p>Herr Dorn nimmt einen stellvertretenden Sitz im Ausschuß für Wissenschaft, Kulturpolitik und Publizistik wahr.</p></item>
 					</list>
 				</div>
 				<div type="SVPsub">
 					<head>Vertreter der FDP in der Wahlkreiskommission.</head>
-					<list>
+					<list type="undefined">
 						<item><label>a)</label> <p>Die FDP-Bundestagsfraktion wird den ihr angebotenen Sitz in der Kommission (Besetzung 3 : 3 : 1) zur künftigen Wahlkreiseinteilung wahrnehmen.</p></item>
 						<item><label>b)</label> <p>Vorgesehen ist Herr Dr. Friderichs.</p></item>
 						<item><label>c)</label> <p>Die Benennung gegenüber dem Bundesinnenministerium erfolgt erst dann, wenn die Koalitionsfraktionen ihre personellen Entscheidungen getroffen und mitgeteilt haben.</p></item>
@@ -56,14 +56,14 @@
 				<head>[B.]</head>
 				<div type="SVPsub">
 					<head>Deutschlandpolitik.</head>
-					<list>
+					<list type="undefined">
 						<item><label>a)</label> <p>Am 26. 3. 1968 findet um 20.00 Uhr die bereits beschlossene Fraktionssitzung statt.</p> </item>
 						<item><label>b)</label> <p>Der Vorsitzende des Kuratoriums »Unteilbares Deutschland«, Herr Dr. Dr. Schütz, wird eingangs in einem Referat seine Vorstellungen darlegen.</p></item>
 					</list>
 				</div>
 				<div type="SVPsub">
 					<head>Notstandshearing.</head>
-					<list>
+					<list type="undefined">
 						<item><label>a)</label> <p>Am Montag, dem 11.3.1968, findet um 11.00 Uhr in Zimmer 12 F (SPD-Fraktionssitzungssaal) eine Anhörung der studentischen Organisationen VDS, LSD, SHB, SDS und RCDS  zu Fragen des Notstandsrechts unter Beisein von Presse, Rundfunk und Fernsehen statt.</p> </item>
 						<item><label>b)</label> <p>Alle Fraktionsmitglieder, denen es möglich ist, werden um eine Teilnahme gebeten, da¬mit deutlich wird, daß die FDP bereit ist, sich alle Anliegen – auch der sogenannten außerparlamentarischen Opposition – sachlich vortragen zu lassen und darüber zu diskutieren.</p></item>
 						<item><label>c)</label> <p>Alle Fraktionsmitglieder sind über diesen Beschluß zu unterrichten (ist für die in Berlin anwesenden Fraktionsmitglieder durch ein Rundschreiben des Fraktionsvorsitzenden bereits geschehen).</p></item>

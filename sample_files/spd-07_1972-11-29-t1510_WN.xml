@@ -24,7 +24,7 @@
 	<front>
 		<div type="SVPListe">
 			<head>Sitzungsverlauf:</head>
-			<list rend="simple">
+			<list type="SVP">
 				<!--Namentagging schon in SVPListe?-->
 				<item xml:id="spd-07_1972-11-29-t1510_WN_SVP-A" corresp="#SVP-A"><label>A.</label> Politischer Bericht des Fraktionsvorsitzenden Wehner (Brief von Bundeskanzler Brandt an die Fraktion; Bewertung der Bundestagswahl 1972; Fortsetzung der sozial-liberalen Koalition; Koalitionsgespräche; Neubildung des Bundeskabinetts; Zuschnitt von Bundesministerien; Aufgaben der Parlamentarischen Staatssekretäre; Enquete-Kommission zur Reform der staatlichen Gliederung; Dienstrechtsreform; Wirtschafts- und Finanzpolitik; Kartellgesetznovelle; Geschäftsordnung der SPD-Bundestagsfraktion; vorläufiger Fraktionsvorstand; Wehrstrukturreform; Reform der Mitbestimmung in Unternehmen; Ad-hoc-Arbeitsgruppen zur Besprechung der ers-ten Ergebnisse der Koalitionsverhandlungen. </item>
 				<item xml:id="spd-07_1972-11-29-t1510_WN_SVP-B" corresp="#SVP-B"><label>B.</label> Aussprache der Fraktion über den Bericht des Fraktionsvorsitzenden.</item>

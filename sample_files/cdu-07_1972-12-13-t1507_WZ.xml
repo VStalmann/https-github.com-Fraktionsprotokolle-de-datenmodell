@@ -23,7 +23,7 @@
 		<front>
 			<div type="SVPListe">
 				<head>Sitzungsverlauf:</head>
-				<list rend="simple">
+				<list type="SVP">
 					<!--Namentagging schon in SVPListe?-->
 					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-A" corresp="#SVP-A"><label>A.</label> Bericht des Vorsitzenden <name type="Person" role="Erwaehnung" ref="#">Barzel</name> (Dank an ehemaligen Bundestags-präsidenten von <name type="Person" role="Erwaehnung" ref="#">Hassel</name>; Konflikte in der sozial-liberalen Koalition; Viertes Rentenversicherungs-Änderungsgesetz; Verfahren bei der Wahl zum Fraktionsvorstand – Aussprache zu dem Bericht).</item>
 					<item xml:id="cdu-07_1972-12-13-t1507_WZ_SVP-B" corresp="#SVP-B">Fortsetzung der Aussprache aus der Sitzung vom 12. Dezember 1972 zum Grundvertrag (Selbstbestimmungsrecht; Verfassungsmäßigkeit des Vertrages; Fürsorgepflicht der Bundesrepublik für alle Deutschen; keine positiven Veränderungen seit der Unterzeichnung; ungeregeltes Verhältnis von Berlin (West); Akzeptanz der Teilung; Haltung der westlichen Verbündeten; Informationspolitik der Bundesregierung; Möglichkeiten einer für die Bundesrepublik akzeptablen Auslegung; Bedeutung von Rechtspositionen für die sowjetische Außenpolitik; Überweisung an die Sonderkommission Grundvertrag zur Erarbeitung der Begründung der Ablehnung des Vertrags durch die Fraktion mit den Vertretern der CDU/CSU-regierten Länder).</item>
