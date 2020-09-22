@@ -113,9 +113,6 @@ created here.</p>
 						<attDef ident="role" mode="change" usage="opt">
 							<valList type="closed" mode="replace">
 								<!--Personen-->
-								<valItem ident="Vorsitz">
-									<desc>Überblicksliste Sitzungsverlauf (front)</desc>
-								</valItem>
 								<valItem ident="Sprecher">
 									<desc>Anwesenheitsliste Sitzungsverlauf</desc>
 								</valItem>
