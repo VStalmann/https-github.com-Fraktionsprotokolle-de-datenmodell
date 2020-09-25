@@ -75,6 +75,7 @@ created here.</p>
 					<attList>
 						<attDef ident="resp" mode="change" usage="opt">
 							<valList type="closed" mode="change">
+								<valItem ident="#vorlage" mode="add"/>
 								<valItem ident="#srochow" mode="add"/>
 								<valItem ident="#vstalmann" mode="add"/>
 								<valItem ident="#sjuengerkes" mode="add"/>
