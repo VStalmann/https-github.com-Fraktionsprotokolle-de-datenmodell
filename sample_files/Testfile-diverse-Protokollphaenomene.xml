@@ -29,14 +29,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<floatingText>
 					<body>
 						<div type="Textsegment-zitiert">
-							<p>»Sehr geehrte Frau Hannebauer,<lb/>
+							<said><p>»Sehr geehrte Frau Hannebauer,<lb/>
 den  Brief,  der  unter  Ihrem  Namen  am  Montag  in  der  ›Bild-Zeitung‹  abgedruckt  wurde,  habe  ich  nicht  nur  mit  Bedauern  gelesen,  ich  habe  mich  auch  gefragt,  wer  wohl  die  Ver-antwortung  dafür  trägt,  dass  Sie  einer  solchen  Verwirrung  der  Begriffe  unterliegen  und  wer die Verketzerung auf dem Gewissen hat, die aus Ihren Zeilen spricht.</p>
 							<list>
 								<item>1. Wieso erliegen Sie dem Selbstbetrug, jetzt solle ein Viertel Deutschlands so mir nichts, dir nichts verschenkt werden? Das ist doch einfach nicht wahr.  </item>
-								<item>2.  Wer  hat  Ihnen  eingeredet,  wir  wollten  20  Millionen  Menschen  das  Recht  auf  Heimat  oder gar das Recht auf Selbstbestimmung absprechen? Das ist doch eine böswillige Unter-stellung. </item>
-								<item>3. Wer gibt Ihnen das Recht, uns gegenüber für die anständigen Deutschen zu sprechen? Das ist doch eine schlimme Anmaßung.  </item>
-								<item>4. Wie kommen Sie dazu, das Bemühen um Aussöhnung und Frieden ein großes Verbre-chen zu nennen und dies auch noch mit den Untaten des Hitler-Regimes in einem Atem-zug zu nennen? So lässt sich nicht diskutieren. </item>
-							</list>
+								<item>2.  <said>Wer  hat  Ihnen  eingeredet, </said> wir  wollten  20  Millionen  Menschen  das  Recht  auf  Heimat  oder gar das Recht auf Selbstbestimmung absprechen? Das ist doch eine böswillige Unter-stellung. </item>
+								<item>3. Wer gibt Ihnen das <title>Recht, uns gegenüber</title> für die anständigen Deutschen zu sprechen? Das ist doch eine schlimme Anmaßung.  </item>
+								<item>4. Wie kommen Sie <q>dazu, <q>das</q> Bemühen um Aussöhnung </q>und Frieden ein großes Verbre-chen zu nennen und dies auch noch mit den Untaten des Hitler-Regimes in einem Atem-zug zu nennen? So lässt sich nicht diskutieren. </item>
+							</list></said>
 							<p>Wenn ich trotzdem geantwortet habe, so um zu sagen, dass ich mich mit den Heimatver-triebenen verbunden fühle, nicht allerdings mit denen, die mit den Gefühlen der Heimat-vertriebenen Schindluder treiben.<sound> (Beifall.)</sound></p>
 							<p>Meine  Regierung  und  die  sie  tragenden  Parteien  können  nicht  wegzaubern,  was  uns  der  von Hitler  begonnene  und  verlorene  Krieg  hinterlassen  hat.  Das  kann  auch  Herr  Barzelnicht, nicht Herr Strauß, nicht die ›Bild-Zeitung‹. Wenn ich gemeinsam mit Herrn Scheelden Vertrag in Warschau unterschreibe, so wird durch uns kein Unrecht legitimiert. Und der  schweren  Opfer,  die  viele  unserer  Landsleute  haben  bringen  müssen,  sind  wir  uns  wohl  bewusst,  aber  wir  werden  guten  Gewissens  einen  Schlussstrich  unter  die  Vergan-genheit  ziehen,  um  der  friedlichen  Zukunft  unseres  Volkes  und  unserer  Kinder  willen.  Nur in einem Europa der friedlichen Zusammenarbeit werden wir Deutschen uns bewäh-ren und dann auch unserer nationalen Einheit näherkommen können.« </p>
 						</div>

@@ -70,6 +70,24 @@ created here.</p>
 				<moduleRef key="linking" except=""/>
 				<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
 				<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic recording recordingStmt scriptStmt shift u vocal writing"/>
+				<!--attribute specifications-->
+				<classSpec ident="att.global.responsibility" module="tei" mode="change" type="atts">
+					<attList>
+						<attDef ident="resp" mode="change" usage="opt">
+							<valList type="closed" mode="change">
+								<valItem ident="#srochow" mode="add"/>
+								<valItem ident="#vstalmann" mode="add"/>
+								<valItem ident="#sjuengerkes" mode="add"/>
+								<valItem ident="#bhindenburg" mode="add"/>
+								<valItem ident="#srabus" mode="add"/>
+								<valItem ident="#sweistenhoefer" mode="add"/>
+								<valItem ident="#bwintgens" mode="add"/>
+								<valItem ident="#jwintzer" mode="add"/>
+								<valItem ident="#cdeitmer" mode="add"/>
+							</valList>
+						</attDef>
+					</attList>
+				</classSpec>
 				<!--element specifications-->
 				<!---->
 				<!---->
