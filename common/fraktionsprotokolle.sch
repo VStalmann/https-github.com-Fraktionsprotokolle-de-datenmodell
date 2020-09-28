@@ -32,7 +32,15 @@
 	<!--Incidents-->
 	<pattern id="incident">
 		<rule context="tei:incident">
-			<assert test="tei:desc[@resp='#Vorlage' or @resp='#sjuengerkes']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste,  angegeben werden</assert>
+			<assert test="tei:desc[@resp='#vorlage'
+				or @resp='#srochow'
+				or @resp='#vstalmann'
+				or @resp='#sjuengerkes'
+				or @resp='#bhindenburg'
+				or @resp='#srabus'
+				or @resp='#bwintgens'
+				or @resp='#jwintzer'
+				or @resp='#cdeitmer']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste, angegeben werden</assert>
 		</rule>
 	</pattern>
 	<!--Inhaltliche Warnungen -Vorschläge-->
