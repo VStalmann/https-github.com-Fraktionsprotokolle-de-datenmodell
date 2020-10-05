@@ -68,14 +68,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<note type="comment">Vergleich auch die <ref target="../meta/projektbeschreibung.xml"> Projektbeschreibung</ref> sowie die Dokumentation dieser Web-Application unter <ref target="../meta/ueberWebsite.xml">Über diese Webseite</ref>.</note>
 			</notesStmt>
 			<sourceDesc>
-				<!--ggf soll hier die Vorlage (zeitgenössische Transkription) und die Tonbandaufnahme, oder nur eins von beidem beschrieben werden. Weil es sich also nicht nur um Manuskirpte im klassischen Sinne handelt, würde ich object vorschlagen-->
-				<listObject>
-					<object  type="Tonbandtranskript_zeitgenoessisch" xml:id="Vorlage">
-					<objectIdentifier>
+				<msDesc  type="Tonbandtranskript_zeitgenoessisch" xml:id="Vorlage">
+					<msIdentifier>
 						<institution >Archiv für Christilich Soziale Politik — Hanns-Seidel-Stiftung (ACSP)</institution>
 						<idno type="shelf">ACSP, LG 1976: 27.</idno>
 						<msName>Protokoll über die Sitzung der CSU-Landesgruppe vom 13. 12. 1976</msName>
-					</objectIdentifier>
+					</msIdentifier>
 					<msContents >
 						<p>Zeitgenössische Tonbandtranskription einer Fraktionssitzung in Protokollform</p>
 					</msContents>
@@ -95,8 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 							<date when-iso="1976-12-3">13. Dezember 1976</date>
 						</origin>
 					</history>
-				</object>
-				</listObject>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
