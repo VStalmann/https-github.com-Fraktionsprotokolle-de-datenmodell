@@ -51,8 +51,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<date when="2021-02-18">18. Februar 2021 (Version 1)</date>
 				<idno type="url"><!--Hier kommt die spätere URL rein--></idno>
 				<availability status="restricted">
-					<!--In Arbeit https://github.com/Fraktionsprotokolle-de/datenmodell/issues/37-->
-					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Für rechtliche Informationen zur Nutzung siehe unsere <ref target="https://www.fraktionsprotokolle.de/nutzung">Nutzungsvorgaben</ref></licence>
+					<licence>Alle Rechte vorbehalten. © Copyright KGParl</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
