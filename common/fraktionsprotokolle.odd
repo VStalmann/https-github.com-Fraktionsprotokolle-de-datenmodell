@@ -138,6 +138,12 @@ created here.</p>
 								<valItem ident="Erwaehnung">
 									<desc/>
 								</valItem>
+								<valItem ident="Editor">
+									<desc/>
+								</valItem>
+								<valItem ident="Vorsitz">
+									<desc/>
+								</valItem>
 								<!--Organisationen-->
 								<valItem ident="news">
 									<desc>Zeitungen, Zeitschriften etc.</desc>
