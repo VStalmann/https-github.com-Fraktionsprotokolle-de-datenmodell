@@ -175,6 +175,20 @@ created here.</p>
 						</attDef>
 					</attList>
 				</elementSpec>
+				<elementSpec ident="said" module="core" mode="change">
+					<attList>
+						<attDef ident="direct" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="true">
+									<desc>Direkte Rede</desc>
+								</valItem>
+								<valItem ident="false">
+									<desc>Indirekte Rede</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
 				<!--textstructure-->
 				<elementSpec ident="div" module="textstructure" mode="change">
 					<attList>
