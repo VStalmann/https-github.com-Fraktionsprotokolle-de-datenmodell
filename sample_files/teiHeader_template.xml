@@ -111,7 +111,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<p>Gesamtvorhaben: Ziele und Umstände</p>
 			</projectDesc>
 			<classDecl>
-				<taxonomy xml:id="xxx">
+				<taxonomy xml:id="FP-Dokumenttyp">
 					<category xml:id="WZ">
 					<catDesc>Wortprotokoll zeitgenössisch</catDesc>
 					</category>
@@ -144,7 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<language ident="de-DE">German</language>
 			</langUsage>
 			<textClass>
-				<catRef target="#BCS.phil" scheme="#BCS"/>
+				<catRef target="#" scheme="#FP-Dokumenttyp"/>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
