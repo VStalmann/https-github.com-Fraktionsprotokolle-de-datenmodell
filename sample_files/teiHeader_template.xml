@@ -8,6 +8,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 			<titleStmt>
 				<title level="a">Protokoll der 2. Sitzung der CSU-Landesgruppe am 13. Dezember 1976</title>
 				<title level="s">Digitale Edition im Rahmen der Programms "Fraktionen im Deutschen Bundestag 1949–2005"</title>
+				<author role="Fraktionsprotokollant" n="7">Unbekannter Protokollant der CSU-Landesgruppe</author>
+				<!--Wofür steht @n="7"?-->
 				<editor>
 					<persName xml:id="vstalmann" corresp="#vstalmann">
 						<forename>Volker</forename>
@@ -24,6 +26,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 					<persName xml:id="whoelscher" corresp="#whoelscher">
 						<forename>Wolfgang</forename>
 						<surname>Hölscher</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Finale Bearbeitung der XML-Datei</resp>
+					<persName xml:id="sjüngerkes" corresp="#sjüngerkes">
+						<forename>Sven</forename>
+						<surname>Jüngerkes</surname>
 					</persName>
 				</respStmt>
 			</titleStmt>
@@ -71,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 					<object type="Tonbandtranskript_zeitgenoessisch" xml:id="Vorlage">
 						<objectIdentifier>
 							<institution>Archiv für Christilich Soziale Politik — Hanns-Seidel-Stiftung (ACSP)</institution>
-							<idno type="shelf">ACSP, LG 1976: 27.</idno>
+							<idno>ACSP, LG 1976: 27.</idno>
 							<objectName>Protokoll über die Sitzung der CSU-Landesgruppe vom 13. 12. 1976</objectName>
 						</objectIdentifier>
 						<msContents>
@@ -85,9 +94,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 								</supportDesc>
 							</objectDesc>
 						</physDesc>
-						<!-- Entstehungsort und Entstehungsdatum des Protokolls - interne Publikation-->
+						<!-- Entstehungsort und Entstehungsdatum des Protokolls - interne Publikation für die Fraktion-->
 						<history>
-							<origin>
+							<origin >
 								<name type="Ort" ref="#">Bonn</name>
 								<date when-iso="1976-12-3">13. Dezember 1976</date>
 							</origin>
@@ -133,12 +142,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		<profileDesc>
 			<creation>
 			Angaben zur Fraktionssitzung, die protokolliert wurde:
-			<idno type="sitzung">
+				<idno type="sitzung">
 					<idno type="wp">7</idno>
 					<idno type="fraktion">CSU-LG</idno>
-					<idno type="date" when="1973-12-13"/>
-					<idno type="sitzungsabfolge">1</idno>
+					<idno type="datum" when="1973-12-13"/>
+					<idno type="sitzungsabfolge">1</idno> <!--Hier besser Uhrzeit?-->
 				</idno>
+				<name type="person" role="Vorsitz">XY</name>
 			</creation>
 			<langUsage>
 				<language ident="de-DE">German</language>
