@@ -1,0 +1,17 @@
+
+
+ 
+
+
+<!-- Hier bin ich mir nicht sicher: Wenn das Dokument *nicht* kommentiert wurde, bietet es sich an, her eine Liste aller Sitzungen, auf die in der vorliegenden Sitzung Bezug genommen wurde, zu erstellen. Von den Erfassenden bei der ersten Durchsicht zu erstellen. Der Vorteil wäre: Auch ohne Kommentierung bekäme man für den Webauftritt zB in einer Seitenleiste eine Art Netzwerkbeschreibung der Sitzungen untereinander bzw. auch auf Sitzungen anderer Fraktionen. Das stelle ich mir als sehr hilfreich vor!-->
+<additional>
+<listBibl>
+<bibl>
+<title ref="#XXX">SPD-Fraktionsitzung am xxx</title>
+<title ref="#XXX">Sitzung der CSU-Landesgruppe amxxx</title>
+</bibl>
+</listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+

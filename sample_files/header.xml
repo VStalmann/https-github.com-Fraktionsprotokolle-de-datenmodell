@@ -8,7 +8,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 			<titleStmt>
 				<title level="a">Protokoll der 2. Sitzung der CSU-Landesgruppe am 13. Dezember 1976</title>
 				<title level="s">Digitale Edition im Rahmen der Programms "Fraktionen im Deutschen Bundestag 1949–2005"</title>
-				<author role="Fraktionsprotokollant">Protokollant der CSU-Landesgruppe (7. Wahlperiode)</author>
 				<editor>
 					<persName xml:id="vstalmann" corresp="#vstalmann">
 						<forename>Volker</forename>
@@ -27,14 +26,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 						<surname>Hölscher</surname>
 					</persName>
 				</respStmt>
-				<respStmt>
-					<resp>Finale Bearbeitung der XML-Datei</resp>
-					<persName xml:id="sjüngerkes" corresp="#sjüngerkes">
-						<forename>Sven</forename>
-						<surname>Jüngerkes</surname>
-					</persName>
-				</respStmt>
 			</titleStmt>
+			<editionStmt>
+				<!--Noch in Arbeit https://github.com/Fraktionsprotokolle-de/datenmodell/issues/36-->
+				<edition n="1.0">Online Edition, <date when="2020-04-25">25. April 2020</date></edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>
 					<orgName xml:id="KGParl">Kommission für Geschichte des Parlamentarismus und der politischen Parteien e. V. (KGParl)</orgName>
@@ -54,7 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<date when="2021-02-18">18. Februar 2021 (Version 1)</date>
 				<idno type="url"><!--Hier kommt die spätere URL rein--></idno>
 				<availability status="restricted">
-					<licence>Alle Rechte vorbehalten. © Copyright KGParl</licence>
+					<!--In Arbeit https://github.com/Fraktionsprotokolle-de/datenmodell/issues/37-->
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Für rechtliche Informationen zur Nutzung siehe unsere <ref target="https://www.fraktionsprotokolle.de/nutzung">Nutzungsvorgaben</ref></licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
@@ -67,20 +64,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<idno type="isbn"><!--Hier kommt die ISBN für die elektronische Editon rein--><!--Bezieht sich diese ISBN sich auf das Einzelprotokoll oder die Gesamtedition?--></idno>
 			</seriesStmt>
 			<notesStmt>
-				<note type="Kommentar-Edition">Vergleich auch die <ref target="../meta/projektbeschreibung.xml"> Projektbeschreibung</ref> sowie die Dokumentation dieser Web-Application unter <ref target="../meta/ueberWebsite.xml">Über diese Webseite</ref>.</note>
-				<note type="Verbundene-Protokolle">
-					<listRelation>
-						<relation name="Erwaehnung" ref="#csu-08_1976-12-13-t1510_EP"/>
-						<relation name="Erwaehnung" ref="#"/>
-					</listRelation>
-				</note>
+				<note type="comment">Vergleich auch die <ref target="../meta/projektbeschreibung.xml"> Projektbeschreibung</ref> sowie die Dokumentation dieser Web-Application unter <ref target="../meta/ueberWebsite.xml">Über diese Webseite</ref>.</note>
 			</notesStmt>
 			<sourceDesc>
 				<listObject>
 					<object type="Tonbandtranskript_zeitgenoessisch" xml:id="Vorlage">
 						<objectIdentifier>
 							<institution>Archiv für Christilich Soziale Politik — Hanns-Seidel-Stiftung (ACSP)</institution>
-							<idno>ACSP, LG 1976: 27.</idno>
+							<idno type="shelf">ACSP, LG 1976: 27.</idno>
 							<objectName>Protokoll über die Sitzung der CSU-Landesgruppe vom 13. 12. 1976</objectName>
 						</objectIdentifier>
 						<msContents>
@@ -94,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 								</supportDesc>
 							</objectDesc>
 						</physDesc>
-						<!-- Entstehungsort und Entstehungsdatum des Protokolls - interne Publikation für die Fraktion-->
+						<!-- Entstehungsort und Entstehungsdatum des Protokolls - interne Publikation-->
 						<history>
 							<origin>
 								<name type="Ort" ref="#">Bonn</name>
@@ -107,7 +98,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p>Wie wir erfasen XXXX:...</p>
+				<p>Wie wir erfasen XXXX:</p>
 				<correction>
 					<p>neue deutsche Rechtschreibung</p>
 					<p>stillschweigende Korrektur</p>
@@ -117,12 +108,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				</normalization>
 			</editorialDecl>
 			<projectDesc>
-				<p>Gesamtvorhaben: Ziele und Umstände ...</p>
+				<p>Gesamtvorhaben: Ziele und Umstände</p>
 			</projectDesc>
 			<classDecl>
-				<taxonomy xml:id="FP-Dokumenttyp">
+				<taxonomy xml:id="xxx">
 					<category xml:id="WZ">
-						<catDesc>Wortprotokoll zeitgenössisch</catDesc>
+					<catDesc>Wortprotokoll zeitgenössisch</catDesc>
 					</category>
 					<category xml:id="WN">
 						<catDesc>Wortprotokoll nachträglich</catDesc>
@@ -142,20 +133,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		<profileDesc>
 			<creation>
 			Angaben zur Fraktionssitzung, die protokolliert wurde:
-				<idno type="sitzung">
+			<idno type="sitzung">
 					<idno type="wp">7</idno>
-					<idno type="fraktion-landesgruppe">CSU-LG</idno>
-					<idno type="datum" when="1973-12-13"/>
+					<idno type="fraktion">CSU-LG</idno>
+					<idno type="date" when="1973-12-13"/>
 					<idno type="sitzungsabfolge">1</idno>
-					<idno type="sitzungsleitung">Herr XY</idno>
-					<!--Hier besser Uhrzeit?-->
 				</idno>
 			</creation>
 			<langUsage>
 				<language ident="de-DE">German</language>
 			</langUsage>
 			<textClass>
-				<catRef target="#" scheme="#FP-Dokumenttyp"/>
+				<catRef target="#BCS.phil" scheme="#BCS"/>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
