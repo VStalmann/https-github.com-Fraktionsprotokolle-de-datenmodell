@@ -43,6 +43,20 @@
 				or @resp='#cdeitmer']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste, angegeben werden</assert>
 		</rule>
 	</pattern>
+	<!--Fraktionen-->
+	<pattern id="fraktionen">
+		<rule context="tei:idno[@type='fraktion-landesgruppe']">
+			<assert test="text()[matches(.,'CDU/CSU-Fraktion')
+				or matches(.,'CDU-Fraktion ')
+				or matches(.,'CSU-Fraktion')
+				or matches(.,'CSU-LG')
+				or matches(.,'SPD-Fraktion')
+				or matches(.,'FDP-Fraktion')
+				or matches(.,'Grüne-Fraktion')
+				or matches(.,'Linken-Fraktion')
+				or matches(.,'AfD-Fraktion')]" role="ERROR">Fraktions-Landesgruppenname entspricht nicht den Vorgaben</assert>
+		</rule>
+	</pattern>
 	<!--Inhaltliche Warnungen -Vorschläge-->
 	<pattern id="standardangaben-div-im-body">
 		<rule context="tei:div[@type='SVP']">

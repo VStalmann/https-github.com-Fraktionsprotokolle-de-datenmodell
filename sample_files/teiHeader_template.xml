@@ -144,11 +144,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 			Angaben zur Fraktionssitzung, die protokolliert wurde:
 				<idno type="sitzung">
 					<idno type="wp">7</idno>
-					<idno type="fraktion">CSU-LG</idno>
+					<idno type="fraktion-landesgruppe">CSU-LG</idno>
 					<idno type="datum" when="1973-12-13"/>
-					<idno type="sitzungsabfolge">1</idno> <!--Hier besser Uhrzeit?-->
+					<idno type="sitzungsabfolge">1</idno>
+					<idno type="sitzungsleitung">Herr XY</idno> <!--Hier besser Uhrzeit?-->
 				</idno>
-				<name type="person" role="Vorsitz">XY</name>
 			</creation>
 			<langUsage>
 				<language ident="de-DE">German</language>
