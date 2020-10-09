@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-10-08T11:59:35Z. .
+Schema generated from ODD source 2020-10-09T14:44:27Z. .
 TEI Edition: Version 3.6.0. Last updated on
 	16th July 2019, revision daa3cc0b9
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
@@ -4535,6 +4535,10 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                <value>critical</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">textkritische Anmerkung</a:documentation>
                <value>comment</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">inhaltliche Anmerkung</a:documentation>
+               <value>Kommentar-Edition</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">inhaltliche Anmerkung</a:documentation>
+               <value>Verbundene-Protokolle</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">inhaltliche Anmerkung</a:documentation>
             </choice>
          </attribute>

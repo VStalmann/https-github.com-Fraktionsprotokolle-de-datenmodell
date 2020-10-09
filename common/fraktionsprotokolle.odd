@@ -171,6 +171,13 @@ created here.</p>
 								<valItem ident="comment">
 									<desc>inhaltliche Anmerkung</desc>
 								</valItem>
+								<!--HEADER-->
+								<valItem ident="Kommentar-Edition">
+									<desc>inhaltliche Anmerkung</desc>
+								</valItem>
+								<valItem ident="Verbundene-Protokolle">
+									<desc>inhaltliche Anmerkung</desc>
+								</valItem>
 							</valList>
 						</attDef>
 					</attList>
