@@ -8,8 +8,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 			<titleStmt>
 				<title level="a">Protokoll der 2. Sitzung der CSU-Landesgruppe am 13. Dezember 1976</title>
 				<title level="s">Digitale Edition im Rahmen der Programms "Fraktionen im Deutschen Bundestag 1949–2005"</title>
-				<author role="Fraktionsprotokollant" n="7">Unbekannter Protokollant der CSU-Landesgruppe</author>
-				<!--Wofür steht @n="7"?-->
+				<author role="Fraktionsprotokollant">Protokollant der CSU-Landesgruppe (7. Wahlperiode)</author>
 				<editor>
 					<persName xml:id="vstalmann" corresp="#vstalmann">
 						<forename>Volker</forename>
@@ -36,10 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 					</persName>
 				</respStmt>
 			</titleStmt>
-			<editionStmt>
-				<!--Noch in Arbeit https://github.com/Fraktionsprotokolle-de/datenmodell/issues/36-->
-				<edition n="1.0">Online Edition, <date when="2020-04-25">25. April 2020</date></edition>
-			</editionStmt>
 			<publicationStmt>
 				<publisher>
 					<orgName xml:id="KGParl">Kommission für Geschichte des Parlamentarismus und der politischen Parteien e. V. (KGParl)</orgName>
@@ -59,8 +54,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 				<date when="2021-02-18">18. Februar 2021 (Version 1)</date>
 				<idno type="url"><!--Hier kommt die spätere URL rein--></idno>
 				<availability status="restricted">
-					<!--In Arbeit https://github.com/Fraktionsprotokolle-de/datenmodell/issues/37-->
-					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Für rechtliche Informationen zur Nutzung siehe unsere <ref target="https://www.fraktionsprotokolle.de/nutzung">Nutzungsvorgaben</ref></licence>
+					<licence>Alle Rechte vorbehalten. © Copyright KGParl</licence>
 				</availability>
 			</publicationStmt>
 			<seriesStmt>
