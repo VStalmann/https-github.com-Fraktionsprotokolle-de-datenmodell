@@ -132,6 +132,9 @@ created here.</p>
 						<attDef ident="role" mode="change" usage="opt">
 							<valList type="closed" mode="replace">
 								<!--Personen-->
+								<valItem ident="Sitzungsleitung">
+									<desc/>
+								</valItem>
 								<valItem ident="Sprecher">
 									<desc>Anwesenheitsliste Sitzungsverlauf</desc>
 								</valItem>
@@ -139,9 +142,6 @@ created here.</p>
 									<desc/>
 								</valItem>
 								<valItem ident="Editor">
-									<desc/>
-								</valItem>
-								<valItem ident="Vorsitz">
 									<desc/>
 								</valItem>
 								<!--Organisationen-->
