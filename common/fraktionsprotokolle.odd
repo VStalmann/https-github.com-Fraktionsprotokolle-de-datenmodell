@@ -245,6 +245,34 @@ created here.</p>
 						</attDef>
 					</attList>
 				</elementSpec>
+				<!--namesdates-->
+				<elementSpec ident="object" module="namesdates" mode="change">
+					<attList>
+						<attDef ident="direct" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="true">
+									<desc>Direkte Rede</desc>
+								</valItem>
+								<valItem ident="false">
+									<desc>Indirekte Rede</desc>
+								</valItem>
+							</valList>
+						</attDef>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="Tonbandtranskript_zeitgenoessisch">
+									<desc>Tonbandtranskript, Transkription erfolgte zeitnah zur Sitzung</desc>
+								</valItem>
+								<valItem ident="Tonband">
+									<desc>Tonband der Sitzung</desc>
+								</valItem>
+								<valItem ident="sonstiges">
+									<desc>Tonband der Sitzung</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
 				<!--spoken-->
 				<elementSpec ident="pause" module="spoken" mode="change">
 					<attList>
