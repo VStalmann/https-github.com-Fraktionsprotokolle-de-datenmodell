@@ -92,6 +92,26 @@ created here.</p>
 				<!--element specifications-->
 				<!---->
 				<!---->
+				<!--header-->
+				<elementSpec ident="change" module="header" mode="change">
+					<attList>
+						<attDef ident="n" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="first_draft">
+									<desc>Erste Basisfassung Protokoll</desc>
+								</valItem>
+								<valItem ident="textkritik">
+									<desc>Protokoll wurde textkritisch bearbeitet</desc>
+								</valItem>
+								<valItem ident="kommentierung">
+									<desc>Protokoll wurde kommentiert</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
+				<!---->
+				<!---->
 				<!--core-->
 				<elementSpec ident="list" module="core" mode="change">
 					<attList>
