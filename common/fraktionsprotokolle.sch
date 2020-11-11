@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+	<!--Prüfungen im teiHeader-->
+	<!--Angaben zur protokollierten Sitzung-->
+	<!--Fraktionen-->
+	<pattern id="fraktionen">
+		<rule context="tei:idno[@type='Fraktion-Landesgruppe']">
+			<assert test="text() = 'CDU/CSU'
+				or text() = 'CDU'
+				or text() = 'CSU'
+				or text() = 'CSU-LG'
+				or text() = 'SPD'
+				or text() = 'FDP'
+				or text() = 'Grüne'
+				or text() = 'PDS'" role="ERROR">Fraktions-Landesgruppenname entspricht nicht den Vorgaben (Mögliche Werte: CDU/CSU; CSU-LG; SPD; FDP; Grüne; PDS)</assert>
+		</rule>
+	</pattern>
+	<!--Wahlperioden-->
+	<pattern id="wahlperioden">
+		<rule context="tei:idno[@type='wp']">
+			<assert test="text() = '01'
+				or text() = '02'
+				or text() = '03'
+				or text() = '04'
+				or text() = '05'
+				or text() = '06'
+				or text() = '07'
+				or text() = '08'
+				or text() = '09'
+				or text() = '10'
+				or text() = '11'
+				or text() = '12'
+				or text() = '13'
+				or text() = '14'
+				or text() = '15'" role="ERROR">Wahlperiode entspricht nicht den Vorgaben (Mögliche Werte: 01 bis 15)</assert>
+		</rule>
+	</pattern>
+	<!--Fraktionen-Wahlperioden-Kombinationen-->
+	<pattern id="wahlperioden-fraktionen-01-06-08-09">
+		<rule context="tei:idno[@type='wp'][text() = '01' or text() = '02' or text() = '03' or text() = '04' or text() = '05' or text() = '06' or text() = '08' or text() = '09']">
+			<assert test="following-sibling::tei:idno[@type='Fraktion-Landesgruppe'][text() = 'SPD' or text() = 'CDU/CSU' or text() = 'FDP' or text() = 'CSU-LG']" role="ERROR">Fraktion passt nicht in Wahlperiode</assert>
+		</rule>
+	</pattern>
+	<pattern id="wahlperioden-fraktionen-07">
+		<rule context="tei:idno[@type='wp'][text() = '07']">
+			<assert test="following-sibling::tei:idno[@type='Fraktion-Landesgruppe'][text() = 'SPD' or text() = 'CDU/CSU' or text() = 'FDP' or text() = 'CSU-LG' or text() = 'CDU' or text() = 'CSU']" role="ERROR">Fraktion passt nicht in Wahlperiode</assert>
+		</rule>
+	</pattern>
+	<pattern id="wahlperioden-fraktionen-10">
+		<rule context="tei:idno[@type='wp'][text() = '10']">
+			<assert test="following-sibling::tei:idno[@type='Fraktion-Landesgruppe'][text() = 'SPD' or text() = 'CDU/CSU' or text() = 'FDP' or text() = 'CSU-LG' or text() = 'CDU' or text() = 'CSU' or text() = 'Grüne']" role="ERROR">Fraktion passt nicht in Wahlperiode</assert>
+		</rule>
+	</pattern>
+	<pattern id="wahlperioden-fraktionen-11-15">
+		<rule context="tei:idno[@type='wp'][text() = '11' or text() = '12' or text() = '13' or text() = '14' or text() = '15']">
+			<assert test="following-sibling::tei:idno[@type='Fraktion-Landesgruppe'][text() = 'SPD' or text() = 'CDU/CSU' or text() = 'FDP' or text() = 'CSU-LG' or text() = 'Grüne' or text() = 'PDS']" role="ERROR">Fraktion passt nicht in Wahlperiode</assert>
+		</rule>
+	</pattern>
 <!--Textstruktur übergreifend-->
 	<pattern id="div_orte">
 		<rule context="tei:div">
@@ -43,20 +99,7 @@
 				or @resp='#cdeitmer']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste, angegeben werden</assert>
 		</rule>
 	</pattern>
-	<!--Fraktionen-->
-	<pattern id="fraktionen">
-		<rule context="tei:idno[@type='fraktion-landesgruppe']">
-			<assert test="text()[matches(.,'CDU/CSU-Fraktion')
-				or matches(.,'CDU-Fraktion ')
-				or matches(.,'CSU-Fraktion')
-				or matches(.,'CSU-LG')
-				or matches(.,'SPD-Fraktion')
-				or matches(.,'FDP-Fraktion')
-				or matches(.,'Grüne-Fraktion')
-				or matches(.,'Linken-Fraktion')
-				or matches(.,'AfD-Fraktion')]" role="ERROR">Fraktions-Landesgruppenname entspricht nicht den Vorgaben</assert>
-		</rule>
-	</pattern>
+	
 	<!--Inhaltliche Warnungen -Vorschläge-->
 	<pattern id="standardangaben-div-im-body">
 		<rule context="tei:div[@type='SVP']">
