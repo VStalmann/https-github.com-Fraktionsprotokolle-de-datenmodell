@@ -98,7 +98,7 @@ created here.</p>
 						<attDef ident="n" mode="change" usage="req">
 							<valList type="closed" mode="replace">
 								<valItem ident="draft">
-									<desc>Basisfassung des Protokolls</desc>
+									<desc>Basisfassungen des Protokolls</desc>
 								</valItem>
 								<valItem ident="textkritik">
 									<desc>Protokoll wurde textkritisch bearbeitet</desc>
@@ -163,19 +163,6 @@ created here.</p>
 								</valItem>
 								<valItem ident="Mitarbeiter-KGParl">
 									<desc/>
-								</valItem>
-								<!--Organisationen-->
-								<valItem ident="news">
-									<desc>Zeitungen, Zeitschriften etc.</desc>
-								</valItem>
-								<valItem ident="pol">
-									<desc>Politische, gewerkschaftliche Einrichtungen, Organisationen</desc>
-								</valItem>
-								<valItem ident="com">
-									<desc>Unternehmen, Firmen, wirtschaftlichen Organisationen</desc>
-								</valItem>
-								<valItem ident="soc">
-									<desc>Kirchen, zivilgesellschaftliche Einrichtungen</desc>
 								</valItem>
 							</valList>
 						</attDef>
@@ -268,6 +255,26 @@ created here.</p>
 								</valItem>
 								<valItem ident="sonstiges">
 									<desc>Tonband der Sitzung</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
+				<elementSpec ident="org" module="namesdates" mode="change">
+					<attList>
+						<attDef ident="direct" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="news">
+									<desc>Zeitungen, Zeitschriften etc.</desc>
+								</valItem>
+								<valItem ident="pol">
+									<desc>Politische, gewerkschaftliche Einrichtungen, Organisationen</desc>
+								</valItem>
+								<valItem ident="com">
+									<desc>Unternehmen, Firmen, wirtschaftlichen Organisationen</desc>
+								</valItem>
+								<valItem ident="soc">
+									<desc>Kirchen, zivilgesellschaftliche Einrichtungen</desc>
 								</valItem>
 							</valList>
 						</attDef>
