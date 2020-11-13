@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-11-13T11:39:44Z. .
+Schema generated from ODD source 2020-11-13T16:07:15Z. .
 TEI Edition: Version 3.6.0. Last updated on
 	16th July 2019, revision daa3cc0b9
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
@@ -10008,11 +10008,9 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <choice>
-               <value>Tonbandtranskript_zeitgenoessisch</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tonbandtranskript, Transkription erfolgte zeitnah zur Sitzung</a:documentation>
-               <value>Tonband</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tonband der Sitzung</a:documentation>
-               <value>sonstiges</value>
+               <value>Papier</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tonbandtranskript der Sitzung auf Papier</a:documentation>
+               <value>Audio</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tonband der Sitzung</a:documentation>
             </choice>
          </attribute>

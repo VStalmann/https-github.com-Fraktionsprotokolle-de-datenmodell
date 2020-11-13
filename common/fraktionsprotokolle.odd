@@ -247,13 +247,10 @@ created here.</p>
 						</attDef>
 						<attDef ident="type" mode="change" usage="req">
 							<valList type="closed" mode="replace">
-								<valItem ident="Tonbandtranskript_zeitgenoessisch">
-									<desc>Tonbandtranskript, Transkription erfolgte zeitnah zur Sitzung</desc>
+								<valItem ident="Papier">
+									<desc>Tonbandtranskript der Sitzung auf Papier</desc>
 								</valItem>
-								<valItem ident="Tonband">
-									<desc>Tonband der Sitzung</desc>
-								</valItem>
-								<valItem ident="sonstiges">
+								<valItem ident="Audio">
 									<desc>Tonband der Sitzung</desc>
 								</valItem>
 							</valList>
