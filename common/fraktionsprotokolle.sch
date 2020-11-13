@@ -57,6 +57,22 @@
 			<assert test="following-sibling::tei:idno[@type='Fraktion-Landesgruppe'][text() = 'SPD' or text() = 'CDU/CSU' or text() = 'FDP' or text() = 'CSU-LG' or text() = 'Grüne' or text() = 'PDS']" role="ERROR">Fraktion passt nicht in Wahlperiode</assert>
 		</rule>
 	</pattern>
+	<!--Sitzungsabfolge-->
+	<pattern id="sitzungsabfolge">
+		<rule context="tei:idno[@type='sitzungsabfolge']">
+			<assert test="text() = '1'
+				or text() = '2'
+				or text() = '3'
+				or text() = '4'
+				or text() = '5'" role="ERROR">Wahlperiode entspricht nicht den Vorgaben (Mögliche Werte: 1-5)</assert>
+		</rule>
+	</pattern>
+	<!--Angaben zur Archivalie-->
+	<pattern id="institution">
+		<rule context="tei:institution">
+			<assert test="text() = 'Archiv der sozialen Demokratie (AdsD)' or text() = 'Archiv des Liberalismus (AdL)' or text() = 'Archiv für Christlich-Demokratische Politik (ACDP)' or text() = 'Archiv Grünes Gedächtnis (AGG)' or text() = 'Archiv für Christlich-Soziale Politik (ACSP)' or text() = 'Archiv Demokratischer Sozialismus (ADS)'" role="ERROR">Archivname nicht in der Liste</assert>
+		</rule>
+	</pattern>
 <!--Textstruktur übergreifend-->
 	<pattern id="div_orte">
 		<rule context="tei:div">
