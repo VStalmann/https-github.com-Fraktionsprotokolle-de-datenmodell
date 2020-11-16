@@ -90,11 +90,6 @@
 			<assert test=".[@role='Vorsitz' or @role='Sprecher' or @role='Erwaehnung']" role="ERROR">Name Person sollen über @role weiter spezifiziert werden</assert>
 		</rule>
 	</pattern>
-	<pattern id="Organisationsnamen-im-Body">
-		<rule context="tei:name[ancestor::tei:body][@type='Organisation']">
-			<assert test=".[@role='news' or @role='pol' or @role='com' or @role='soc']" role="ERROR">Name Organisation sollen über @role weiter spezifiziert werden</assert>
-		</rule>
-	</pattern>
 	<!--Dateinamen-Referenzierungen-->
 	<pattern id="ref">
 		<rule context="tei:persName[ancestor::tei:body]">
