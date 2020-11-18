@@ -259,7 +259,7 @@ created here.</p>
 				</elementSpec>
 				<elementSpec ident="org" module="namesdates" mode="change">
 					<attList>
-						<attDef ident="direct" mode="change" usage="req">
+						<attDef ident="role" mode="change" usage="req">
 							<valList type="closed" mode="replace">
 								<valItem ident="news">
 									<desc>Zeitungen, Zeitschriften etc.</desc>
