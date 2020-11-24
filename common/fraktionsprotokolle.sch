@@ -91,11 +91,11 @@
 		</rule>
 	</pattern>
 	<!--Dateinamen-Referenzierungen-->
-	<pattern id="ref">
+<!--	<pattern id="ref">
 		<rule context="tei:persName[ancestor::tei:body]">
 			<assert test="starts-with(@ref, '#')" role="ERROR">Wert in @ref soll mit # beginnen</assert>
 		</rule>
-	</pattern>
+	</pattern>-->
 	<!--Incidents-->
 	<pattern id="incident">
 		<rule context="tei:incident">
