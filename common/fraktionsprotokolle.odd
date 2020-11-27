@@ -178,6 +178,9 @@ created here.</p>
 								<valItem ident="comment">
 									<desc>inhaltliche Anmerkung</desc>
 								</valItem>
+								<valItem ident="source">
+									<desc>Anmerkung in der Vorlage</desc>
+								</valItem>
 								<!--HEADER-->
 								<valItem ident="Kommentar-Edition">
 									<desc>inhaltliche Anmerkung</desc>
