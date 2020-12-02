@@ -64,7 +64,7 @@
 				or text() = '2'
 				or text() = '3'
 				or text() = '4'
-				or text() = '5'" role="ERROR">Wahlperiode entspricht nicht den Vorgaben (Mögliche Werte: 1-5)</assert>
+				or text() = '5'" role="ERROR">Sitzungsabfolge entspricht nicht den Vorgaben (Mögliche Werte: 1-5)</assert>
 		</rule>
 	</pattern>
 	<!--Angaben zur Archivalie-->
