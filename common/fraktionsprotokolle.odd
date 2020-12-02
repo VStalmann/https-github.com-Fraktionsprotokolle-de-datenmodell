@@ -95,7 +95,7 @@ created here.</p>
 				<!--header-->
 				<elementSpec ident="change" module="header" mode="change">
 					<attList>
-						<attDef ident="n" mode="change" usage="req">
+						<attDef ident="status" mode="change" usage="req">
 							<valList type="closed" mode="replace">
 								<valItem ident="draft">
 									<desc>Basisfassungen des Protokolls</desc>
