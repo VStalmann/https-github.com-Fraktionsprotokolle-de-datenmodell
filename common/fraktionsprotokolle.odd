@@ -113,6 +113,32 @@ created here.</p>
 				<!---->
 				<!---->
 				<!--core-->
+				<elementSpec ident="bibl" module="core" mode="change">
+					<attList>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="single-item">
+									<desc>Monographie, Zeitschriftenaufsatz oder Sammelband</desc>
+								</valItem>
+								<valItem ident="series-item">
+									<desc>Zeitschriften/Nachschlagewerke</desc>
+								</valItem>
+								<valItem ident="item-in-archive">
+									<desc>Archivalien</desc>
+								</valItem>
+								<valItem ident="btp">
+									<desc>BT Plenarprotokolle</desc>
+								</valItem>
+								<valItem ident="btd">
+									<desc>BT Drucksachen</desc>
+								</valItem>
+								<valItem ident="bgbl">
+									<desc>Bundesgesetzblatt</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
 				<elementSpec ident="list" module="core" mode="change">
 					<attList>
 						<attDef ident="type" mode="change" usage="req">
