@@ -117,7 +117,7 @@
 	<pattern id="sex">
 		<rule context="tei:sex">
 			<assert test="@value='m' or @value='f'" role="ERROR">Geschlecht zunächst nur "m" oder "f" - Ausbau bei Bedarf</assert>
-			<report test="@type" role="ERROR">Satt Attribut type soll Attribut value (mit den Werten "m" oder "f") genutzt werden - Textwert entfällt</report>
+			<report test="@type" role="ERROR">Statt Attribut type soll Attribut value (mit den Werten "m" oder "f") genutzt werden - Textwert entfällt</report>
 		</rule>
 	</pattern>
 	<!--Inhaltliche Warnungen -Vorschläge-->
