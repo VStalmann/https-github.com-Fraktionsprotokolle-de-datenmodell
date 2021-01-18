@@ -110,6 +110,12 @@
 				or @resp='#cdeitmer']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste, angegeben werden</assert>
 		</rule>
 	</pattern>
+	<!--Incidents-->
+	<pattern id="pause">
+		<rule context="tei:pause">
+			<assert test="@dur[matches(.,'PT[0-9]{1,2}H[0-6][0-9]?M[0-6][0-9]?S')]" role="ERROR">Angabe Dauer entspricht nicht den Vorgaben, soll PT[0-9][0-9]H[0-9][0-9]M[0-9][0-9]S</assert>
+		</rule>
+	</pattern>
 	<!--Personenregister-->
 	<!-- -->
 	<!-- -->
