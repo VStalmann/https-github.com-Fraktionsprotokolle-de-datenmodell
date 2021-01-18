@@ -2,7 +2,56 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
 	<!--Prüfungen im teiHeader-->
+	<!--Editoren-->
+	<pattern id="HauptbearbeiterIn">
+		<rule context="tei:titleStmt/tei:editor">
+			<assert test="tei:name[@ref='#RochowSylvia'
+				or @ref='#StalmannBenita'
+				or @ref='#StalmannVolker'
+				or @ref='#JuengerkesSven'
+				or @ref='#HindenburgBarbara'
+				or @ref='#RabusSimon'
+				or @ref='#WeistenhoeferSimon'
+				or @ref='#WintgensBenedikt'
+				or @ref='#WintzerJoachim'
+				or @ref='#DeitmerCarsten'
+				or @ref='#LarratPhilippe']" role="ERROR">Hauptbearbeiter fehlt!</assert>
+		</rule>
+	</pattern>
+	<pattern id="NebenbearbeiterIn">
+		<rule context="tei:titleStmt/tei:respStmt[1]">
+			<assert test="tei:name[@ref='#RochowSylvia'
+				or @ref='#StalmannBenita'
+				or @ref='#StalmannVolker'
+				or @ref='#JuengerkesSven'
+				or @ref='#HindenburgBarbara'
+				or @ref='#RabusSimon'
+				or @ref='#WeistenhoeferSimon'
+				or @ref='#WintgensBenedikt'
+				or @ref='#WintzerJoachim'
+				or @ref='#DeitmerCarsten'
+				or @ref='#LarratPhilippe']" role="ERROR">Nebenbearbeiter fehlt!</assert>
+		</rule>
+	</pattern>
+	<!--Angaben zur Archivalie-->
+	<pattern id="Archivalie">
+		<rule context="tei:sourceDesc/tei:listObject/tei:object">
+			<assert test="tei:objectIdentifier/tei:idno/text()" role="ERROR">Signatur fehlt</assert>
+			<assert test="tei:objectIdentifier/tei:objectName/text()" role="ERROR">Titel der Archivalie fehlt</assert>
+			<assert test="tei:msContents/tei:p/text()" role="ERROR">Inhaltsbeschreibung der Archivalie fehlt</assert>
+			<assert test="tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/text()" role="ERROR">Beschaffenheit der Vorlage soll beschrieben werden</assert>
+			<assert test="tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/text()[matches(.,'[0-9]')]" role="ERROR">Seitenanzahl oder Dauer soll angegeben werden (nicht benötigte Texangabe bitte löschen)</assert>
+		</rule>
+	</pattern>
+	
 	<!--Angaben zur protokollierten Sitzung-->
+	
+	<pattern id="Sitzung">
+		<rule context="tei:profileDesc/tei:creation">
+			<assert test="tei:name[@type='Ort']/text()" role="ERROR">Sitzungsort fehlt</assert>
+			<report test="tei:name[@type='Person']/@ref='#'" role="ERROR">Sitzungsleitung fehlt</report>
+		</rule>
+	</pattern>
 	<!--Fraktionen-->
 	<pattern id="fraktionen">
 		<rule context="tei:idno[@type='Fraktion-Landesgruppe']">

@@ -71,6 +71,7 @@ created here.</p>
 				<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
 				<moduleRef key="spoken" except="annotationBlock broadcast equipment kinesic recording recordingStmt scriptStmt shift u vocal writing"/>
 				<!--attribute specifications-->
+				<!--mittlerweile obsolet?-->
 				<classSpec ident="att.global.responsibility" module="tei" mode="change" type="atts">
 					<attList>
 						<attDef ident="resp" mode="change" usage="opt">
