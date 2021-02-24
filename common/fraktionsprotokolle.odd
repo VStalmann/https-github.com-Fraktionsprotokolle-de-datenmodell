@@ -107,6 +107,12 @@ created here.</p>
 								<valItem ident="kommentierung">
 									<desc>Protokoll wurde kommentiert</desc>
 								</valItem>
+								<valItem ident="textloop-1_raw">
+									<desc>Aus Wordvorlage konvertierte raw-Version mit Layoutinformationen</desc>
+								</valItem>
+								<valItem ident="textloop-2_basic">
+<desc>Aus raw-Version transformierte KGParl-schemakonforme Datei (aus Layoutinformatione wurden Personenauszeichnungen)</desc>
+								</valItem>
 							</valList>
 						</attDef>
 					</attList>
@@ -293,6 +299,9 @@ created here.</p>
 								</valItem>
 								<valItem ident="Audio">
 									<desc>Tonband der Sitzung</desc>
+								</valItem>
+								<valItem ident="tbd">
+									<desc>to be defined: Vorläufiger Dummy-Wert aus Konversionsprozeß der Altprotokolle</desc>
 								</valItem>
 							</valList>
 						</attDef>

@@ -122,6 +122,17 @@
 			<assert test="text() = 'Archiv der sozialen Demokratie (AdsD)' or text() = 'Archiv des Liberalismus (AdL)' or text() = 'Archiv für Christlich-Demokratische Politik (ACDP)' or text() = 'Archiv Grünes Gedächtnis (AGG)' or text() = 'Archiv für Christlich-Soziale Politik (ACSP)' or text() = 'Archiv Demokratischer Sozialismus (ADS)'" role="ERROR">Archivname nicht in der Liste</assert>
 		</rule>
 	</pattern>
+	<!--Vorläufige Werte-->
+	<pattern id="tbd_object">
+		<rule context="tei:object">
+			<report test="@type = 'tbd'" role="ERROR">Vorlagentyp enthält noch einen vorläufigen Wert: to be defined</report>
+		</rule>
+	</pattern>
+	<pattern id="tbd_catRef">
+		<rule context="tei:catRef">
+			<report test="  @target = 'tbd'" role="ERROR">Dokumenttyp enthält noch einen vorläufigen Wert: to be defined</report>
+		</rule>
+	</pattern>
 <!--Textstruktur übergreifend-->
 	<pattern id="div_orte">
 		<rule context="tei:div">
