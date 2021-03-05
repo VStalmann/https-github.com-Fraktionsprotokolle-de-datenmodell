@@ -3,7 +3,6 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Fraktionsprotokolle - TEI with minimal setup</title>
-				<author>Sebastian Rahtz</author>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TEI Consortium</publisher>
@@ -141,6 +140,12 @@ created here.</p>
 								</valItem>
 								<valItem ident="bgbl">
 									<desc>Bundesgesetzblatt</desc>
+								</valItem>
+								<valItem ident="kbp">
+									<desc>Kabinettsprotokolle</desc>
+								</valItem>
+								<valItem ident="brp">
+									<desc>Bundesratsprotokolle</desc>
 								</valItem>
 							</valList>
 						</attDef>
