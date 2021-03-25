@@ -65,6 +65,8 @@ created here.</p>
 				<!--Ungeprüft übergreifend für teiHeader eingeführt-->
 				<moduleRef key="namesdates" except=""/>
 				<moduleRef key="msdescription" except=""/>
+				<!--Ungeprüft übergreifend für Nutzung von<table> eingeführt-->
+				<moduleRef key="figures" except=""/>
 				<!--Ungeprüft übergreifend für Nutzung von @corresp und <seg> eingeführt-->
 				<moduleRef key="linking" except=""/>
 				<!--Ermöglicht <incident> und <pause> (alle anderen Elemente aus spoken gelöscht) transcriptionDesc eventuell wieder zu lassen -->
