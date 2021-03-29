@@ -108,6 +108,12 @@ created here.</p>
 								<valItem ident="kommentierung">
 									<desc>Protokoll wurde kommentiert</desc>
 								</valItem>
+								<valItem ident="final">
+									<desc>Editorische Bearbeitung abgeschlossen</desc>
+								</valItem>
+								<valItem ident="public">
+									<desc>Freischaltung für Webpräsentation</desc>
+								</valItem>
 								<valItem ident="textloop-1_raw">
 									<desc>Aus Wordvorlage konvertierte raw-Version mit Layoutinformationen</desc>
 								</valItem>
@@ -281,6 +287,21 @@ created here.</p>
 								</valItem>
 								<valItem ident="Anhang">
 									<desc>Anhang zu SVP /Gesamtprotokoll</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
+				<!--figures-->
+				<elementSpec ident="table" module="core" mode="change">
+					<attList>
+						<attDef ident="rendition" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="#hidden">
+									<desc>Gitternetzlinien der Tabelle sollen in den Hintergrund treten</desc>
+								</valItem>
+								<valItem ident="#boxed">
+									<desc>Gitternetzlinien der Tabelle sollen deutlich hervortreten</desc>
 								</valItem>
 							</valList>
 						</attDef>
