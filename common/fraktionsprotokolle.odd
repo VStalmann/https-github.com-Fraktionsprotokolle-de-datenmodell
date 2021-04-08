@@ -249,6 +249,20 @@ created here.</p>
 						</attDef>
 					</attList>
 				</elementSpec>
+				<elementSpec ident="ref" module="core" mode="change">
+					<attList>
+						<attDef ident="type" mode="change" usage="req">
+							<valList type="closed" mode="replace">
+								<valItem ident="internal">
+									<desc>Projektinterner Verweis</desc>
+								</valItem>
+								<valItem ident="external">
+									<desc>Projektexterner Verweis</desc>
+								</valItem>
+							</valList>
+						</attDef>
+					</attList>
+				</elementSpec>
 				<elementSpec ident="said" module="core" mode="change">
 					<attList>
 						<attDef ident="direct" mode="change" usage="req">
