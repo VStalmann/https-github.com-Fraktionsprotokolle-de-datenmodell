@@ -143,6 +143,11 @@
 	<pattern id="note">
 		<rule context="tei:note[ancestor::tei:body]">
 			<assert test=".[@xml:id]" role="ERROR">Notes im Protokoll selbst sollen xml:id tragen</assert>
+			</rule>
+	</pattern>
+	<pattern id="note-textinhalt">
+		<rule context="tei:note[ancestor::tei:body]/text()">
+			<report test="." role="ERROR">Text steht direkt in der Anmerkung, soll aber im p-Element, das in der Anmerkung enthalten ist, stehen.</report>
 		</rule>
 	</pattern>
 	<pattern id="Personennamen-im-Body">
