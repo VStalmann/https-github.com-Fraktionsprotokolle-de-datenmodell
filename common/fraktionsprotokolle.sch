@@ -5,32 +5,12 @@
 	<!--Editoren-->
 	<pattern id="HauptbearbeiterIn">
 		<rule context="tei:titleStmt/tei:editor">
-			<assert test="tei:name[@ref='#RochowSylvia'
-				or @ref='#StalmannBenita'
-				or @ref='#StalmannVolker'
-				or @ref='#JuengerkesSven'
-				or @ref='#HindenburgBarbara'
-				or @ref='#RabusSimon'
-				or @ref='#WeistenhoeferSimon'
-				or @ref='#WintgensBenedikt'
-				or @ref='#WintzerJoachim'
-				or @ref='#DeitmerCarsten'
-				or @ref='#LarratPhilippe']" role="ERROR">Hauptbearbeiter fehlt!</assert>
+			<assert test="tei:name/@ref[matches(.,'#[a-z]') or matches(.,'#[A-Z]')]" role="ERROR">Hauptbearbeiter fehlt!</assert>
 		</rule>
 	</pattern>
 	<pattern id="NebenbearbeiterIn">
 		<rule context="tei:titleStmt/tei:respStmt[1]">
-			<assert test="tei:name[@ref='#RochowSylvia'
-				or @ref='#StalmannBenita'
-				or @ref='#StalmannVolker'
-				or @ref='#JuengerkesSven'
-				or @ref='#HindenburgBarbara'
-				or @ref='#RabusSimon'
-				or @ref='#WeistenhoeferSimon'
-				or @ref='#WintgensBenedikt'
-				or @ref='#WintzerJoachim'
-				or @ref='#DeitmerCarsten'
-				or @ref='#LarratPhilippe']" role="ERROR">Nebenbearbeiter fehlt!</assert>
+			<assert test="tei:name/@ref[matches(.,'#[a-z]') or matches(.,'#[A-Z]')]" role="ERROR">Nebenbearbeiter fehlt!</assert>
 		</rule>
 	</pattern>
 	<!--Angaben zur Archivalie-->
@@ -161,20 +141,6 @@
 			<assert test="starts-with(@ref, '#')" role="ERROR">Wert in @ref soll mit # beginnen</assert>
 		</rule>
 	</pattern>-->
-	<!--Incidents-->
-	<pattern id="incident">
-		<rule context="tei:incident">
-			<assert test="tei:desc[@resp='#vorlage'
-				or @resp='#srochow'
-				or @resp='#vstalmann'
-				or @resp='#sjuengerkes'
-				or @resp='#bhindenburg'
-				or @resp='#srabus'
-				or @resp='#bwintgens'
-				or @resp='#jwintzer'
-				or @resp='#cdeitmer']" role="ERROR">Existiert eine Description innerhalb von Incident, soll für diese ein Autor, aus einer definierten Liste, angegeben werden</assert>
-		</rule>
-	</pattern>
 	<!--Incidents-->
 	<pattern id="pause">
 		<rule context="tei:pause">
