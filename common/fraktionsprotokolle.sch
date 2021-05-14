@@ -127,7 +127,7 @@
 	</pattern>
 	<pattern id="note-textinhalt">
 		<rule context="tei:note[ancestor::tei:body]/text()">
-			<report test="." role="ERROR">Text steht direkt in der Anmerkung, soll aber im p-Element, das in der Anmerkung enthalten ist, stehen.</report>
+			<report test="matches(.,'[a-z]')" role="ERROR">Text steht direkt in der Anmerkung, soll aber im p-Element, das in der Anmerkung enthalten ist, stehen.</report>
 		</rule>
 	</pattern>
 	<pattern id="Personennamen-im-Body">

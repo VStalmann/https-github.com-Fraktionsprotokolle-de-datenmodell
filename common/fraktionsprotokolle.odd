@@ -146,6 +146,15 @@ created here.</p>
 								<valItem ident="#smcap">
 									<desc>Text in Kapitälchen (aber: Text normal in Groß- und Kleinschreibung tippen!) </desc>
 								</valItem>
+								<valItem ident="#sup">
+									<desc>Hochgestellte kleiner gesetzte Ziffer</desc>
+								</valItem>
+								<valItem ident="#sub">
+									<desc>Tiefgestellte kleiner gesetzte Ziffer</desc>
+								</valItem>
+								<valItem ident="#u">
+									<desc>Text ist unterstrichen (underline)</desc>
+								</valItem>
 							</valList>
 						</attDef>
 					</attList>
@@ -159,6 +168,9 @@ created here.</p>
 								</valItem>
 								<valItem ident="SVP">
 									<desc>Sitzungsverlauf</desc>
+								</valItem>
+								<valItem ident="SVPsub">
+									<desc>Sitzungsverlauf - untergeordnete Liste</desc>
 								</valItem>
 								<valItem ident="Anwesenheitsliste">
 									<desc>Auflistung der Anwesenden</desc>
