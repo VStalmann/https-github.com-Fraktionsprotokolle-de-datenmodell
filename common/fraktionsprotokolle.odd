@@ -253,6 +253,7 @@ created here.</p>
 								</valItem>
 							</valList>
 						</attDef>
+						<attDef ident="target" mode="change" usage="req"/>
 					</attList>
 				</elementSpec>
 				<elementSpec ident="said" module="core" mode="change">
