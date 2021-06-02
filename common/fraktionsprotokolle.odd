@@ -234,6 +234,9 @@ created here.</p>
 								<valItem ident="Kommentar-Edition">
 									<desc>inhaltliche Anmerkung</desc>
 								</valItem>
+								<valItem ident="Erstveroeffentlichung">
+									<desc>inhaltliche Anmerkung</desc>
+								</valItem>
 								<valItem ident="Verbundene-Protokolle">
 									<desc>inhaltliche Anmerkung</desc>
 								</valItem>
